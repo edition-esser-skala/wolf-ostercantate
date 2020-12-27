@@ -13,12 +13,17 @@
 
 	\bookpart {
 		\header {
-      genre = "C H O R A L"
+      genre = "C O R O"
 			number = "1"
 			title = "Des Lebens Fürſten haben ſie getödtet"
 		}
-		\paper { indent = 3\cm }
-		\tocLabelLong "deslebens" "1" "Choral" "Des Lebens Fürſten haben ſie getödtet"
+		\paper {
+			indent = 3\cm
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
+		}
+		\tocLabelLong "deslebens" "1" "Coro" "Des Lebens Fürſten haben ſie getödtet"
 		\score {
 			<<
 				\new ChoirStaff <<
@@ -62,7 +67,7 @@
 				\new FiguredBass { \DesLebensBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

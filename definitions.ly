@@ -673,7 +673,7 @@ tocLabelLong = #(define-music-function
 
 
 
-tempoDesLebens = \tempoMarkup "X"
+tempoDesLebens = \tempoMarkup "Adagio"
 
 
 \include "notes/ob1.ly"
