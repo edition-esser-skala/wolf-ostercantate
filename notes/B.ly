@@ -25,7 +25,54 @@ DesLebensBassoNotes = {
 		r r8 es\p f4. f8
 		c4. g'8 d4. d8
 		d4 r r2
-		R1*2 \bar "|" %26 finis
+		R1*2 \bar "|" %26
+		\time 3/4 \tempoDerFromme R2.*38 \noBreak %64
+		R2.\fermataMarkup \bar "||" %65
+		\time 2/3 \tempoAberDeine \mvTr b'2\fE^\tutti b \noBreak
+		b b
+		b4 b b b
+		b2 b4 b4
+		es,1~ %70
+		es2. es4
+		es2\fermata es4 es
+		f f f f
+		c'2 c4 c
+		f,1~ %75
+		f2. f4 \noBreak
+		f2\fermata r4 f \bar "|"
+		\key b \major \time 3/4 \tempoErwacht b, r b \noBreak
+		b'2 es,4
+		f4. f8 g4 %80
+		es f f
+		b b, r
+		r r \mvTr b'\pE^\solo
+		c2 c4
+		cis2 cis4 %85
+		d2 r4
+		r r \mvTr d,\fE^\tutti
+		es2 as4
+		b2 b,4
+		es2 r4 %90
+		r r es8.([ d16)]
+		c4 r es8.([ c16)]
+		g'2 g8.([ h16)]
+		c4 g as
+		f g g %95
+		c, c a'!
+		b f g
+		es f f
+		b b r
+		R2.*4 %103
+		r4 r \mvTr es,!8([\fE^\tuttiE d)]
+		c2 d8([ es)] %105
+		f2 f4
+		b,2 r4
+		R2.*4 %111
+		r4 r \mvTr es!8([\fE^\tuttiE d)]
+		c2 d8([ es)]
+		f2 f4
+		b,2 r4 %115
+		R2.*3 \bar "|" %118 finis
 	}
 }
 
@@ -49,7 +96,52 @@ DesLebensBassoLyrics = \lyricmode {
 	würg -- ten ihn,
 	ſie nah -- men
 	ihn und würg -- ten
-	ihn. %24 finis
+	ihn.
+
+	A -- ber %66
+	dei -- ne
+	Tod -- ten wer -- den
+	le -- ben, und
+	auf -- %70
+	er --
+	ſtehn; dei -- ne
+	Tod -- ten wer -- den
+	le -- ben, und
+	auf -- %75
+	er --
+	ſtehn. Er --
+	wacht, und
+	blüht, ihr
+	Schla -- fen -- den %80
+	un -- ter der
+	Er -- de,
+	ſein
+	Thau iſt
+	Früh -- lings -- %85
+	thau,
+	ſein
+	Thau iſt
+	Früh -- lings --
+	thau; %90
+	er --
+	wacht, und
+	blüht, ihr __
+	Schla -- fen -- den
+	un -- ter der %95
+	Er -- de, ihr
+	Schla -- fen -- den
+	un -- ter der
+	Er -- de,
+
+	ſein %104
+	Thau iſt __ %105
+	Früh -- lings --
+	thau,
+
+	ſein %111
+	Thau iſt __
+	Früh -- lings --
+	thau. %115 finis
 }
 
 % BassoNotes = {

@@ -10,7 +10,6 @@
 #(set-global-staff-size 15.87)
 
 \book {
-
 	\bookpart {
 		\header {
       genre = "C O R O"
@@ -19,13 +18,30 @@
 		}
 		\paper {
 			indent = 3\cm
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
+			top-system-spacing.basic-distance = #10
+			top-system-spacing.minimum-distance = #10
+			top-markup-spacing.basic-distance = #0
+			top-markup-spacing.minimum-distance = #0
+			markup-system-spacing.basic-distance = #10
+			markup-system-spacing.minimum-distance = #10
 			systems-per-page = #2
 		}
 		\tocLabelLong "deslebens" "1" "Coro" "Des Lebens Fürſten haben ſie getödtet"
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\set GrandStaff.instrumentName = "Viola"
+						\new Staff {
+							\set Staff.instrumentName = "I"
+							\DesLebensViolaI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "II"
+							\DesLebensViolaII
+						}
+					>>
+				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = \SopranoAIncipit

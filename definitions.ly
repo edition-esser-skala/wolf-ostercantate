@@ -674,6 +674,12 @@ tocLabelLong = #(define-music-function
 
 
 tempoDesLebens = \tempoMarkup "Adagio"
+tempoDerFromme = \tempoMarkup "Largo"
+	tempoAberDeine = \tempoMarkup "Allegretto"
+	tempoErwacht = \tempoMarkup "Allegretto"
+
+senzaPed = \markup \remark "senza Ped."
+ped = \markup \remark "Ped."
 
 
 \include "notes/ob1.ly"
