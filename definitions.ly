@@ -674,9 +674,11 @@ tocLabelLong = #(define-music-function
 
 
 tempoDesLebens = \tempoMarkup "Adagio"
-tempoDerFromme = \tempoMarkup "Largo"
+	tempoDerFromme = \tempoMarkup "Largo"
 	tempoAberDeine = \tempoMarkup "Allegretto"
 	tempoErwacht = \tempoMarkup "Allegretto"
+tempoAllmaechtger = \tempoMarkup "Non troppo allegro"
+	tempoAllmaechtgerB = \tempoMarkup "Recitativo"
 
 senzaPed = \markup \remark "senza Ped."
 ped = \markup \remark "Ped."

@@ -231,6 +231,189 @@ DesLebensBassFigures = \figuremode {
 	r %118 finis
 }
 
+AllmaechtgerOrgano = {
+	\relative c {
+		\clef bass
+		\key es \major \time 4/4 \tempoAllmaechtger
+		\mvTr es8\p-\soloE es es es es es es es
+		es\mf es es es es es es es
+		es\f es es es es es es es
+		es es es es es es es es
+		es es es es es es es es %5
+		es4 r r8 es, g b
+		es es es es es es es es
+		es es es es es es es es
+		es es es es es es es es
+		es4 r g, b %10
+		es r g, b
+		es d c f
+		b, r d f
+		b r d, f
+		b g f b8. b,16 %15
+		es4 r g, b
+		es c b es8. es,16
+		as8 as' as as e e e e
+		f f f f d d d d
+		es16 d es f g f g es as b c b a g a f %20
+		b4 r \clef "treble_8" b8.[^\senzaPed^\vlc d16 c8. es16]
+		d4 r b8.[ d16 c8. es16]
+		d4 r \clef bass b,8.[^\ped^\bassi d16 c8. es16]
+		d8.[ f16 es8. g16] f4 b,
+		es r \clef "treble_8" es8.[^\senzaPed^\vlc g16 f8. as16] %25
+		g4 r es8.[ g16 f8. as16]
+		g4 r \clef bass es,8.[^\ped^\bassi g16 f8. as16]
+		g8.[ b16 as8. c16] b4 es
+		as,16 b c des es f g as as,4 r
+		es16 f g as b c d es es,4 r %30
+		b'16 c d es f g as b b,4 r
+		es8.[ es16 g8. es16] c8.[ c16 es8. c16]
+		g8.[ g'16 b8. g16] es8.[ es16 g8. es16]
+		as8 as, as as b b b b
+		es8.[ es16 g8. es16] c8.[ c16 es8. c16] %35
+		g8.[ g'16 b8. g16] es8.[ es16 g8. es16]
+		as,8 as' as as b b b, b
+		es es[\p es es] es es es es
+		es\f es es es es\p es es es
+		es es es es es es es es %40
+		es\f es es es es\p es es es
+		es4 r es4.\ff es,8
+		es4-! r es'4. es,8
+		es4 r es'2
+		d d %45
+		\tempoAllmaechtgerB es4~ es2.~\p
+		es8 es es es es es es es
+		es\f es es es es\p es es es
+		es4 \mvTr g-!\f-\unisono es-! c-!
+		a1~\p %50
+		a2 r
+		b8 b b b b b b b
+		b\f b b b b\p b b b
+		b b b b b b b b
+		b\f b b b b\p b b b %55
+		b4 \mvTrh d'8.\ff-\unisono c16 b8.[ d,16 g8. f16]
+		e4 r r2
+		r4 e-! r2
+		f8\p f f f f f f f
+		\key f \major f\mf f f f f f f f %60
+		f,\f f' f f f f f f
+		f f f f f f f f
+		f f f f f f f f
+		f4 r r8 f, a c
+		f, f' f f f f f f %65
+		f f f f f f f f
+		f f f f f f f f
+		f4 r r2
+		d1\p
+		c4\f r \clef "treble_8" c'8.[^\senzaPed^\vlc e16 d8. f16] %70
+		e4 r c8.[ e16 d8. f16]
+		e4 r \clef bass c,8.[\ff^\ped^\bassi e16 d8. f16]
+		e8.[ g16 f8. a16] g4 c,
+		f r r2
+		fis4\mf r \clef "treble_8" d'8.[^\senzaPed^\vlc fis16 e8. g16] %75
+		fis4 r \clef bass d,8.[\ff^\ped^\bassi fis16 e8. g16]
+		\key c \major fis8.[ a16 g8. h16] a4 d,
+		<g g,> r r2
+		gis8 gis gis gis gis gis gis gis
+		gis4 r r2 %80
+		R1*2
+		a8 a a a a4 r
+		fis8 fis fis fis fis4 r
+		r2 g,8 g' g g %85
+		g4 r r2
+		g,8 g' g g g4 r
+		fis r a r \bar "|" %88 finis
+	}
+}
+
+AllmaechtgerBassFigures = \figuremode {
+	r4 <7 2> <8 3>2
+	<\t \t>4 <7 2> <8 3>2
+	r1
+	<6 4>
+	<7 2> %5
+	<8 3>
+	r
+	<6 4>
+	<7 2>
+	<8 3>2 <6> %10
+	r <6>
+	r4 <6> <6!> <7 _!>
+	r2 <6>4 <_!>
+	r2 <6>4 <_!>
+	r <6> <_-> <7> %15
+	r2 <6>
+	r4 <6-> <_-> <[7-]>
+	r2 <6 5>
+	r <6 5>
+	r4 <6>2 <6 5>4 %20
+	r2. <7>4
+	<6>2. <7>4
+	<6>2. <[7]>4
+	<6>2 <5>4 <7>
+	r2. <7>4 %25
+	<6>2. <7>4
+	<6>2. <7>4
+	<6>2 <_->4 <7->
+	r1
+	r %30
+	<7>
+	r
+	<6>
+	r2 <6 4>4 <5 3>
+	r1 %35
+	<6>
+	r2 <6 4>4 <5 3>
+	r1
+	<7 4 2>
+	<8 3> %40
+	<7 2>
+	<8 3>
+	r
+	r
+	<6 5> %45
+	r
+	r
+	<7 2>
+	<[8 3]>
+	r %50
+	r
+	r
+	<7! 2>
+	<8 3>
+	<7! 2> %55
+	<8 3>
+	<6>
+	r4 <6 5>2.
+	<_!>4 <7! 2> <8 3>2
+	<\t \t>4 <7! 2> <8 3>2 %60
+	r1
+	<6 4>
+	<7 2>
+	<8 3>
+	r %65
+	<6 4>
+	<7 2>
+	<8 3>
+	<6!>
+	r2. <7>4 %70
+	<6>2. <7>4
+	<6>2. <7>4
+	<6>2 <5>
+	r1
+	<6>2 <[_+]>4 <7> %75
+	<6>2 <[_+]>4 <7>
+	<6> <_!> <5> <_+>
+	r1
+	<6>
+	r1*3 %82
+	r1
+	<6>
+	r %85
+	r
+	<4+ 2>
+	<6>2 <[7] _+> %88 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
