@@ -434,6 +434,80 @@ ThutAufSopranoBLyrics = \lyricmode {
 	Heil. %113 finis
 }
 
+JesusChristusSopranoBNotes = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 2/2 \autoBeamOff \tempoJesusChristus
+			\set Staff.timeSignatureFraction = 2/2
+		fis2 fis
+		fis fis
+		fis gis
+		fis( eis)\trill
+		fis1\fermata %5
+		fis2 fis
+		g! fis!(
+		g) fis
+		fis\fermata e4( a)
+		gis( ais) h2 %10
+		fis1
+		fis2\fermata d
+		e e4.( fis8)
+		gis2 fis
+		fis( eis)\trill %15
+		fis1\fermata
+		fis2 g~
+		g fis~
+		fis fis
+		\time 2/1 fis\breve\fermata \bar "|." %20 finis
+	}
+}
+
+JesusChristusSopranoBLyricsA = \lyricmode {
+	Je -- ſus
+	Chri -- ſtus,
+	un -- ſer
+	Hei --
+	land, %5
+	der den
+	Tod ü --
+	ber --
+	wand, iſt __
+	auf -- er -- %10
+	ſtan --
+	den, den
+	Feind hält __
+	er ge --
+	fan -- %15
+	gen,
+	Hal -- _
+	le --
+	lu --
+	jah! %20 finis
+}
+
+JesusChristusSopranoBLyricsB = \lyricmode {
+	Tod und
+	Höl -- le,
+	Le -- ben
+	und __
+	Gnad, %5
+	all’s in
+	Hän -- den __
+	er
+	hat; er __
+	kann er -- %10
+	ret --
+	ten al --
+	le, die __
+	zu ihm
+	tre -- %15
+	ten,
+	Hal -- _
+	le --
+	lu --
+	jah! %20 finis
+}
+
 % SopranoBNotes = {
 % 	\relative c' {
 % 		\clef treble

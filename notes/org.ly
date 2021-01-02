@@ -664,6 +664,57 @@ ThutAufBassFigures = \figuremode {
 	r %120 finis
 }
 
+JesusChristusOrgano = {
+	\relative c {
+		\clef bass
+		\key h \minor \time 2/2 \tempoJesusChristus
+			\set Staff.timeSignatureFraction = 2/2
+		h2 d
+		fis d
+		a h
+		cis1
+		fis,\fermata %5
+		fis'2 d
+		ais h
+		e fis
+		h,\fermata cis
+		e h4 h' %10
+		ais2 h
+		fis\fermata h
+		gis a!
+		eis fis
+		cis1 %15
+		fis,\fermata
+		d'2 g
+		e d4 h
+		fis'2 fis,
+		\time 2/1 h\breve\fermata \bar "|." %20
+	}
+}
+
+JesusChristusBassFigures = \figuremode {
+	r2 <6>
+	r q
+	q <6\\>
+	<6 4> <5+ _+>
+	<5 4> <\t 3> %5
+	r <6>
+	<7!>1
+	<6 5>2 <_+>
+	r <6>
+	\bo <[5 _+]>4 \bc <[6 4+]>2. %10
+	<6 5>1
+	<_+>
+	<6>
+	<6 5 [_+]>
+	<5+ 4>2 <\t _+> %15
+	r1
+	r
+	<6>2 q
+	<5 4> <\t _+>
+	<5 4>2 \bassFigureExtendersOn <5 3>4 <5 2> <5 3>1 \bassFigureExtendersOff %20 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

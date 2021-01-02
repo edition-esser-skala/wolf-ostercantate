@@ -355,6 +355,80 @@ ThutAufBassoLyrics = \lyricmode {
 	Heil. %113 finis
 }
 
+JesusChristusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key h \minor \time 2/2 \autoBeamOff \tempoJesusChristus
+			\set Staff.timeSignatureFraction = 2/2
+		h2 d
+		fis d
+		a h
+		cis1
+		fis\fermata %5
+		fis2 d
+		ais h(
+		e) fis
+		h,\fermata cis
+		e h4( h') %10
+		ais2( h)
+		fis\fermata h
+		gis a!
+		eis fis
+		cis1 %15
+		fis\fermata
+		d2 g
+		e d4( h)
+		fis'1
+		\time 2/1 h,\breve\fermata \bar "|." %20 finis
+	}
+}
+
+JesusChristusBassoLyricsA = \lyricmode {
+	Je -- ſus
+	Chri -- ſtus,
+	un -- ſer
+	Hei --
+	land, %5
+	der den
+	Tod ü --
+	ber --
+	wand, iſt
+	auf -- er -- %10
+	ſtan --
+	den, den
+	Feind hält
+	er ge --
+	fan -- %15
+	gen,
+	Hal -- _
+	_ le --
+	lu --
+	jah! %20 finis
+}
+
+JesusChristusBassoLyricsB = \lyricmode {
+	Tod und
+	Höl -- le,
+	Le -- ben
+	und
+	Gnad, %5
+	all’s in
+	Hän -- den __
+	er
+	hat; er
+	kann er -- %10
+	ret --
+	ten al --
+	le, die
+	zu ihm
+	tre -- %15
+	ten,
+	Hal -- _
+	_ le --
+	lu --
+	jah! %20 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

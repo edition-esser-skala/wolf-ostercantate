@@ -401,6 +401,80 @@ ThutAufTenoreLyrics = \lyricmode {
 	Heil. %113 finis
 }
 
+JesusChristusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key h \minor \time 2/2 \autoBeamOff \tempoJesusChristus
+			\set Staff.timeSignatureFraction = 2/2
+		d2 d
+		cis d
+		cis d
+		cis2. h4~
+		h4 a8[ gis] a2\fermata %5
+		cis d
+		e d(
+		cis2.) e8.([ d16)]
+		d2\fermata cis4( e)
+		e2 fis %10
+		e( d)
+		ais\fermata h
+		h a4( cis)
+		cis2 cis
+		cis2.( h4) %15
+		a1\fermata
+		a4.( d8) d2
+		cis d
+		cis2. e4
+		\time 2/1 e2( d4 cis d1)\fermata \bar "|." %20 finis
+	}
+}
+
+JesusChristusTenoreLyricsA = \lyricmode {
+	Je -- ſus
+	Chri -- ſtus,
+	un -- ſer
+	Hei -- _
+	_ land, %5
+	der den
+	Tod ü --
+	ber --
+	wand, iſt __
+	auf -- er -- %10
+	ſtan --
+	den, den
+	Feind hält __
+	er ge --
+	fan -- %15
+	gen,
+	Hal -- le --
+	_ _
+	_ lu --
+	jah! __ %20 finis
+}
+
+JesusChristusTenoreLyricsB = \lyricmode {
+	Tod und
+	Höl -- le,
+	Le -- ben
+	und __ _
+	_ Gnad, %5
+	all’s in
+	Hän -- den __
+	er
+	hat; er __
+	kann er -- %10
+	ret --
+	ten al --
+	le, die __
+	zu ihm
+	tre -- %15
+	ten,
+	Hal -- le --
+	_ _
+	_ lu --
+	jah! __ %20 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

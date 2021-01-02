@@ -680,16 +680,22 @@ tempoDesLebens = \tempoMarkup "Adagio"
 tempoAllmaechtger = \tempoMarkup "Non troppo allegro"
 	tempoAllmaechtgerB = \tempoMarkup "Recitativo"
 tempoThutAuf = \tempoMarkup "Allegro"
+tempoJesusChristus = \tempoMarkup "[Tempo deest]"
 
 senzaPed = \markup \remark "senza Ped."
 ped = \markup \remark "Ped."
-beameddotted = {
-	\overrideTimeSignatureSettings
-		4/4
-		1/16
-		#'(8 8)
-		#'()
-}
+
+twoStanzaDistance = {
+	\override StaffGrouper.staffgroup-staff-spacing =
+		#'((basic-distance . 20)
+			 (minimum-distance . 20)
+			 (padding . -100)
+			 (stretchability . 0))
+	\override StaffGrouper.staff-staff-spacing =
+		#'((basic-distance . 15)
+       (minimum-distance . 15)
+       (padding . -100)
+			 (stretchability . 0)) }
 
 
 \include "notes/ob1.ly"
