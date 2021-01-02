@@ -681,6 +681,7 @@ tempoAllmaechtger = \tempoMarkup "Non troppo allegro"
 	tempoAllmaechtgerB = \tempoMarkup "Recitativo"
 tempoThutAuf = \tempoMarkup "Allegro"
 tempoJesusChristus = \tempoMarkup "[Tempo deest]"
+tempoWieDie = \tempoMarkup "Adagio"
 
 senzaPed = \markup \remark "senza Ped."
 ped = \markup \remark "Ped."

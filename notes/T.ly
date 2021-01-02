@@ -475,6 +475,140 @@ JesusChristusTenoreLyricsB = \lyricmode {
 	jah! __ %20 finis
 }
 
+WieDieTenoreANotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \major \time 4/4 \autoBeamOff \tempoWieDie
+		R1
+		r2 r8 g h d
+		\appoggiatura c h8. h16 h8 h r h e d
+		\appoggiatura d c c r c16 c h8 a e' d
+		d4( c16[\trill h]) c8 \appoggiatura c h h r4 %5
+		r r8 g g g a h
+		e,4 r8 e g g fis e
+		a e r e e' \appoggiatura d16 cis8 \appoggiatura h a8. a16
+		a e e fis g8. fis16 fis4 r16 fis a fis
+		h8 h r cis16 d a4 r %10
+		R1
+		r2 r4 r8 a
+		\appoggiatura g4 fis4. fis8 fis r fis'4
+		\appoggiatura e8 d d cis h h8.([ cis16 d8)] cis16 h
+		\appoggiatura a8 gis gis d'8. e16 \appoggiatura d8 cis4 r8 a %15
+		d d r4 r gis,8 a
+		e4 r r2
+		R1*8 %25
+		r2 r4 r8 a
+		a a a a d a r h
+		c!8. c16 c8 r r a h c
+		\appoggiatura c h8. h16 h8 h r4 r8 h
+		d8. \appoggiatura c16 h h8 h \appoggiatura a gis4 r8 h %30
+		h h d8. e16 \appoggiatura d8 c?4 r16 c h a
+		dis8. dis16 dis8 r r dis dis e
+		h h h4 r2
+		R1*9 %42
+		\key c \major r4 r8 e,^\markup \remark "Recitativo" a a a16 a a h
+		c8 c16 c h8 a d d r4
+		e8. e16 e8 r r gis, gis a %45
+		h e, r4 d' h8 r
+		c8. c16 c8 r r4 r8^\markup \remark "alla misura" a
+		f'8. f16 f8 r r4 r8 d
+		d16([ a)] a4 g'8 \appoggiatura g f4 r
+		g d8 f e4 r %50
+		r2 r4 r8 c
+		c8. g16 g4 r2\fermata \bar "|." %52 finis
+	}
+}
+
+WieDieTenoreALyrics = \lyricmode {
+	Wie die fern %2
+	ab -- ge -- ſchied -- ne ge -- lieb -- te
+	Son -- ne ſich nach ih -- res Früh -- lings
+	Kin -- dern ſeh -- net, %5
+	und wenn in kal -- ter
+	Nacht noch matt ihr Au -- ge
+	thrä -- net, als Mor -- gen -- rö -- the
+	ſchon den düſ -- tern Ne -- bel bricht, zer -- reißt der
+	Schlei -- er, und wird Licht, %10
+
+	ſo
+	ſeh -- net ſich, ſo
+	ſte -- het der be -- trüb -- ten Ma --
+	ri -- a Je -- ſus nah, und %15
+	nennt ſie, und iſt
+	da.
+
+	Bis %26
+	er die zehn Ge -- lieb -- ten, ver --
+	loh -- re -- nen zu -- ſam -- men
+	wie -- der fin -- det, und
+	Frie -- den ih -- nen giebt, und %30
+	haucht ſie an mit Geiſt, der von der
+	Bal -- ſam -- kraft des an -- dern
+	Le -- bens fleußt.
+
+	Und wan -- delt in des Mor -- gens %43
+	Frü -- he mit ſei -- nen Kin -- dern:
+	liebt ihr mich? der mich nicht %45
+	kann -- te, Si -- mon,
+	liebſt du mich? All --
+	wiſ -- ſen -- der, o
+	ſie -- he mein Herz,
+	ſie -- he mein Herz! %50
+	Ich
+	lie -- be dich. %52 finis
+}
+
+WieDieTenoreBNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \major \time 4/4 \autoBeamOff \tempoWieDie
+		R1*16 %16
+		r4 r8 e, a a h cis
+		\appoggiatura cis h r16 fis fis8 gis \appoggiatura h a8. a16 a8 r16 fis
+		h8 fis r a16 gis \appoggiatura fis8 e4 r
+		r2 r4 r8^\markup \remark "alla misura" fis' %20
+		fis fis, gis a \appoggiatura a gis4 r8 gis
+		h8.^\markup \remark "senza misura" h16 gis8 e d'8 d d e
+		\appoggiatura d cis8. cis16 cis8 r16 d \appoggiatura cis8 h h h8. cis16
+		\appoggiatura h8 a4 r8 fis d' d r eis16 fis
+		\appoggiatura d8 cis cis r4 r2 %25
+		R1*8 %33
+		r8 g c d c16 h h8 r d
+		d d f8. e16 e4 r8 c %35
+		c g g a b8. b16 b8 r16 e
+		e8 g, g16 g g a \appoggiatura g f8 f^\markup \remark "alla misura" r4
+		r r8 cis' cis8. cis16 e8 g
+		g16([ f)] f8 r4 r r8 d
+		d4( e8) f e4 r %40
+		r r8 c \appoggiatura h a a r4
+		r a8. h16 \appoggiatura a8 gis4 r
+		\key c \major R1*9 %51
+		R1\fermataMarkup \bar "|." %52 finis
+	}
+}
+
+WieDieTenoreBLyrics = \lyricmode {
+	Und eilt mit je -- nem %17
+	Paar, die nach der Ru -- he flehn, ein
+	Wand -- rer, mit zu gehn.
+	Er %20
+	rau -- bet ſanft ihr Herz, und
+	ath -- met frem -- de Glut in ih -- ren
+	lech -- zen -- den, ge -- ſunk -- nen, kal -- ten
+	Muth, ent -- hüllt ſich, und ver --
+	ſchwin -- det. %25
+
+	Er ſucht den Ir -- ren -- den in %34
+	ſei -- ner Zwei -- fel Nacht, der, %35
+	wie von ſchwe -- rem Traum er -- wacht, die
+	Hand ihm legt in ſei -- ne Wun -- den:
+	ich ha -- be dich ge --
+	fun -- den, mein
+	Herr __ und Gott! %40
+	Du le -- beſt,
+	ich bin todt! %42 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

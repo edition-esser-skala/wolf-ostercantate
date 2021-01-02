@@ -220,3 +220,62 @@ ThutAufViolinoII = {
 		a1\fermata \bar "|." %120 finis
 	}
 }
+
+WieDieViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \tempoWieDie
+		r8 h(\p a h) h16(\sf c) c4 e16.\p d32
+		d16( c) h8~ h16 h( c a) h4 r
+		R1
+		c~
+		c2 r8 h( a h) %5
+		h1~
+		h
+		a~
+		a2 r8 a'16. cis32 d8 r
+		r h16.\mf d32 g8 r r cis,16.\ff e32 a16-\parenthesize-! cis,-! e-! g,-! %10
+		fis(\p a) fis( a) fis( a) d,( fis) h,8\f g'4 h16.\p a32
+		\once \slurDashed a16( g) fis8~ fis16 fis( g e) fis4 r
+		R1
+		fis
+		gis2 r8 a16.\trill h32 cis8-! r %15
+		r fis16. d32 a8 r r2
+		h4-!\f cis-! r2
+		R1
+		r2 r8 gis(\p gis gis)
+		gis e16( gis) cis( h) a( gis) a2 %20
+		r8 a( gis fis) r gis16. a32 h8 r
+		R1
+		r8 gis16. eis32 gis8 r r2
+		r8 fis16. cis32 a8 r r h'16.\mf d32 d8 r
+		r fis,(\p gis eis) cis2~ %25
+		cis16(\f a') g( fis) e( d) cis( e) d2~\p
+		d1~
+		d~
+		d~
+		d~ %30
+		d2 c!
+		h~ h4 r
+		r8 g''16. e32 fis8-! dis-! r e16.\f c!32 d8-! h-!
+		c4 r d,2~\p
+		d c~ %35
+		c g'~
+		g r8 f( f f)
+		g16\f g g g g\p g g g g g g g g g g g
+		e( f) f-! f-! g g a a e(\sf d) d4 h'8\p
+		h-! d( c h) c4 g %40
+		e8(\f f) r4 r16 a(\p c b) a( g! f e)
+		a2 r8 gis( e gis)
+		\key c \major r a16. h32 c8 r r2
+		r d,
+		h'8-! gis'-! r gis,16. e32 gis8 r r4 %45
+		r d'-!\f r2
+		r8 c\p r c16. a32 c8 r r4
+		r8 f,( e f) a16(\sf g!) g4 g'8\p
+		f16( d) f,8~ f16 f( g e) r8 a( g f)
+		e16(\sf d) d4 h'8\p r c16( e) r8 g,16( c) %50
+		r8 f,16(\f c') b( a) g( f) \appoggiatura e4 <d g,>2
+		r4 <g, d' h'>\arpeggio-! <g e' c'>\arpeggio-! r\fermata \bar "|." %52 finis
+	}
+}

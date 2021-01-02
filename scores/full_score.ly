@@ -259,60 +259,115 @@
 	% 		\midi { \tempo 4 = 120 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+  %     genre = "C H O R A L"
+	% 		number = "4"
+	% 		title = "Jeſus Chriſtus, unser Heiland"
+	% 	}
+	% 	\paper {
+	% 		system-system-spacing.basic-distance = #35
+	% 		system-system-spacing.minimum-distance = #35
+	% 		systems-per-page = #2
+	% 	}
+	% 	\tocLabelLong "jesuschristus" "4" "Choral" "Jeſus Chriſtus, unser Heiland"
+	% 	\score {
+	% 		<<
+	% 			\new ChoirStaff \with { \twoStanzaDistance } <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "S 1" "[vl 1]" "[ob 1]" }
+	% 					\new Voice = "SopranoA" { \dynamicUp \JesusChristusSopranoANotes }
+	% 				}
+	% 				\new Lyrics \lyricsto SopranoA \JesusChristusSopranoALyricsA
+	% 				\new Lyrics \lyricsto SopranoA \JesusChristusSopranoALyricsB
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "S 2" "[vl 2]" "[ob 2]" }
+	% 					\new Voice = "SopranoB" { \dynamicUp \JesusChristusSopranoBNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto SopranoB \JesusChristusSopranoBLyricsA
+	% 				\new Lyrics \lyricsto SopranoB \JesusChristusSopranoBLyricsB
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "T" "[vla]" }
+	% 					\new Voice = "Tenore" { \dynamicUp \JesusChristusTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \JesusChristusTenoreLyricsA
+	% 				\new Lyrics \lyricsto Tenore \JesusChristusTenoreLyricsB
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \JesusChristusBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \JesusChristusBassoLyricsA
+	% 				\new Lyrics \lyricsto Basso \JesusChristusBassoLyricsB
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "org" "b" }
+	% 					% \transpose c c,
+	% 					\JesusChristusOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \JesusChristusBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 2 = 80 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-      genre = "C H O R A L"
-			number = "4"
-			title = "Jeſus Chriſtus, unser Heiland"
+      genre = "R E C I T A T I V O"
+			number = "5"
+			title = "Wie die fern abgeſchiedne geliebte Sonne"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
 			systems-per-page = #2
 		}
-		\tocLabelLong "jesuschristus" "4" "Choral" "Jeſus Chriſtus, unser Heiland"
+		\tocLabelLong "wiedie" "5" "Recitativo" "Wie die fern abgeſchiedne geliebte Sonne"
 		\score {
 			<<
-				\new ChoirStaff \with { \twoStanzaDistance } <<
+				\new StaffGroup <<
+					\new GrandStaff \with { \smallGroupDistance } <<
+						\set GrandStaff.instrumentName = "vl"
+						\new Staff {
+							\set Staff.instrumentName = "1"
+							\WieDieViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "2"
+							\WieDieViolinoII
+						}
+					>>
 					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "S 1" "[vl 1]" "[ob 1]" }
-						\new Voice = "SopranoA" { \dynamicUp \JesusChristusSopranoANotes }
+						\set Staff.instrumentName = "vla"
+						\WieDieViola
 					}
-					\new Lyrics \lyricsto SopranoA \JesusChristusSopranoALyricsA
-					\new Lyrics \lyricsto SopranoA \JesusChristusSopranoALyricsB
+				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "S 1"
+						\new Voice = "TenoreA" { \dynamicUp \WieDieTenoreANotes }
+					}
+					\new Lyrics \lyricsto TenoreA \WieDieTenoreALyrics
 
 					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "S 2" "[vl 2]" "[ob 2]" }
-						\new Voice = "SopranoB" { \dynamicUp \JesusChristusSopranoBNotes }
+						\set Staff.instrumentName = "S 2"
+						\new Voice = "TenoreB" { \dynamicUp \WieDieTenoreBNotes }
 					}
-					\new Lyrics \lyricsto SopranoB \JesusChristusSopranoBLyricsA
-					\new Lyrics \lyricsto SopranoB \JesusChristusSopranoBLyricsB
-
-					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "T" "[vla]" }
-						\new Voice = "Tenore" { \dynamicUp \JesusChristusTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \JesusChristusTenoreLyricsA
-					\new Lyrics \lyricsto Tenore \JesusChristusTenoreLyricsB
-
-					\new Staff {
-						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \JesusChristusBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \JesusChristusBassoLyricsA
-					\new Lyrics \lyricsto Basso \JesusChristusBassoLyricsB
+					\new Lyrics \lyricsto TenoreB \WieDieTenoreBLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup \center-column { "org" "b" }
 						% \transpose c c,
-						\JesusChristusOrgano
+						\WieDieOrgano
 					}
 				>>
-				\new FiguredBass { \JesusChristusBassFigures }
+				\new FiguredBass { \WieDieBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 80 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

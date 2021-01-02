@@ -715,6 +715,120 @@ JesusChristusBassFigures = \figuremode {
 	<5 4>2 \bassFigureExtendersOn <5 3>4 <5 2> <5 3>1 \bassFigureExtendersOff %20 finis
 }
 
+WieDieOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 4/4 \tempoWieDie
+		g4\p g' c,\f c\p
+		d d g, r
+		R1
+		g~
+		g2 g4 g' %5
+		e1~
+		e
+		cis~
+		cis2 d4 r
+		g\mf r a\ff a, %10
+		d2\p g,8[\f g' g] g\p
+		a a a a d,4 r
+		R1
+		h'~
+		h2 a4 r %15
+		fis r r2
+		e4-!\f a,-! r2
+		dis4 r r2
+		r e4\p e
+		e e h2~ %20
+		h e4 r
+		R1
+		eis4 r r2
+		fis4 r h,\mf r
+		cis\p cis fis2 %25
+		a,8\f a a a d2~\p
+		d1~
+		d
+		g,~
+		g2 e'~ %30
+		e a~
+		a~ a4 r
+		h, h e\f g
+		c, r c2~\p
+		c1~ %35
+		c2 cis~
+		cis d4 d
+		e16\f e e e e\p e e e a, a a a a a a a
+		d d d d d d d d g\f g g g g\p g g g
+		g,2 c %40
+		f4~\f f2.~\p
+		f2 e4 d
+		\key c \major c2 r
+		r f4 f
+		e e r2 %45
+		r4 gis-!\f r2
+		a4\p a r2
+		d,4 d g,\f g'\p
+		a a d, r
+		g\f g\p c, e %50
+		f\f f f2
+		r4 g-\parenthesize-! c,-! r\fermata \bar "|." %52 finis
+	}
+}
+
+WieDieBassFigures = \figuremode {
+	r2 <7 5+>8 <8 6> <\t \t>4
+	<6 4> <\t \t>8 <5 3> r2
+	r1
+	<7 4 2>
+	<\t \t \t>2 <8 3> %5
+	<5>1
+	<\t>
+	<6 5>
+	<\t \t>
+	r2 <_+> %10
+	r <5+>8 <6>4.
+	<6 4>4. <5 _+>8 r2
+	r1
+	<5>
+	<6\\>2 <_+> %15
+	<6>1
+	<7 _+>4 <_+>2.
+	<6>1
+	r2 <_+>
+	r <7 4>4 <\t _+> %20
+	<\t \t> <6+ 4>8 <5 _+> <_+>2
+	r <7! _+>
+	<6 [_+]>1
+	<[5+]>
+	\bo <[6 4]>4 \bc <[5+ _+]>2. %25
+	<7! _+>2 \bo <[4]>4 \bc <[3]>
+	r1
+	<7!>
+	r
+	r2 <[7] _+> %30
+	r <_!>
+	<4+ 2>1
+	<6 4>4 <5 _+> <5>8 <6!> <7!>4
+	r2 <7 4! 2>
+	<\t \t \t> <8 3> %35
+	r <7->
+	r <_!>
+	<7>8 <6\\>4. <7 _+>2
+	<5 4>8 <\t _!>4. <6 4!>8 <5 3>4.
+	<5 3>4 <6 4>8 <7! 5> r2 %40
+	<7 2+>8 <8 3> <\t \t>2.
+	<7>4 <6\\> <_+> <4+ 2>
+	<6>1
+	r2 <6>
+	<_+>1 %45
+	r4 <6 5>2.
+	r1
+	r2 <9 7 _->8 <8 6 \t> <\t \t \t>4
+	<6 4> <\t \t>8 <5 _+> r2
+	<6 4>8 <5 3> <\t \t>2 <6>4 %50
+	<[5]> <6> <6 5 2> <\t 4! \t>
+	r <7>2. %52 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

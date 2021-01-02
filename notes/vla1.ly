@@ -297,3 +297,62 @@ ThutAufViola = {
 		fis1\fermata \bar "|." %120 finis
 	}
 }
+
+WieDieViola = {
+	\relative c' {
+		\clef alto
+		\key g \major \time 4/4 \tempoWieDie
+		g4\p g c,\f c'\p
+		d d, g r
+		R1
+		a~
+		a2 d,4 g %5
+		e1~
+		e
+		e'~
+		e2 d4 r
+		g,\mf r a8\ff a' e a %10
+		r a,(\p d fis) g,16(\f h) e( g) h( g) e([\p g)]
+		a, a a a a a a a a4 r
+		R1
+		h
+		d2 e4 r %15
+		<fis a> r r2
+		e4-!\f e-! r2
+		R1
+		r2 h4\p h
+		h e,8 e' fis2 %20
+		r8 h,( h h) e,4 r
+		R1
+		cis'4 r r2
+		cis4 r h\mf r
+		cis\p cis fis2 %25
+		a,8\f a a a a2~\p
+		a1~
+		a
+		h~
+		h~ %30
+		h2 a
+		fis'~ fis4 r
+		h, h r8 c!16.\f e32 h8-! g'-!
+		g4 r h,2~\p
+		h g~ %35
+		g b~
+		b a4 a
+		e'16\f e e e e\p e e e e e e e e e e e
+		cis( d) d-! d-! d d d d g,\sf g g g g8 d'\p
+		d-! f( e d) e2 %40
+		c4~\f c~\p c8 a( c a)
+		f'2 r8 h, h( e)
+		\key c \major e2 r
+		r a,
+		e4 e' r2 %45
+		r4 e-!\f r2
+		e4\p a r2
+		a,4 a' b,\f b'16(\p g) e8
+		a a a, a a d( cis d)
+		g\f g, g'[\p g] g4 e %50
+		r8 c16(\f a') g( f) e( d) \appoggiatura c4 h!2
+		r4 <g g'>-! <c g'>-! r\fermata \bar "|." %52 finis
+	}
+}

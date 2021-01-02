@@ -221,6 +221,65 @@ ThutAufViolinoI = {
 	}
 }
 
+WieDieViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \tempoWieDie
+		r8 g'(\p fis g) gis16(\sf a) a4 \appoggiatura d16 c16.\p h32
+		\appoggiatura c16 h( a) g8~ g16 g( a fis) g8 d r4
+		R1
+		fis1~
+		fis2 r8 g( fis g) %5
+		g1~
+		g~
+		g~
+		g2 r8 fis16. g32 fis8 r
+		r d'16.\mf g32 h8 r r e,16.\ff a32 cis8-! cis-! %10
+		r d(\p a fis) dis16(\sf e) e4 \appoggiatura a16 g16.\p fis32
+		\appoggiatura g16 fis( e) d8~ d16 d( e cis) d8 a r4
+		R1
+		d~
+		d2 r8 cis16.\trill d32 e8-! r %15
+		r a16. fis32 d8 r r2
+		gis4-!\f a-! r2
+		R1
+		r2 r8 e(\p e e)
+		e gis16( h) a( gis) fis( e) \appoggiatura e4 dis2 %20
+		r8 fis,( e dis) r e16. fis32 gis8 r
+		R1
+		r8 h16. gis32 h8 r r2
+		r8 a16. fis32 cis8 r r d'16.\mf fis32 h8 r
+		r a,(\p h gis) a32( a'16.) h32( a16.) gis32( a16.) cis,32( a'16.) %25
+		g16(\f fis) e( d) cis( h) a( g) \appoggiatura g4 fis2~\p
+		fis1~
+		fis
+		g~
+		g2 gis2~ %30
+		gis a
+		dis,~ dis4 r
+		r8 h''16. g32 a8-! fis-! r g16.\f e32 f8-! d-!
+		e4 r f,2~\p
+		f e~ %35
+		e e'~
+		e r8 d( d d)
+		d16(\sf cis) cis4 cis8\p cis cis( cis cis)
+		r d( e f) c16(\sf h) h4 g'8\p
+		g2~ g16 g( f e) d( c h c) %40
+		gis8(\f a) r4 r16 a'(\p c b) a( g f e)
+		\appoggiatura e4 dis2 r8 e( gis, h)
+		\key c \major r c16. d32 e8 r r2
+		r r8 a,( d f)
+		gis,-! h-! r h16. gis32 h8 r r4 %45
+		r h'-!\f r2
+		r8 e,\p r e16. c32 e8 r r4
+		r8 d( cis d) f16(\sf e) e4 b'16(\p a)
+		a( f) d8~ d16 d( e cis) r8 f( e d)
+		c16(\sf h) h4 d8\p r e16( g) r8 c,16( e) %50
+		r8 a,16(\f a') g( f) e( d) \appoggiatura c4 h2
+		r4 f'-! e-! r\fermata \bar "|." %52 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
