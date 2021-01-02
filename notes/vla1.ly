@@ -170,3 +170,130 @@ AllmaechtgerViola = {
 		a r a r \bar "|" %88 finis
 	}
 }
+
+ThutAufViola = {
+	\relative c' {
+		\clef alto
+		\key d \major \time 4/4 \tempoThutAuf
+		fis,8.[\ff a16 d8. d16] a8.[ d16 fis8. fis16]
+		d8.[ fis16 a8. a16] fis8.[ a16 d8. d16]
+		d8.[ d16 d8. d16] g,8.[ g16 g8. g16]
+		<fis a>4 r r2
+		d8.[ fis16 a8. a16] fis8.[ a16 d8. d16] %5
+		d4 r r2
+		fis,8.[ h16 fis8. fis16] h8.[ d16 h8. h16]
+		h4 r r h
+		h8 h h h cis a e a
+		cis cis cis cis d fis, fis fis %10
+		g8.[ g16 a8. a16] a8.[ a16 a8. a16]
+		a4 r a,8.[\p cis16 h8. d16]
+		cis4 r a8.[ cis16 h8. d16]
+		cis4 r a8.[\ff cis16 h8. d16]
+		cis8.[ e16 d8. fis16] e4 a, %15
+		d, r d'8.[\p fis16 e8. g16]
+		fis4 r d8.[ fis16 e8. g16]
+		fis4 r d8.[\ff fis16 e8. g16]
+		fis8.[ a16 g8. h16] a4 <a d,>
+		<g g,> d8.\p d16 g8.[ h16 d8. d16] %20
+		e,8.[\f a16\p e8. e16] a8.[ cis16 a8. a16]
+		a8.[\ff fis16 fis8. d'16] d8.[ g,16 g8. h16]
+		a8.[ a16 a8. a16] a8.[ a16 a8. a16]
+		a4 r fis a
+		a r fis a %25
+		a8 a h h fis8.[ a16 g8. h16]
+		<a fis>8.[ q16 q8. q16] <g a>8.[ q16 q8. q16]
+		<fis a>2 r
+		R1
+		r2 r4 a %30
+		a2 a
+		<a a,> r
+		R1
+		r2 r4 e
+		cis2 d %35
+		cis r
+		h8. h'16 fis4 r2
+		e8. e16 e4 r2
+		a,8. a'16 e4 r2
+		a8.[ d16 d8. d16] d cis h a g fis e d %40
+		h'8.[ h16 h8. h16] a8.[ a16 a8. a16]
+		<a d,>8.[\arpeggio fis16 fis8. h16] d cis h a gis fis e d
+		cis4 r r2
+		R1
+		e8.[\ff a16 cis8. a16] fis8.[ fis16 a8. fis16] %45
+		cis8.[ cis16 e8. cis16] e8.[ e16 e8. cis16]
+		a8.[ d'16\p d8. d16] cis8.[ cis16 h8. h16]
+		a8.[\ff a16 cis8. a16] fis8.[ fis16 a8. fis16]
+		cis8.[ cis16 e8. cis16] a8.[ e'16 e8. cis16]
+		a8.[ a'16 a8. a16] gis8.[ e16 h'8. h16] %50
+		a8.[ a16 a8. fis16] fis8.[ fis16 fis8. fis16]
+		gis4-! a-! gis-! a-!
+		e16 e' e e e e e e h h h h h h h h
+		a4 r cis, e
+		e r cis e %55
+		e8 e e e d fis h, h
+		cis16 cis cis cis cis cis cis cis e e e e d d d d
+		cis4 e(\p e e)
+		fis( fis fis fis)
+		e( e e e) %60
+		d fis( fis fis)
+		gis-! r cis-! r
+		R1
+		r4 cis,( fis2)
+		r4 fis( h2) %65
+		r4 h,( e2)
+		r4 e8.\f e16 eis8.[ eis16 fis8. fis16]
+		cis4 r r cis\p
+		cis cis' r cis,
+		cis cis' r cis, %70
+		cis2 r
+		r fis,
+		gis\fermata r
+		d'4\ff r r2
+		d8.[ fis16 a8. a16] fis8.[ a16 d8. d16] %75
+		d4 r r2
+		h8.[ h16 fis8. fis16] h8.[ d16 h8. h16]
+		h4 r r h
+		h8 h h h cis e, a cis
+		cis cis cis cis d fis, h d %80
+		g,8.[ g16 a8. a16] a8.[ a16 a8. a16]
+		a4 r a,8.[\p cis16 h8. d16]
+		cis4 r a8.[ cis16 h8. d16]
+		cis4 r a8.[\ff cis16 h8. d16]
+		cis8.[ e16 d8. fis16] e4 a, %85
+		d, r d'8.[\p fis16 e8. g16]
+		fis4 r d8.[ fis16 e8. g16]
+		fis4 r d8.[\ff fis16 e8. g16]
+		fis8.[ a16 g8. h16] a4 <a d,>
+		<h d, g,>\arpeggio d,8.\p d16 g8.[ h16 d8. d16] %90
+		fis,8.[\f h16\p fis8. fis16] e8.[ g16 e8. e16]
+		fis8.[\f fis16\p fis8. fis16] g8.[ g16 e8. e16]
+		d8.[\f g16\p h,8. h16] c8.[ e16 c8. c16]
+		d8.[\f g16\p h8. h16] g8.[ h16 d8. d16]
+		e,8\f a a a a, a' a a %95
+		cis,4 r r2
+		a'4 r r2
+		a,4 r r2
+		R1
+		e'16\ff e e e a a a a cis cis cis cis cis cis cis cis %100
+		d fis, fis fis fis h h h h h h h h h h h
+		\tuplet 3/2 4 { d8[ a a] a a a a[ a a] a a a }
+		<a d,>4 r r2
+		R1
+		d,4 r r2 %105
+		d4 r r2
+		cis1\p
+		d16\ff a a a a a a a a' a a a a a a a
+		h h h h h h h h h fis fis fis fis fis fis fis
+		g g g g g g g g fis fis fis fis a a a a %110
+		\tuplet 3/2 4 { a,8[ a' a] a a a a[ a a] a a a }
+		\tuplet 3/2 4 { a,[ <a e'> q] q q q q[ q q] q q q }
+		d4 r fis a
+		a r fis a
+		a8.[ fis16 h8. g16] d8.[ a'16 g8. h16] %115
+		\tuplet 3/2 4 { d8[ fis, fis] fis fis fis g[ g g] g g g }
+		fis8.[ d'16 a8. a16] d8.[ a16 fis8. fis16]
+		a8.[ fis16 d8. d16] fis8.[ d16 a8. a16]
+		d8.[ a16 fis8. fis16] fis8.[ fis16 fis8. fis16]
+		fis1\fermata \bar "|." %120 finis
+	}
+}

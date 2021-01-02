@@ -237,6 +237,209 @@ AllmaechtgerSopranoALyrics = \lyricmode {
 	por, em_- %88 finis
 }
 
+ThutAufSopranoANotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoThutAuf
+		fis'4 r r2
+		R1*2
+		r4 \mvTr d\fE^\tuttiE d d
+		d2 d,4 r %5
+		r d' d d8 d
+		fis2 r
+		r4 d d d
+		e4.( d8) cis4 cis
+		fis4.( e8) d4 d %10
+		d2 e4 fis
+		e2 r4 a,\pE
+		a2 a
+		a a4 a\fE
+		a4.( d8) h4 cis %15
+		d r r2
+		R1
+		r4 d d d
+		d2 c8([\trill h)] c4
+		h2 r4 h\pE %20
+		cis!2. cis4
+		d2\fE d4 h
+		a2 a4 g'
+		fis2 r
+		R1*3 %27
+		r2 r4 \mvTr fis,\pE^\solo
+		a2 d
+		gis,4 a r \mvTr a\fE^\tutti %30
+		a2 a
+		a r4 \mvTr a\pE^\solo
+		e2 g!
+		h4 h r \mvTr h\fE^\tutti
+		ais2 h %35
+		ais r
+		d4 h r2
+		g'4 e r2
+		e4 a, r2
+		fis'4 d r2 %40
+		d cis
+		h h4 h
+		cis8[ a gis a] d[ h a h]
+		e[ cis h cis] fis[ d cis d]
+		a'2 r %45
+		e4 cis r2
+		fis\pE e4 h
+		cis2 r
+		a'4\fE e r2
+		fis gis %50
+		a dis,
+		e4 e e e
+		e2 e4 e
+		e2 r
+		R1*3 %57
+		r2 r4 \mvTr a,\pE^\solo
+		cis2 r4 cis
+		cis2. cis4 %60
+		fis2( h,4) his
+		cis2 r
+		R1*10 %72
+		R1\fermataMarkup
+		r4 \mvTr d\fE^\tutti d d
+		d2 d,4 r %75
+		r d' d d8 d
+		fis2 r
+		r4 d d d
+		e4.( d8) cis4 cis
+		fis4.( e8) d4 d %80
+		d2( g4) fis8 fis
+		e2 r4 a,\pE
+		a2 a
+		a a4 a\fE
+		a4.( fis8) h4 cis %85
+		d2 r
+		R1
+		r4 d d d
+		d2( c8[\trill h)] c c
+		h2 r4 h\pE %90
+		h2 h
+		h4.( c8) h4 g'
+		g2 e4 e
+		d2 r4 d
+		cis!(\fE d e) fis %95
+		g4. fis8 g[ e d e]
+		fis4. e8 fis[ d cis d]
+		e4. d8 e[ cis h cis]
+		d[ cis h cis] d[ e fis gis]
+		a2 a, %100
+		d e4 g
+		a,2 cis\trill
+		d r
+		R1*4 %107
+		d1
+		fis(
+		g2) fis4 \appoggiatura e8 d4 %110
+		a1
+		a'2. cis,4
+		d2 r
+		R1*6 %119
+		R1\fermataMarkup \bar "|." %120 finis
+	}
+}
+
+ThutAufSopranoALyrics = \lyricmode {
+	por!
+
+	Thut auf die %4
+	Pfor -- ten, %5
+	die Tho -- re der
+	Welt,
+	es zeucht der
+	Kö -- nig, der
+	Kö -- nig der %10
+	Eh -- ren ein --
+	her, es
+	zeucht der
+	Kö -- nig der
+	Eh -- ren ein -- %15
+	her,
+
+	thut auf die
+	Tho -- re der
+	Welt, es %20
+	zeucht der
+	Kö -- nig der
+	Eh -- ren ein --
+	her!
+
+	Wer %28
+	iſt der
+	Kö -- nig? Es %30
+	iſt der
+	Held; wer
+	iſt der
+	Kö -- nig? Es
+	iſt der %35
+	Held;
+	ſchreck -- lich,
+	ſchreck -- lich,
+	mäch -- tig,
+	mäch -- tig, %40
+	ſchreck -- lich,
+	mäch -- tig im
+	Streit, __ _
+	_ _
+	_ %45
+	ſchreck -- lich,
+	mäch -- tig im
+	Streit,
+	ſchreck -- lich,
+	mäch -- _ %50
+	_ _
+	_ tig, ſchreck -- lich,
+	mäch -- tig im
+	Streit.
+
+	Wie %58
+	kommts, dein
+	Kleid iſt %60
+	roth __ von
+	Blut?
+
+	Thut auf die %74
+	Pfor -- ten, %75
+	die Tho -- re der
+	Welt,
+	es zeucht der
+	Kö -- nig, der
+	Kö -- nig der %80
+	Eh -- ren ein --
+	her, es
+	zeucht der
+	Kö -- nig der
+	Eh -- ren ein -- %85
+	her,
+
+	thut auf die
+	Tho -- re der
+	Welt, es %90
+	zeucht der
+	Kö -- nig der
+	Eh -- ren ein --
+	her, und
+	glän -- zet %95
+	Heil, __ _ _
+	_ _ _
+	_ _ _
+	_ _
+	_ er %100
+	glän -- zet, er
+	glän -- zet
+	Heil,
+
+	er %108
+	glän --
+	zet, er %110
+	glän --
+	_ zet
+	Heil. %113 finis
+}
+
 % SopranoANotes = {
 % 	\relative c' {
 % 		\clef treble

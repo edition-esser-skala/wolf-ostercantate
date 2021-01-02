@@ -67,3 +67,55 @@ AllmaechtgerCornoI = {
     R1*20 \bar "|" %88 finis
 	}
 }
+
+ThutAufCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoThutAuf
+		R1*72 %72
+		R1\fermataMarkup
+		c'4\fE r r2
+		c2 e %75
+		g4 r r2
+		e4. e8 e4. e8
+		e4 r r2
+		r2 d4 d
+		\partcombineChordsOnce g r e e %80
+		r g f e
+		d r r2
+		R1
+		r2 g4 g
+		g e r d %85
+		e r r2
+		R1
+		r2 c4 c
+		c2 r4 c
+		c2 r %90
+		R1*5 %95
+		g1~\fE
+		g~
+		g~
+		g~
+		g4 r e' e %100
+		e r r2
+		e4 e d d
+		c1~
+		c~
+		c~ %105
+		c~
+		c~
+		c4 e e2
+		r4 e e2
+		r e %110
+		e4 e8. e16 e8.[ e16 e8. e16]
+		d4 d8. d16 d8.[ d16 d8. d16]
+		\pa c8.[ e16 g8. g16] \pd g4 d
+		\pa c8.[ e16 g8. g16] \pd g4 d
+		c1 %115
+		e4. e8 d4. d8
+		\partcombineChordsOnce e2 g
+		e c
+		g8.[ e16 c8. c16] c4 c
+		c1\fermata \bar "|." %120 finis
+	}
+}

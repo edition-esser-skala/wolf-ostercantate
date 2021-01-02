@@ -67,3 +67,55 @@ AllmaechtgerCornoII = {
     R1*20 \bar "|" %88 finis
 	}
 }
+
+ThutAufCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoThutAuf
+		R1*72 %72
+		R1\fermataMarkup
+		c4\fE r r2
+		e c' %75
+		e4 r r2
+		e,4. e8 e4. e8
+		e4 r r2
+		r g4 g
+		e r c' c %80
+		r e d c
+		g r r2
+		R1
+		r2 g4 g
+		g c r g %85
+		c r r2
+		R1
+		r2 c,4 c
+		c2 r4 c
+		c2 r %90
+		R1*5 %95
+		g1~\fE
+		g~
+		g~
+		g~
+		g4 r e' e %100
+		c' r r2
+		c4 c g g
+		c,1~
+		c~
+		c~ %105
+		c~
+		c~
+		c4 c' c2
+		r4 c c2
+		r c %110
+		c4 c8. c16 c8.[ c16 c8. c16]
+		g4 g8. g16 g8.[ g16 g8. g16]
+		c8.[ c16 e8. e16] e4 g,
+		c8.[ c16 e8. e16] e4 g,
+		c,1 %115
+		c'4. c8 g4. g8
+		c,2 e'
+		c g
+		e4 c8. c16 c4 c
+		c1\fermata \bar "|." %120
+	}
+}

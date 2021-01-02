@@ -679,9 +679,17 @@ tempoDesLebens = \tempoMarkup "Adagio"
 	tempoErwacht = \tempoMarkup "Allegretto"
 tempoAllmaechtger = \tempoMarkup "Non troppo allegro"
 	tempoAllmaechtgerB = \tempoMarkup "Recitativo"
+tempoThutAuf = \tempoMarkup "Allegro"
 
 senzaPed = \markup \remark "senza Ped."
 ped = \markup \remark "Ped."
+beameddotted = {
+	\overrideTimeSignatureSettings
+		4/4
+		1/16
+		#'(8 8)
+		#'()
+}
 
 
 \include "notes/ob1.ly"
@@ -690,6 +698,7 @@ ped = \markup \remark "Ped."
 \include "notes/cor2.ly"
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"
+\include "notes/clno3.ly"
 \include "notes/timp.ly"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

@@ -201,6 +201,206 @@ DesLebensTenoreLyrics = \lyricmode {
 	thau. %115 finis
 }
 
+ThutAufTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 4/4 \autoBeamOff \tempoThutAuf
+		R1*3
+		r4 \mvTr fis\fE^\tuttiE fis fis
+		fis2 d4 r %5
+		r fis fis fis8 d
+		d2 r
+		r4 fis fis fis
+		g4.( fis8) e4 e
+		a4.( g8) fis4 fis %10
+		g( d) cis d
+		cis cis\pE cis d
+		e2 cis4 d
+		e2 cis4 d\fE
+		e( fis g) e8 e %15
+		d4 d\pE d e
+		fis2 d4 e
+		fis2 d4 d\fE
+		d( h e) d8 d
+		d2 r4 d\pE %20
+		e2. e4
+		fis2\fE d4 d
+		d2 cis4 e
+		d2 r
+		R1*3 %27
+		r2 r4 \mvTr fis,\pE^\solo
+		a2 d
+		gis,4 a r \mvTr a\fE^\tutti %30
+		a2 d
+		cis r4 \mvTr a\pE^\solo
+		e2 g!
+		h4 h r \mvTr e\fE^\tutti
+		cis2 d %35
+		cis r
+		h4 d r2
+		e4 h r2
+		cis4 cis r2
+		d4 a r2 %40
+		gis a
+		fis' e4 e
+		e8[ cis h cis] h[ d cis d]
+		cis[ e d e] d[ fis e d]
+		cis2 r %45
+		e4 e r2
+		d\pE cis4 e
+		e2 r
+		e4\fE cis r2
+		d h %50
+		a fis'
+		e4 e e e
+		cis2 h4 h
+		cis2 r
+		R1*3 %57
+		r2 r4 \mvTr a\pE^\solo
+		fis2 r4 fis'
+		e2. e4 %60
+		d2. d4
+		cis2 r
+		R1*10 %72
+		R1\fermataMarkup
+		r4 \mvTr fis\fE^\tutti fis fis
+		fis2 a,4 r %75
+		r fis' fis fis8 fis
+		d2 r
+		r4 fis fis fis
+		g4.( fis8) e4 e
+		a4.( g8) fis4 fis %80
+		g( d) cis d
+		cis cis\pE cis d
+		e2 cis4 d
+		e2 cis4 d\fE
+		e( fis8.[ d16] g4) e8 e %85
+		d4 d\pE d e
+		fis2 d4 e
+		fis2 d4 d\fE
+		d2 e4 fis
+		d2 r4 d\pE %90
+		fis2 e
+		dis e4 e
+		d2 c4 c
+		h2 r4 h
+		a(\fE h cis!) d %95
+		e4. d8 e[ cis h cis]
+		d4. cis8 d[ h a h]
+		cis4. h8 cis[ a gis a]
+		h[ a gis a] h[ cis d h]
+		cis2 cis %100
+		d4.( fis8) e4 e
+		fis4.( e16[ d] g4) e
+		d2 r
+		R1*4 %107
+		fis1
+		\once \tieDashed d~
+		d2 d4 d %110
+		d2. fis4
+		e2 cis4 e
+		d2 r
+		R1*6 %119
+		R1\fermataMarkup \bar "|." %120 finis
+	}
+}
+
+ThutAufTenoreLyrics = \lyricmode {
+	Thut auf die %4
+	Pfor -- ten, %5
+	die Tho -- re der
+	Welt,
+	es zeucht der
+	Kö -- nig, der
+	Kö -- nig der %10
+	Eh -- ren ein --
+	her, thut auf die
+	Pfor -- ten, \xE die
+	Tho -- re, die
+	Tho -- re der %15
+	Welt, \x thut auf die
+	Pfor -- ten, die
+	Tho -- re, die
+	Tho -- re der
+	Welt, es %20
+	zeucht der
+	Kö -- nig der
+	Eh -- ren ein --
+	her!
+
+	Wer %28
+	iſt der
+	Kö -- nig? Es %30
+	iſt der
+	Held; wer
+	iſt der
+	Kö -- nig? Es
+	iſt der %35
+	Held;
+	ſchreck -- lich,
+	ſchreck -- lich,
+	mäch -- tig,
+	mäch -- tig, %40
+	ſchreck -- lich,
+	mäch -- tig im
+	Streit, __ _
+	_ _
+	_ %45
+	ſchreck -- lich,
+	mäch -- tig im
+	Streit,
+	ſchreck -- lich,
+	mäch -- _ %50
+	_ _
+	_ tig, ſchreck -- lich,
+	mäch -- tig im
+	Streit.
+
+	Wie %58
+	kommts, dein
+	Kleid iſt %60
+	roth von
+	Blut?
+
+	Thut auf die %74
+	Pfor -- ten, %75
+	die Tho -- re der
+	Welt,
+	es zeucht der
+	Kö -- nig, der
+	Kö -- nig der %80
+	Eh -- ren ein --
+	her, thut auf die
+	Pfor -- ten, die
+	Tho -- re, die
+	Tho -- re der %85
+	Welt, thut auf die
+	Pfor -- ten, die
+	Tho -- re, die
+	Tho -- re der
+	Welt, es %90
+	zeucht der
+	Kö -- nig der
+	Eh -- ren ein --
+	her, und
+	glän -- zet %95
+	Heil, __ _ _
+	_ _ _
+	_ _ _
+	_ _
+	_ er %100
+	glän -- zet, er
+	glän -- zet
+	Heil,
+
+	er
+	glän --
+	zet, er %110
+	glän -- _
+	_ _ zet
+	Heil. %113 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -86,3 +86,117 @@ AllmaechtgerOboeI = {
     fis r g r \bar "|" %88 finis
 	}
 }
+
+ThutAufOboeI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoThutAuf
+		fis'4\fE r a,2
+		d fis
+		h e,
+		fis4 r r2
+		d fis %5
+		a4 r r2
+		fis h
+		d4 fis, fis fis
+		g4. fis8 e4 e
+		a4. g8 fis4 fis %10
+		h a( g fis)
+		e r r2
+		R1
+		r2 \pa cis4 d \pd
+		e fis g2 %15
+		fis4 r r2
+		R1
+		r2 fis4 g
+		a h c2
+		h4 d,(\p g h) %20
+		\pao a\f e(\p a cis!)
+		d\f a( h d)
+		fis,2( g4) e4\trill
+		d r d-! \pa e-!
+		fis-! \pd r d \pao e %25
+		fis g a h
+		fis2 e\trill
+		\pao d r
+		R1
+		r2 r4 fis %30
+		\pao e2 fis
+		cis r
+		R1
+		r2 r4 g'
+		cis,2 d %35
+		cis r
+		fis1
+		g
+		e
+		fis2 fis4. fis8 %40
+		gis2 a
+		h,4 h h h
+		cis r d r
+		e r fis r
+		a1~ %45
+		a~
+		a4 a2\p \pao h4
+		cis1~\f
+		cis2 cis,
+		\pa fis4 fis gis gis %50
+		a2 dis,
+		h'4-! a-! h-! a-! \pd
+		a4. a8 gis4. gis8
+		a8.[ e16 e8. e16] e4 h
+		cis8.[ e16 e8. e16] e4 h %55
+		cis e fis a
+		cis,4. cis8 h4. h8
+		cis4 r r2
+		R1*14 %72
+		R1\fermataMarkup
+		\pao d,4\fE r r2
+		d'2 fis %75
+		a4 r r2
+		fis h
+		d4 fis, fis fis
+		g4. fis8 e4 e
+		a4. g8 fis4 fis %80
+		h a( cis d)
+		cis r r2
+		R1
+		r2 cis,4 d
+		e fis g e %85
+		fis r r2
+		R1
+		r2 \partcombineChordsOnce fis4 g
+		a h c2
+		h4 d,2\p g4 %90
+		\pa fis2\fp g
+		fis4\f h2\p g4
+		g,\f g'\p r e
+		d\f d(\p g h) \pd
+		cis,!\f d( e fis) %95
+		g1
+		fis
+		e
+		d\pE
+		cis4\fE e a2 %100
+		fis h
+		a cis,\trill
+		d4 d( a h)
+		c1
+		h %105
+		a
+		g\pE
+		fis\fE
+		fis'
+		h2 a~ %110
+		a4 fis2 fis4
+		g e2 e4\trill
+		\pao fis r d8.[ fis16 e8. g16]
+		fis4 r d8.[ fis16 e8. g16]
+		fis4 g a h %115
+		fis2 e\trill
+		d' a
+		fis d
+		a4 d8. d16 d8.[ d16 d8. d16]
+		d1\fermata \bar "|." %120 finis
+	}
+}

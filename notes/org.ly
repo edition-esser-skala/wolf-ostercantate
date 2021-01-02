@@ -414,6 +414,256 @@ AllmaechtgerBassFigures = \figuremode {
 	<6>2 <[7] _+> %88 finis
 }
 
+ThutAufOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \tempoThutAuf
+		\mvTrh d8\ff-\tuttiE d d d d d d d
+		d d d d d d d d
+		d d d d d d d d
+		d4 r r2
+		d8 d d d d d' d d %5
+		d4 r r2
+		h,8 h' h h h h h h
+		h4 r r h
+		e,8 e e e a a a a
+		fis fis fis fis h h a a %10
+		g g fis fis e e d d
+		a4 r \clef "treble_8" a'8.[\p^\vlc^\senzaPed cis16 h8. d16]
+		cis4 r a8.[ cis16 h8. d16]
+		cis4 r \clef bass a,8.[\ff^\ped^\bassi cis16 h8. d16]
+		cis8.[ e16 d8. fis16] e4 a, %15
+		d r \clef "treble_8" d'8.[\p^\senzaPed^\vlc fis16 e8. g16]
+		fis4 r d8.[ fis16 e8. g16]
+		fis4 r \clef bass d,8.[\ff^\ped^\bassi fis16 e8. g16]
+		fis8.[ a16 g8. h16] a4 d,
+		g,8 g'\p g g g g g g %20
+		g,\f g'\p g g g g g g
+		fis\ff fis fis fis g g g g
+		a a a a a, a a a
+		d4 r fis a
+		d r fis, a %25
+		d8 d h h fis fis g g
+		a a a a a, a a a
+		d2 r
+		R1
+		r2 r4 d %30
+		cis2 d
+		a r
+		R1
+		r2 r4 e'
+		fis2 h, %35
+		fis' r
+		h,8. h'16 h4 r2
+		e,8. e16 e4 r2
+		a,8. a'16 a4 r2
+		d,8.[-\unisono d'16 d8. d16] d cis h a g fis e d %40
+		e8 e e e fis fis fis fis
+		d d d d e e e e
+		a,4 r r2
+		R1
+		a8.[\ff a'16 cis8. a16] fis8.[ fis16 a8. fis16] %45
+		cis8.[ cis16 e8. cis16] a8.[ a16 cis8. a16]
+		d8 d\p d d e e e e
+		a,8.[\ff a'16 cis8. a16] fis8.[ fis16 a8. fis16]
+		cis8.[ cis16 e8. cis16] a8.[ a16 cis8. a16]
+		d8 d d d e e e e %50
+		fis fis fis fis h h h h
+		gis4-! a-! gis-! a-!
+		e8.[ e16 e8. e16] e8.[ e16 e8. e16]
+		a,4 r cis e
+		a r cis, e %55
+		a8 a cis, cis d d fis fis
+		e e e e e, e e e
+		a4 \clef "treble_8" a'(\p^\senzaPed^\vlc a a)
+		fis fis'( fis fis)
+		e( e e e) %60
+		d( d d d)
+		cis r cis r
+		R1
+		\clef bass fis,2^\ped^\bassi r4 a8. fis16
+		h2 r4 d,8. h16 %65
+		e2 r4 gis8. e16
+		a4 a8.\f a16 gis8.[ gis16 fis8. fis16]
+		eis4 cis'\p r8. fis,16[ a8. fis16]
+		cis4 cis' r8. fis,16[ a8. fis16]
+		cis4 cis' r8. fis,16[ a8. fis16] %70
+		cis'4 cis, r2
+		d1
+		cis2\fermata r
+		d4\ff r r2
+		d8 d d d d d d d %75
+		d'4 r r2
+		h,8 h' h h h h h h
+		h4 r r h
+		e,8 e e e a a a a
+		fis fis fis fis h h a a %80
+		g g fis fis e e d d
+		a'4 r \clef "treble_8" a8.[\p ^\senzaPed^\vlc cis16 h8. d16]
+		cis4 r a8.[ cis16 h8. d16]
+		cis4 r \clef bass a,8.[\ff^\ped^\bassi cis16 h8. d16]
+		cis8.[ e16 d8. fis16] e4 a, %85
+		d r \clef "treble_8" d'8.[\p^\senzaPed^\vlc fis16 e8. g16]
+		fis4 r d8.[ fis16 e8. g16]
+		fis4 r \clef bass d,8.[\ff^\ped^\bassi fis16 e8. g16]
+		fis8.[ a16 g8. h16] a4 d,
+		g,8 g'\p g g g, g' g g %90
+		dis\f dis\p dis dis e e e e
+		h\f h'\p h h e, e, e e
+		h'\f h\p h h c c c c
+		g\f g'\p g g g, g' g g
+		a,\f a' a a a a a a %95
+		a,4 r r2
+		a'4 r r2
+		a,4 r r2
+		R1
+		a8\ff a' a a fis fis fis fis %100
+		h h h h g g e e
+		a8.[ a16 a8. a16] a,8.[ a16 a8. a16]
+		d4 r r2
+		R1
+		d4 r r2 %105
+		d4 r r2
+		R1
+		d8\ff d d d d' d d d
+		h h h h h h h h
+		g g g g d d fis fis %110
+		a8.[ a16 a8. a16] a8.[ a16 a8. a16]
+		a8.[ a,16 a8. a16] a8.[ a16 a8. a16]
+		d,4 r fis' a
+		d r fis, a
+		d8 d h h fis fis g g %115
+		a8.[ a16 a8. a16] a,8.[ a16 a8. a16]
+		d8 d d d d d d d
+		d d d d d d d d
+		d d d d d d d d
+		d1\fermata \bar "|." %120 finis
+	}
+}
+
+ThutAufBassFigures = \figuremode {
+	r1
+	r
+	<6 4>2 <7 2>
+	<8 3>1
+	r %5
+	r
+	<5>
+	r
+	r
+	r2. <6 4 [2]>4 %10
+	r <6> q2
+	r2. <7>4
+	<6>2. <7>4
+	<6>2. <7>4
+	<6>2 <5>4 <7> %15
+	r2. <7>4
+	<6>2. <7>4
+	<6>2. <7>4
+	<6>2 <_!>4 <[7!]>
+	r1 %20
+	<4+ 2>
+	<6>
+	<6 4>2 <5 3>
+	r2 <6>
+	r q %25
+	r4 q q2
+	<6 4> <[7] 5 3>
+	r1
+	r
+	r %30
+	<6>
+	r
+	r
+	r
+	<_+> %35
+	q
+	r
+	r
+	r
+	r %40
+	<7 _+>2 <5 3>
+	<6 5> <5 _+>
+	r1
+	r
+	r2 <5> %45
+	<6>2. <[6]>4
+	r2 <6 4>4 <7 _+>
+	r2 <5>
+	<6>2. q4
+	r2 <7 _+> %50
+	<5> <7 _+>
+	<6 5> q
+	<6 4> <[7] 5 _+>
+	r2 <6>4 <_+>
+	r2 <6>4 <_+> %55
+	r <6>2 q4
+	<6 4>2 <5 4>4 <\t _+>
+	r1
+	<5>
+	<6 _+> %60
+	<7>2 <6>4 <6\\>
+	<[5+ _+]>1
+	r
+	r2. <[6]>4
+	r2. q4 %65
+	\bo <[_+]>2. \bc <[6]>4
+	r2 <[6\\]>
+	<6>4 <[5+ _+]>2 <6>4
+	<[5+] _+>2. <6>4
+	<[5+] _+>2. <6>4 %70
+	<6 4>4 <5+ _+>2.
+	<7>2 <6>4 <6\\ [4\\]>
+	<[5+] _+>1
+	r
+	r %75
+	r
+	<5>
+	r
+	r
+	r2. <6 4 [2]>4 %80
+	r <6> q2
+	r2. <7>4
+	<6>2. <7>4
+	<6>2. <7>4
+	<6>2 <5>4 <7> %85
+	r2. <7>4
+	<6>2. <7>4
+	<6>2. <7>4
+	<6>2 <_!>4 <[7!]>
+	r1 %90
+	<[6 5]>
+	<[_+]>
+	<[6 _!]>
+	r
+	<_+>4 <4 2> <5 _+> <6 4> %95
+	<7 5>1
+	<6 4>
+	<5 3>
+	r
+	r2 <5> %100
+	r <6>
+	<6 4> <[7] 5 3>
+	r1
+	r
+	<6 4> %105
+	<5 3>
+	r
+	r
+	<5>
+	r2. <6>4 %110
+	<6 4>1
+	<[7] 5 3>
+	r2 <6>
+	r q
+	r4 q q2 %115
+	<6 4> <5 3>
+	r1
+	r
+	r
+	r %120 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
