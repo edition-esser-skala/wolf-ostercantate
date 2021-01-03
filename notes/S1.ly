@@ -514,6 +514,363 @@ JesusChristusSopranoALyricsB = \lyricmode {
 	jah! %20 finis
 }
 
+SieheDasSopranoANotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/2 \autoBeamOff \tempoSieheDas
+		R1*2
+		c'2^\soloE a4 f
+		f'2 c4 a
+		a' g8([ f)] e([ d)] c([ b)] %5
+		a2 r4 f
+		f2. f4
+		b2 r4 b8.([ d16)]
+		d2( c4.) b8
+		a2 r %10
+		R1
+		c2 a4 f
+		f'2 c4 a
+		a' g8([ f)] e([ d)] c([ b)]
+		a2 h4 c %15
+		g2. f16([\trill e f8)]
+		e4 c'8.[ c16] d[ c h c] d[ c h c]
+		f4 c8.[ c16] d[ c h c] d[ c h c]
+		g'2 f8([ e)] d([ cis)]
+		d[ f e\trill d] a'4. c,8 %20
+		h2 r
+		d h4 g
+		g'2 \appoggiatura f8 e4 \appoggiatura d8 c4
+		\appoggiatura c8 h4 a8([ g)] d'4. f,8
+		e2 r4 c' %25
+		c2( h4) gis
+		a r a c
+		g g8 g g4. f'8
+		e2 r
+		R1*3 %32
+		d2 d4 b
+		f'!2 d4 b
+		g'4. g8 f4 es %35
+		d2 r
+		c a4 f
+		f' e! d c
+		h2( b4) a\turn
+		g c~ c16[ e d f] e[ g f a] %40
+		g4 b,4. a16[ b] c8.[ b16]
+		a4-! c~ c8[ d16 e] f[ e f g]
+		a4 c,4. b16[ c] d8.[ c16]
+		b4 g'~ g16[ f e d] e[ f g a]
+		b4 g e b %45
+		a f' es cis
+		d b a g
+		c2 e,
+		f r
+		R1 %50
+		f'2 c4 c
+		c4. a'8 g([ e)] c([ b)]
+		a2 r
+		R1
+		f'2 c4 a %55
+		g2. a8([ g)]
+		g2 r4 c
+		f2( \grace e8 d4) \appoggiatura c8 h4
+		c2 r4 c
+		f2( \grace e8 d4) \appoggiatura c8 h4 %60
+		c2( cis
+		d4) f2 e8 d
+		\appoggiatura e16 d8[( c)] c4 r2
+		r g4 a
+		b2( a16[ g8.)] f16([ e8.)] %65
+		f4 r r2
+		r4 f'~ f8[ c] b a
+		\appoggiatura b16 a8([ g)] g4 g a
+		b2( a8[ g)] f([ e)]
+		f2 f' %70
+		e b'
+		a4 r r f
+		c d a b
+		c2( h4 b
+		a2) g4.\trill f8 %75
+		f2 r4 e'8. e16
+		f2 r4 e
+		f2 r
+		R1*6 %84
+		r2 r4 c %85
+		c2 c,4 r
+		r2 r4 c'
+		\appoggiatura b8 as4 as as as
+		\appoggiatura g8 f4 f r as
+		\appoggiatura g8 f2~ f8[ g16 f e8] f %90
+		g2 r
+		r r4 f'
+		\appoggiatura f16 e8([ d16 c)] c4 r2
+		r4 c f4. h,8
+		c2 r \noBreak %95
+		r r4 r8. c16 \bar "|"
+		\time 3/8 \tempoSieheDasB \newSpacingSection
+			c8([ a)] fis \noBreak
+		fis16([ g)] g8 b
+		a8.([ es'16)] d([ c)]
+		\appoggiatura c32 b16([ a32 g)] g8 b %100
+		b([ a)] g
+		g f f
+		b16.([ a32 cis8)] d
+		a4 r16. a32
+		a8([ f')] \appoggiatura e16 d8 %105
+		cis16.([ f32)] e8 r16. a,32
+		a8([ f')] \appoggiatura e16 d8
+		\appoggiatura c16 b8 b r16. g'32
+		g4 f8
+		r16 e f([ <d a'>)] cis([ e)] %110
+		d4 r16. d32
+		es4 es8
+		es16([ b)] b8 es
+		g16.([ f32 es8)] d
+		d\trill cis r %115
+		r r d
+		d([\fermata e8.)] d16\trill
+		d4 r8
+		R4.*4 \bar "|" %122
+		\time 2/2 \tempoSieheDasC \newSpacingSection
+			c2 a4 f \noBreak
+		f'2 c4 a
+		a' g8([ f)] e([ d)] c([ b)] %125
+		a2 r4 f
+		f2. f4
+		f( b d) f
+		f( e16[ g f a] g4.) b,8
+		a2 r %130
+		R1
+		c2 a4 f
+		f'2 c4 a
+		a' g8([ f)] e([ d)] c([ b)]
+		a4( b) c d %135
+		es2. es,4
+		d d'16[ es d c] d[ b c d] es[ f g a]
+		b4 f~ f8[ g16 f] es8.[ d16]
+		c4-! c16[ d c b] c[ a b c] d[ e f g]
+		a4 c,~ c8[ b16 c] d8.[ c16] %140
+		b8 b4 b8~ b[ c16 d] e[ f g a]
+		b4 g e b
+		a f' e16([ d8.)] c16([ h8.)]
+		c2 r
+		g' f8([ e)] d([ cis)] %145
+		d8.([ e16)] f4 f f
+		f2( es8[ d)] c([ h)]
+		c8.[ c16] d[ c h c] es4 es
+		es4. es8 d([ c)] b([ a)]
+		d2( c %150
+		h2.) h4
+		c2~ c8[ f16 g] a[ g f e]
+		d4 d( c) b
+		a2( g4.)\trill f8
+		f2 r %155
+		R1
+		f'2 c4 c
+		c4. a'8 g([ e)] c([ b)]
+		a2 r
+		R1 %160
+		f'2 c4 a
+		g2. a8([ g)]
+		g2 r4 c
+		f2( \grace e8 d4) \appoggiatura c8 h4
+		c2 r4 c %165
+		a'4( \grace g8 f4 \grace e8 d4) \appoggiatura c8 h4
+		c2( cis
+		d4) f2 e8 d
+		\appoggiatura e16 d8([ c)] c4 r c
+		c g g a %170
+		b2( a8[ g)] f([ e)]
+		f2 es'
+		d b'
+		a4 r r f
+		f a, b d %175
+		c2 b8[ a g f]
+		g2.\trill f4
+		f2 r4 e'8. e16
+		f2 r4 e
+		f f, r2 %180
+		r4 f' f2~
+		f8\fermata c^\markup \remark "ad libitum" a f8 g4.\trill f8
+		f2 r
+		R1*7 %190
+		R1\fermataMarkup \bar "|." %191 finis
+	}
+}
+
+SieheDasSopranoALyrics = \lyricmode {
+	Sie -- he, das %3
+	ſchö -- ne, das
+	ſchö -- ne Mor -- gen -- %5
+	roth in
+	dunk -- ler
+	Nacht, in __
+	dunk -- ler
+	Nacht! %10
+
+	Al -- ſo das
+	Le -- ben, das
+	Le -- ben durch den
+	Tod, durch den %15
+	Tod er --
+	wacht, __ _ _ _
+	_ _ _ _
+	_ durch den
+	Tod __ _ er -- %20
+	wacht.
+	Sie -- he, das
+	ſchö -- ne, das
+	ſchö -- ne Mor -- gen --
+	roth in %25
+	dunk -- ler
+	Nacht, ſie -- he,
+	ſie -- he, das Mor -- gen --
+	roth!
+
+	Al -- ſo das %33
+	Le -- ben, das
+	Le -- ben durch den %35
+	Tod,
+	al -- ſo das
+	Le -- ben durch den
+	Tod __ er --
+	wacht, __ _ _ %40
+	_ _ _ _
+	_ _ _
+	_ _ _ _
+	_ _ _
+	_ _ _ _ %45
+	_ _ _ das
+	Le -- ben durch den
+	Tod er --
+	wacht.
+	%50
+	Sie -- he, das
+	ſchö -- ne Mor -- gen --
+	roth,
+
+	ſie -- he, das %55
+	Mor -- gen --
+	roth in
+	dunk -- ler
+	Nacht, das
+	Mor -- gen -- %60
+	roth! __
+	Al -- ſo das
+	Le -- ben
+	durch den
+	Tod __ er -- %65
+	wacht,
+	al -- ſo das
+	Le -- ben durch den
+	Tod __ er --
+	wacht, __ _ %70
+	_ _
+	_ das
+	Le -- ben durch den
+	Tod __
+	_ er -- %75
+	wacht, durch den
+	Tod er --
+	wacht.
+
+	Was %85
+	zagſt du,
+	was
+	zagſt du, mei -- ne
+	See -- le, der
+	klei -- nen %90
+	Noth?
+	Was
+	zagſt du
+	der klei -- nen
+	Noth? %95
+	Im
+	tief -- ſten
+	Lei -- den, mit
+	Him -- mels --
+	freu -- den, mit %100
+	Him -- mels --
+	freu -- den er --
+	ſcheint __ dir
+	Gott, mit
+	Him -- mels -- %105
+	freu -- den, mit
+	Him -- mels --
+	freu -- den er --
+	ſcheint dir,
+	er -- ſcheint dir %110
+	Gott, im
+	tief -- ſten
+	Lei -- den, mit
+	Him -- mels --
+	freu -- den %115
+	er --
+	ſcheint dir
+	Gott!
+
+	Sie -- he, das %123
+	ſchö -- ne, das
+	ſchö -- ne Mor -- gen -- %125
+	roth in
+	dunk -- ler
+	Nacht, __ das
+	Mor -- gen --
+	roth! %130
+
+	Al -- ſo das
+	Le -- ben, das
+	Le -- ben durch den
+	Tod, __ durch den %135
+	Tod er --
+	wacht, __ _ _ _
+	_ _ _
+	_ _ _ _
+	_ _ _ %140
+	_ _ _ _
+	_ _ _ _
+	_ _ _ er --
+	wacht,
+	al -- ſo das %145
+	Le -- ben durch den
+	Tod __ er --
+	wacht, __ _ _ das
+	Le -- ben durch den
+	Tod __ %150
+	er --
+	wacht, __ _
+	_ durch __ den
+	Tod __ er --
+	wacht. %155
+
+	Sie -- he, das
+	ſchö -- ne Mor -- gen --
+	roth,
+	%160
+	ſie -- he, in
+	dunk -- ler
+	Nacht, das
+	Mor -- gen --
+	roth, das %165
+	Mor -- gen --
+	roth! __
+	Al -- ſo das
+	Le -- ben, das
+	Le -- ben durch den %170
+	Tod __ er --
+	wacht, __ _
+	_ _
+	_ das
+	Le -- ben durch den %175
+	Tod __ _
+	_ er --
+	wacht, durch den
+	Tod, das
+	Le -- ben, %180
+	das Le --
+	ben durch den Tod er --
+	wacht. %183 finis
+}
+
 % SopranoANotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -200,3 +200,103 @@ ThutAufOboeI = {
 		d1\fermata \bar "|." %120 finis
 	}
 }
+
+SieheDasOboeI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/2 \tempoSieheDas
+		R1*35 %35
+		r8. f'16\pE f8[ g16 f] e!8 f16 e d8[ e16 d]
+		c4 r r2
+		R1*3 %40
+		r4 b4. a16 b c8.[ b16]
+		a4 r r2
+		r4 c4. b16 c d8.[ c16]
+		b4 r r2
+		R1*3 %47
+		f'4\fE f g g8. g16
+		f4 r r2
+		R1*3 %52
+		f4\fE r r2
+		g4 r r2
+		R1*2 %56
+		c,4\fE r g2\p
+		a h
+		c4\f r g2\p
+		a h %60
+		c4 r r2
+		f,4\f r r2
+		R1*12 %74
+		f'8\fE r r4 g8 r r4 %75
+		f4 r r2
+		c\p b
+		a\ffE d
+		f4( a) c( cis)
+		d2 g, %80
+		f4 f8. f16 e4 e8. e16
+		f4 r r2
+		R1*9 %91
+		r2 f\f
+		e4 r r2
+		r f\fE
+		e4 r c,\ffE c \noBreak %95
+		c2 r \bar "|"
+		\time 3/8 \tempoSieheDasB \newSpacingSection
+			R4.*7 %103
+		r8 e'\p e
+		f4. %105
+		e8 e e
+		f4.
+		R4.*4 %111
+		g,4.~\mf
+		g4 r8
+		R4.
+		r8 e'!\f e %115
+		f4.~
+		f4\fermata r8
+		R4.*5 %122
+		\time 2/2 \tempoSieheDasC \newSpacingSection
+			R1*7 %129
+		c2\ffE b %130
+		a4 c b4. b8
+		a4 r r2
+		R1*5 %137
+		r4 f'~\pE f8 g16 f es8.[ d16]
+		c4 r r2
+		r4 c~ c8 b16 c d8.[ c16] %140
+		b4 r r2
+		R1*2
+		g1\ffE
+		e'8 r r4 r2 %145
+		R1*8 %153
+		f4\fE f8. f16 g4 g8. g16
+		f4 r r2 %155
+		R1*3
+		r8 c'16\fE d c8[ a] d c b a
+		g b16 c b8[ g] c b a g %160
+		\pao f4 r r2
+		R1
+		c4\fE r g2\p
+		a h
+		c4\f r g2\p %165
+		a h
+		c4 r r2
+		R1*8 %175
+		f4\ffE f8. f16 f4 f
+		e e8. e16 e4 e
+		f r r2
+		c\p b
+		a8\ffE f e f d d' cis d %180
+		a4 a'2 a4
+		a\fermata r r2
+		r r4 c,\fE
+		f r r a,
+		c r r c\ffE %185
+		d2 g
+		f e\trill
+		f4 r r2
+		R1
+		r2 f4.\fE f8 %190
+		f4 r r2\fermata \bar "|." %191 finis
+	}
+}

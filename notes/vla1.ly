@@ -356,3 +356,203 @@ WieDieViola = {
 		r4 <g g'>-! <c g'>-! r\fermata \bar "|." %52 finis
 	}
 }
+
+SieheDasViola = {
+	\relative c' {
+		\clef alto
+		\key f \major \time 2/2 \tempoSieheDas
+		r4 a8.\p a16 a4 a
+		r c8. c16 c4 c
+		f1
+		a
+		d,4\f a c2~\p %5
+		c8 a4 a a a8~
+		a a4 a a a8
+		b b4 b b b8~
+		b b4 b b b8
+		<a f'>2\ff r4 <c e> %10
+		<c f> r r <c e>
+		<c f> r f2~\p
+		f f4 a
+		a,2\f c\p
+		c r %15
+		c h
+		c4 g g' g
+		f f f f
+		e g b!2
+		a4 r d, r %20
+		d\ff h h d
+		\appoggiatura h16 d1\p
+		e
+		h
+		r4 g g g %25
+		r a( gis h)
+		a c2( f4)
+		e16[\f e e e] e e e e f[ d d d] d d d d
+		e4-!~ e2\p \appoggiatura a16 g8\sf f16 e
+		f4~-\parenthesize-! f2\p \appoggiatura e16 d8\sf c16 h %30
+		e8 g4\cresc g g g8
+		fis\ff fis4 fis fis fis8
+		g4 g8.\p g16 g4 g
+		r f!8. f16 f4 d
+		b'\f b2\p a4 %35
+		f r r2
+		f c4 a
+		d r r2
+		r4 d c2~
+		c4 c c c %40
+		c r r2
+		r4 c c c
+		c r r2
+		r4 g' g g
+		g1 %45
+		d'4 a2 a4
+		d,8 f f f g g g g
+		c\f c, c c c c c c
+		c4 r r2
+		c4\p r r2 %50
+		c f~
+		f4 f( e c')
+		c,-!\f r r2
+		c4-! r r2
+		c1\p %55
+		d8 d4 d d d8
+		c\f c c[\p c] c c c c
+		c c c c c c c c
+		g'4\f r c,2~\p
+		c4 c2 c4 %60
+		c2( e)
+		d4-!\f r r2
+		f4 r c\p r
+		r2 c4 c
+		d2 c %65
+		c4-!\f r d\p r
+		a\f r c\p r
+		c c c c
+		d d c c
+		d d h h %70
+		g r c'\mf c
+		f,\p r r2
+		R1
+		c8 c c c d d d d
+		c\f c[\p c c] c\f c[\p c c] %75
+		<c f,>4\f r r c\p
+		<c f,>\f r r c\p
+		c8\ff a' c a b b f b
+		c c c c c4( cis)
+		d2 d16 d d d d[ d d d] %80
+		a[ a a a] a a a a b[ b b b] b b b b
+		a4 r r2
+		e4\p r r2
+		f4 r r2
+		c4 r c r %85
+		c2 r
+		c4 r c r
+		c r c r
+		c r c r
+		des r des r %90
+		c8 c c c c c c c
+		c c c c des\f des des des
+		c c[\p c c] c c c c
+		c c c c des\f des des <des f>
+		<c e>4 r8. e,16\ff e4 e \noBreak %95
+		e2 r \bar "|"
+		\time 3/8 \tempoSieheDasB \newSpacingSection
+			fis'8(\p a fis) \noBreak
+		fis( g) r16. d32
+		es8 d d
+		d8.. f32 e16. d32 %100
+		cis8( d cis)
+		cis( d) a
+		g16.[ f32] e8 a
+		a16. cis32 e8[ cis]
+		a d a %105
+		a cis e
+		a, d a
+		g g b'
+		e,4( d8)
+		b' a g %110
+		f r r
+		r16 g(\mf g g g g)
+		g([ g g g)] b,(\p b)
+		g g g g gis gis
+		a8 a[\f g] %115
+		f r16 d'-! b-! gis-!
+		a4\fermata r8
+		a4\pp r8
+		r d d
+		c4 r8 %120
+		r c( h) \noBreak
+		c c16( a) b( g) \bar "|"
+		\time 2/2 \tempoSieheDasC \newSpacingSection
+			f2\pE f'4 c \noBreak
+		c2 f4 c
+		d\f a c2~\p %125
+		c8 c4 c c c8~
+		c c4 c c c8
+		d d4 d d d8
+		g, g4 g g g8
+		f4\ff r r <c g' e'>\arpeggio %130
+		<c a' f'>\arpeggio r r <c g' e'>\arpeggio
+		<c a' f'>\arpeggio r f'2\p
+		c f4 c
+		f\f a, c2\p
+		c4 r r b8. d16 %135
+		a8. c16 es2 f,4
+		f\f f'\p f f
+		f8 r r4 r2
+		r8 f f f f4 f
+		f8 r r4 r2 %140
+		e4\f e\p e e
+		e1
+		f2 g,
+		g'8\ff g e e e g, g g
+		g cis4\p cis cis a'8 %145
+		a a4 a8 f c'!4 c8
+		h h4 h h h8
+		c g4 g8 b b4 b8
+		a a4 a a a8
+		b f4 f f f8~ %150
+		f8.\f f16 f8.(\trill e32\p f) f8. f16 f8.(\trill e32 f)
+		e8 g g g a a c c
+		d4 r r d,
+		c8\f c c c c c c c
+		c4 r r2 %155
+		c4\p r r2
+		c f~
+		f4 f( e c')
+		c,\f-\parenthesize-! r r2
+		c4-! r r2 %160
+		c4\p c c c
+		d d d d
+		c8\f c c c c\p c c c
+		c c c c c c c c
+		c\f c c c c\p c c c %165
+		c c c c c c c c
+		c2( e)
+		d4\f r r2
+		f4 r c\p r
+		c c c c %170
+		d2 e
+		f8 f f f f\mf f f f
+		f\p f f b c,\f c c c
+		c4\pp f-! d-! f-!
+		a,-! f'-\parenthesize-! b, h %175
+		c16\ff a' a a a[ a a a] a a a a a[ a a a]
+		g g g g g[ g g g] g g g g g[ g g g]
+		f4\p r r c\f
+		c\p r r c\ff
+		c16[ f f f] e f f f d'[ d, d d] cis d d d %180
+		a4 a( b h)
+		c\fermata r r2
+		a4\p c2 \appoggiatura d16 c8\sf b16 a
+		d4-!~ d2\p \appoggiatura g16 f8\sf e16 d
+		a4-!~ a2\p f'8.\ff f16 %185
+		f[ f f f] f f f f f[ f f f] f f f f
+		f[ a a a] a a a a b[ b b b] b b b b
+		a4 r r2
+		e4\p r r2
+		r <c f>4\f r8 q %190
+		q4 r r2\fermata \bar "|." %191 finis
+	}
+}

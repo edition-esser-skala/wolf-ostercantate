@@ -119,3 +119,132 @@ ThutAufCornoI = {
 		c1\fermata \bar "|." %120 finis
 	}
 }
+
+SieheDasCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoSieheDas
+		R1*5 %5
+		r4 c8.\p c16 c4 c
+		c1
+		r4 c8. c16 c4 c
+		g'1
+		c4\f r r d %10
+		e r r d
+		e c8.\p c16 c4 c
+		r c8. c16 c4 c
+		R1*7 %20
+		d4\f d d d
+		r d8.\pp d16 d4 d
+		d1
+		r4 d8. d16 d4 d
+		g,1 %25
+		R1*2
+		d'4\fE d8. d16 d4 d
+		d r r d
+		d r r d %30
+		d r r2
+		R1*5 %36
+		c1~\pp
+		c4 r r2
+		R1*9 %47
+		e4\fE e8. e16 d4 d
+		e8 g16 a g8[ e] a g f e
+		d f16 g f8[ d] g f e d %50
+		c4 r r2
+		R1
+		r8 g'16 a g8[ e] a g f e
+		d f16 g f8[ d] g f e d
+		c4 r r2 %55
+		R1
+		r4 g8.\p g16 g4 g
+		r g8. g16 g4 g
+		g1~
+		g %60
+		g4 r r2
+		\pao c,4\f r r2
+		\pao c'4 g'2\p f8 e
+		e( d) d4 r2
+		R1*6 %70
+		r2 g,\mf
+		c,1~\pp
+		c~
+		c
+		g'4\f r g r %75
+		c r r2
+		c4 r r2
+		c4 c8. c16 c4 c
+		r c8. c16 c4 c
+		c r c d %80
+		e e8. e16 d4 d
+		e8 g16 a g8[ e] a g f e
+		d f16 g f8[ d] g f e d
+		c4 r r2
+		R1*7 %91
+		r2 c4\fE c
+		\pao g r r2
+		r c4 c
+		\pao g r g\ffE g \noBreak %95
+		g2 r \bar "|"
+		\time 3/8 \tempoSieheDasB \newSpacingSection
+			R4.*7 %103
+		e4.~\pp
+		e~ %105
+		e~
+		e4 r8
+		R4.*7 %114
+		r8 e'\f e %115
+		e4 r8
+		e4\fermata r8
+		R4.*5 %122
+		\time 2/2 \tempoSieheDasC \newSpacingSection
+			c1~\pp \noBreak
+		c
+		R1 %125
+		\pa r4 c8.\p c16 c4 c
+		c1
+		r4 c8. c16 c4 c
+		g1 \pd
+		c4\f r r d %130
+		e r r d
+		e c8.\p c16 c4 c
+		r c8. c16 c4 c
+		R1*10 %143
+		d4\ffE d d d
+		\pao e8 r r4 r2 %145
+		R1*5 %150
+		c4\fE r r2
+		R1*2
+		e4\fE e8. e16 d4 d
+		r8 g16 a g8[ e] a g f e %155
+		d f16 g f8[ d] g f e d
+		c4 r r2
+		R1
+		r8 g'16 a g8[ e] a g f e
+		d f16 g f8[ d] g f e d %160
+		c4 r r2
+		R1
+		\pa r4 g8.\p g16 g4 g
+		r g8. g16 g4 g
+		r g8. g16 g4 g %165
+		g1 \pd
+		g4 r r2
+		R1*8 %175
+		e'4\ffE e8. e16 e4 e
+		d d8. d16 d4 d
+		\partcombineChordsOnce e r r2
+		r r4 d
+		e r r2 %180
+		e4 e e e
+		e\fermata r r2
+		r r4 e\fE
+		e r r e
+		e r r e\ffE %185
+		c c8. c16 c4 d
+		e e8. e16 d4 d8. d16
+		e8 g16 a g8[ e] a g f e
+		d f16 g f8[ d] g f e d
+		c4 r c4. c8 %190
+		c4 r r2\fermata \bar "|." %191 finis
+	}
+}
