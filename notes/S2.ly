@@ -508,6 +508,359 @@ JesusChristusSopranoBLyricsB = \lyricmode {
 	jah! %20 finis
 }
 
+DerHerrSopranoBNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/4 \autoBeamOff \tempoDerHerr
+		\mvTr f2.\fE^\tuttiE
+		b
+		d2 c8[ b]
+		a2.
+		b4 b b %5
+		b b b
+		b b r
+		R2.*3 %10
+		f2.\mfE
+		b
+		b
+		a\fE
+		g4 c b %15
+		a g fis
+		g g r
+		R2.*4 %21
+		r4 r g
+		as( b) as
+		as( b) as
+		g2. %25
+		g2 g4
+		as4(\pE es) es
+		es( as) as
+		b2.
+		b4 b b %30
+		a!2.\ffE
+		b~
+		b
+		as
+		g~ %35
+		g
+		fis2 fis4
+		fis2 fis4
+		g g \mvTr g\pE^\solo
+		f!2 f4 %40
+		e2 e4
+		es2.~
+		es4 d g
+		f!2 f4
+		e2 e4 %45
+		es2.~
+		es4 d r
+		r r \mvTrh d\ffE^\tutti
+		g2.
+		c2 es4 %50
+		c2.
+		c
+		c4 g g
+		as g f
+		es2. %55
+		f2( as4)
+		c h c
+		as g g
+		g2 r4
+		R2.*3 %62
+		es2.\fE
+		as
+		as %65
+		g
+		f4 b as
+		g f e
+		f8.([ g16)] as4 r
+		R2. %70
+		f
+		b
+		b
+		a
+		b4 b b %75
+		b b b
+		b b r
+		r r b
+		a b r
+		r r b %80
+		a b r
+		r r b8.([ f16)]
+		g4 g g
+		g2.
+		f4 f r %85
+		R2.*4
+		r4 r a %90
+		b f8[ es f g]
+		as4 g f
+		g4. f8[ g as]
+		b4 as g
+		as4. g8[ as b] %95
+		c4 b as
+		g b b
+		a! c b
+		b\trill a r
+		r r a\mfE %100
+		a( b) a
+		a( b) a
+		e2.
+		e2 e4
+		f( g) a %105
+		a( b) a
+		d,2.
+		d4 d f
+		b2.~
+		b~\ffE %110
+		b\mfE
+		b\pE
+		b\ffE
+		b
+		a %115
+		a2 a4
+		b2 a4
+		gis2 gis4
+		a a \mvTr a\pE^\solo
+		g!2 g4 %120
+		fis2 fis4
+		f2.~
+		f4 e a
+		g!2 g4
+		fis2 fis4 %125
+		f2.~
+		f4 e r
+		r r \mvTr e\fE^\tutti
+		a2.
+		b2 b4 %130
+		a2.
+		b
+		a4 g f
+		g f e
+		f2 r4 %135
+		R2.*3
+		f2.
+		b %140
+		b
+		as
+		g2 ges4
+		f2.
+		e2 f4 %145
+		g!2 g4
+		f f r
+		r r g\ffE
+		f f r
+		r a g8.([ a16)] %150
+		b4\trill a r
+		r r a\pE
+		a( b) a
+		a( b) a
+		a2. %155
+		a2 a4
+		b( c) d
+		d( es) d
+		g,2.
+		g2 g4\fE %160
+		c2.~
+		c4 b a
+		d2.~
+		d4 c b
+		es2.~ %165
+		es4 d c
+		b2 r4
+		r r b
+		c2.~
+		c4 b a %170
+		d2.~
+		d4 c b
+		es2.~
+		es4 d c
+		b2.\pE %175
+		b
+		b4 b f
+		a a c
+		b2.\fE
+		b %180
+		b4 b f
+		a a f
+		f2 r4
+		R2.*9 %192
+		R2.\fermataMarkup \bar "|." %193 finis
+	}
+}
+
+DerHerrSopranoBLyrics = \lyricmode {
+	Der
+	Herr
+	töd -- _
+	_
+	_ tet und %5
+	ma -- chet le --
+	ben -- dig,
+
+	der %11
+	Herr
+	töd --
+	_
+	_ tet und %15
+	ma -- chet le --
+	ben -- dig,
+
+	er %22
+	füh -- ret
+	in __ die
+	Höl -- %25
+	le, er
+	füh -- ret
+	in __ die
+	Höl --
+	le, in die %30
+	Höl --
+	_
+
+	_
+	_ %35
+
+	_ le,
+	in die
+	Höl -- le, er
+	füh -- ret %40
+	in die
+	Höl --
+	le, er
+	füh -- ret
+	in die %45
+	Höl --
+	le,
+	und
+	füh --
+	ret hin -- %50
+	aus,
+	er
+	füh -- ret, er
+	füh -- ret hin --
+	aus, %55
+	er __
+	füh -- ret, er
+	füh -- ret hin --
+	aus.
+
+	Der %63
+	Herr
+	töd -- %65
+	_
+	_ tet und
+	ma -- chet le --
+	ben -- dig,
+	%70
+	der
+	Herr
+	töd --
+	_
+	_ tet und %75
+	ma -- chet le --
+	ben -- dig,
+	er
+	töd -- tet,
+	er %80
+	töd -- tet
+	und
+	ma -- chet le --
+	ben --
+	_ dig, %85
+
+	le -- %90
+	ben -- _
+	_ _ _
+	_ _
+	_ _ _
+	_ _ %95
+	_ dig, er
+	töd -- tet und
+	ma -- chet le --
+	ben -- dig,
+	er %100
+	füh -- ret
+	in __ die
+	Höl --
+	le, er
+	füh -- ret %105
+	in __ die
+	Höl --
+	le, in die
+	Höl --
+
+	le, %112
+	in
+	die
+	Höl -- %115
+	le, er
+	füh -- ret
+	in die
+	Höl -- le, er
+	füh -- ret %120
+	in die
+	Höl --
+	le, er
+	füh -- ret
+	in die %125
+	Höl --
+	le
+	und
+	füh --
+	ret hin -- %130
+	aus,
+	er
+	füh -- ret, er
+	füh -- ret hin --
+	aus. %135
+
+	Der %139
+	Herr %140
+	töd --
+	_
+	_ _
+	_
+	_ tet, %145
+	der Herr
+	töd -- tet,
+	er
+	töd -- tet,
+	der Herr %150
+	töd -- tet
+	und
+	füh -- ret
+	in __ die
+	Höl -- %155
+	le, er
+	füh -- ret
+	in __ die
+	Höl --
+	le und %160
+	ma --
+	chet le --
+	ben --
+	dig, und
+	füh -- %165
+	ret hin --
+	aus,
+	er
+	ma --
+	chet le -- %170
+	ben --
+	dig, und
+	füh --
+	ret hin --
+	aus, %175
+	er
+	füh -- ret, er
+	füh -- ret hin --
+	aus,
+	er %180
+	füh -- ret, er
+	füh -- ret hin --
+	aus. %183 finis
+}
+
 % SopranoBNotes = {
 % 	\relative c' {
 % 		\clef treble

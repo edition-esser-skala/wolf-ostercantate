@@ -370,72 +370,136 @@
 	% 		\midi { \tempo 4 = 60 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+  %     genre = "A R I A"
+	% 		number = "6"
+	% 		title = "Siehe, das ſchöne Morgenroth in dunkler Nacht"
+	% 	}
+	% 	\paper {
+	% 		top-system-spacing.basic-distance = #10
+	% 		top-system-spacing.minimum-distance = #10
+	% 		top-markup-spacing.basic-distance = #0
+	% 		top-markup-spacing.minimum-distance = #0
+	% 		markup-system-spacing.basic-distance = #10
+	% 		markup-system-spacing.minimum-distance = #10
+	% 		systems-per-page = #2
+	% 	}
+	% 	\tocLabelLong "siehedas" "6" "Aria" "Siehe, das ſchöne Morgenroth in dunkler Nacht"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup \with { \smallGroupDistance } <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+	% 					\partcombine \SieheDasOboeI \SieheDasOboeII
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup \with { \smallGroupDistance } <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "cor (F)" "1, 2" }
+	% 					% \transpose c f,
+	% 					\partcombine \SieheDasCornoI \SieheDasCornoII
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\SieheDasViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\SieheDasViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\SieheDasViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S [1]"
+	% 					\new Voice = "SopranoA" { \dynamicUp \SieheDasSopranoANotes }
+	% 				}
+	% 				\new Lyrics \lyricsto SopranoA \SieheDasSopranoALyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "org" "b" }
+	% 					% \transpose c c,
+	% 					\SieheDasOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \SieheDasBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 2 = 65 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-      genre = "A R I A"
-			number = "6"
-			title = "Siehe, das ſchöne Morgenroth in dunkler Nacht"
+      genre = "C O R O"
+			number = "7"
+			title = "Der Herr tödtet und machet lebendig"
 		}
-		\paper {
-			top-system-spacing.basic-distance = #10
-			top-system-spacing.minimum-distance = #10
-			top-markup-spacing.basic-distance = #0
-			top-markup-spacing.minimum-distance = #0
-			markup-system-spacing.basic-distance = #10
-			markup-system-spacing.minimum-distance = #10
-			systems-per-page = #2
-		}
-		\tocLabelLong "siehedas" "6" "Aria" "Siehe, das ſchöne Morgenroth in dunkler Nacht"
+		\tocLabelLong "derherr" "7" "Coro" "Der Herr tödtet und machet lebendig"
 		\score {
 			<<
-				\new StaffGroup \with { \smallGroupDistance } <<
-					\new Staff <<
-						\set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
-						\partcombine \SieheDasOboeI \SieheDasOboeII
-					>>
-				>>
-				\new StaffGroup \with { \smallGroupDistance } <<
-					\new Staff <<
-						\set Staff.instrumentName = \markup \center-column { "cor (F)" "1, 2" }
-						% \transpose c f,
-						\partcombine \SieheDasCornoI \SieheDasCornoII
-					>>
-				>>
 				\new StaffGroup <<
 					\new GrandStaff \with { \smallGroupDistance } <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\SieheDasViolinoI
+							\DerHerrViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\SieheDasViolinoII
+							\DerHerrViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\SieheDasViola
+						\DerHerrViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "S [1]"
-						\new Voice = "SopranoA" { \dynamicUp \SieheDasSopranoANotes }
+						\set Staff.instrumentName = "S 1"
+						\new Voice = "SopranoA" { \dynamicUp \DerHerrSopranoANotes }
 					}
-					\new Lyrics \lyricsto SopranoA \SieheDasSopranoALyrics
+					\new Lyrics \lyricsto SopranoA \DerHerrSopranoALyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "S 2"
+						\new Voice = "SopranoB" { \dynamicUp \DerHerrSopranoBNotes }
+					}
+					\new Lyrics \lyricsto SopranoB \DerHerrSopranoBLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "T"
+						\new Voice = "Tenore" { \dynamicUp \DerHerrTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \DerHerrTenoreLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "B"
+						\new Voice = "Basso" { \dynamicUp \DerHerrBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \DerHerrBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup \center-column { "org" "b" }
 						% \transpose c c,
-						\SieheDasOrgano
+						\DerHerrOrgano
 					}
 				>>
-				\new FiguredBass { \SieheDasBassFigures }
+				\new FiguredBass { \DerHerrBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 65 }
+			\midi { \tempo 4 = 130 }
 		}
 	}
 }

@@ -609,6 +609,360 @@ WieDieTenoreBLyrics = \lyricmode {
 	ich bin todt! %42 finis
 }
 
+DerHerrTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 3/4 \autoBeamOff \tempoDerHerr
+		\mvTr d2.\fE^\tuttiE
+		g
+		f2 es8[ d]
+		c2.
+		d8.[ f16] f4 f %5
+		es d es
+		es\trill d r
+		R2.*3 %10
+		d2.\mfE
+		g
+		f
+		es\fE
+		d4 fis g %15
+		c, b c
+		b d r
+		R2.*2
+		r4 r es %20
+		b( c) b
+		b( c) b
+		b2.
+		b2 b4
+		b( c) b %25
+		b( c) b
+		as2(\pE ces4)
+		ces2 es4
+		es2 es4
+		es2 es4 %30
+		f2.~\ffE
+		f
+		g
+		f
+		d %35
+		c~
+		c4 d es
+		es( d) c
+		c\trill h \mvTr es\pE^\solo
+		d2 d4 %40
+		c2 c4
+		c2.~
+		c4 h es
+		d2 d4
+		c2 c4 %45
+		c2.~
+		c4 h r
+		r r \mvTrh h\ffE^\tutti
+		es2.
+		es2 as4 %50
+		g2( es4)
+		as2.
+		g4 f es
+		f es d
+		c2. %55
+		c2( f4)
+		es d c8.([ g'16)]
+		f4 es d
+		es2 r4
+		R2.*3 %62
+		c2.\fE
+		f
+		es %65
+		des
+		c4 e f
+		c c c
+		c c r
+		R2. %70
+		d!
+		g
+		f2 es8[ d]
+		c2.
+		d4 es f %75
+		es d es
+		es\trill d r
+		r r d
+		es d r
+		r r d %80
+		es d r
+		r r b
+		b2.~
+		b4 b b
+		b a r %85
+		R2.*4
+		r4 r c %90
+		d4. c8[ d es]
+		f4 es d
+		es4. d8[ es f]
+		g4 f e
+		f4. e8[ f g] %95
+		as4 g f
+		es es f
+		f f f
+		f f r %99
+		R2.*2 %101
+		r4 r c\mfE
+		c2.
+		c
+		c %105
+		c
+		b
+		b4 b d
+		es2.
+		d\ffE %110
+		es\mfE
+		f\pE
+		g!\ffE
+		g
+		f %115
+		f2 f4
+		f2 f4
+		f( e) d
+		d\trill cis \mvTr f\pE^\solo
+		e2 e4 %120
+		d2 d4
+		d2.~
+		d4 cis f
+		e2 e4
+		d2 d4 %125
+		d2.~
+		d4 cis r
+		r r \mvTr cis\fE^\tutti
+		d2.
+		d2 f4 %130
+		d2.
+		d
+		d4 cis d
+		b a a
+		a2 r4 %135
+		R2.*3
+		d2.
+		g %140
+		f
+		es
+		d4 c2~
+		c4 b2~
+		b4 c des %145
+		des( c) des
+		des\trill c r
+		r r b\ffE
+		b\trillE a r
+		r f' b, %150
+		f' f r
+		R2.*2
+		r4 r c\pE
+		f2 f4 %155
+		f2 f4
+		f2.
+		f4 b, f'
+		es2.
+		es2 es4\fE %160
+		es f g
+		a, b f
+		f' g a
+		b, c g
+		g'2. %165
+		a,4 b c
+		d2 r4
+		r r f
+		es f g
+		a, b f %170
+		f' g a
+		b, c g
+		g'2.
+		a,4 b es
+		d2.\pE %175
+		es
+		d4 f d
+		c es c
+		f2.\fE
+		es %180
+		d4 f d
+		c es c
+		d2 r4
+		R2.*9 %192
+		R2.\fermataMarkup \bar "|." %193 finis
+	}
+}
+
+DerHerrTenoreLyrics = \lyricmode {
+	Der
+	Herr
+	töd -- _
+	_
+	_ tet und %5
+	ma -- chet le --
+	ben -- dig,
+
+	der %11
+	Herr
+	töd --
+	_
+	_ tet und %15
+	ma -- chet le --
+	ben -- dig,
+
+	er %20
+	füh -- ret
+	in __ die
+	Höl --
+	le, er
+	füh -- ret %25
+	in __ die
+	Höl --
+	le, er
+	füh -- ret
+	in die %30
+	Höl --
+
+	_
+	_
+	_ %35
+	_
+	_ le,
+	in __ die
+	Höl -- le, er
+	füh -- ret %40
+	in die
+	Höl --
+	le, er
+	füh -- ret
+	in die %45
+	Höl --
+	le,
+	und
+	füh --
+	ret hin -- %50
+	aus, __
+	er
+	füh -- ret, er
+	füh -- ret hin --
+	aus, %55
+	er __
+	füh -- ret, er __
+	füh -- ret hin --
+	aus.
+
+	Der %63
+	Herr
+	töd -- %65
+	_
+	_ tet und
+	ma -- chet le --
+	ben -- dig,
+	%70
+	der
+	Herr
+	töd -- _
+	_
+	_ tet und %75
+	ma -- chet le --
+	ben -- dig,
+	er
+	töd -- tet,
+	er %80
+	töd -- tet
+	und
+	ma --
+	chet le --
+	ben -- dig, %85
+
+	le -- %90
+	ben -- _
+	_ _ _
+	_ _
+	_ _ _
+	_ _ %95
+	_ dig, er
+	töd -- tet und
+	ma -- chet le --
+	ben -- dig,
+
+	er %102
+	füh --
+	ret
+	in %105
+	die
+	Höl --
+	le, in die
+	Höl --
+	_ %110
+	_
+	le,
+	in
+	die
+	Höl -- %115
+	le, er
+	füh -- ret
+	in __ die
+	Höl -- le, er
+	füh -- ret %120
+	in die
+	Höl --
+	le, er
+	füh -- ret
+	in die %125
+	Höl --
+	le
+	und
+	füh --
+	ret hin -- %130
+	aus,
+	er
+	füh -- ret, er
+	füh -- ret hin --
+	aus. %135
+
+	Der %139
+	Herr %140
+	töd --
+	_
+	_ _
+	_
+	_ tet, %145
+	der __ Herr
+	töd -- tet,
+	er
+	töd -- tet,
+	der Herr %150
+	töd -- tet
+
+	und %154
+	füh -- ret %155
+	in die
+	Höl --
+	le, in die
+	Höl --
+	le und %160
+	ma -- _ _
+	_ chet le --
+	ben -- _ _
+	_ dig, und
+	füh -- %165
+	_ ret hin --
+	aus,
+	er
+	ma -- chet le --
+	ben -- dig, er %170
+	ma -- chet le --
+	ben -- dig, und
+	füh --
+	_ ret hin --
+	aus, %175
+	er
+	füh -- ret, er
+	füh -- ret hin --
+	aus,
+	er %180
+	füh -- ret, er
+	füh -- ret hin --
+	aus. %183 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

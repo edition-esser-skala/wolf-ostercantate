@@ -1216,6 +1216,402 @@ SieheDasBassFigures = \figuremode {
 	r %191 finis
 }
 
+DerHerrOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 3/4 \tempoDerHerr
+		\mvTr b4\fE-\tuttiE \appoggiatura c'16 b8. a16 b4
+		g, \appoggiatura a'16 g8. f16 g4
+		d \appoggiatura es16 d8. c16 d4
+		es \appoggiatura f16 es8. d16 es4
+		d c b %5
+		g' f es
+		b' b, r
+		r r8. cis'16[-\unisono d8. f,16]
+		b8. b,16 b4 r
+		r r8. cis'16[ d8. f,16] %10
+		b4 \appoggiatura c16 b8.\mf a16 b4
+		g \appoggiatura a16 g8. f16 g4
+		d \appoggiatura es16 d8. c16 d4
+		c\f \appoggiatura d'16 c8. b16 c4
+		b a g %15
+		fis g a
+		g g, r
+		r r8. \mvTrh b'16[\ff-\unisono es8. fis,16]
+		g8. g,16 g4 r
+		r r8. b'16[ es8. fis,16] %20
+		g4 r r
+		r r g\fE
+		f!( g f)
+		f( g f)
+		es( es es) %25
+		es( es es)
+		as\p as as
+		as as as
+		ges8 ges ges ges ges ges
+		ges ges ges ges ges ges %30
+		f\ff f f f f f
+		b b b b b, b
+		e e e e e e
+		f f f f f f
+		h, h h h h h %35
+		c c c c c c
+		as as as as as as
+		as as as as as as
+		g g g4 r
+		\clef "treble_8" r8 g'\p^\vlc^\senzaPed -\tweak TextScript.X-offset #2 -\soloE g g g g %40
+		g g g g g g
+		g g g g g g
+		g g g g g g
+		g g g g g g
+		g g g g g g %45
+		g g g g g g
+		g g g4 r
+		\clef bass r r8. g,16[\ff^\bassi^\ped -\tweak TextScript.X-offset #2.5 -\tuttiE g'8. f16]
+		es8 es16 d es8 d c b!
+		as as'16 g as8 as g f %50
+		es es16 d es8 c d es
+		f f16 es f8 g as f
+		c'4 h c
+		f, g g,
+		as8 as'16 g as8 c as g %55
+		f\sf f16 e f8 c' as f
+		g4 g c,
+		f g g,
+		c~ c2~\p
+		c2. %60
+		es,~
+		es
+		as4\f \appoggiatura b'16 as8. g16 as4
+		f \appoggiatura g16 f8. es16 f4
+		c \appoggiatura des16 c8. b16 c4 %65
+		b \appoggiatura c16 b8. as16 b4
+		as8. as'16 g4 f
+		e d c
+		f f, r
+		R2. %70
+		b4 \appoggiatura c'16 b8. a!16 b4
+		g, \appoggiatura a'16 g8. fis16 g4
+		d \appoggiatura es16 d8. c16 d4
+		es \appoggiatura f16 es8. d16 es4
+		d c b %75
+		g' f es
+		b'8. b,16 b4 r
+		r r b
+		b' b, r
+		r r b %80
+		b' b, r
+		r r b'8. d,16
+		es4 es es
+		e e e
+		f8. f,16 f4 r %85
+		r r \tuplet 3/2 4 { f'8-! f-! f-! }
+		f8. f,16 f4 r
+		r r \tuplet 3/2 4 { f'8-! f-! f-! }
+		f8. f,16 f4 r
+		r r f' %90
+		b b, b
+		r r \tuplet 3/2 4 { b8-! b-! b-! }
+		b'8. b,16 b4 r
+		r r \tuplet 3/2 4 { \parOn b8-\parenthesize-! b-! \parOff b-\parenthesize-! }
+		b'8. b,16 b4 r %95
+		r r b
+		es es d
+		c a! b
+		f' f, f'
+		f r r %100
+		R2.
+		r4 r f\mf
+		b( c b)
+		b( c b)
+		a( a a) %105
+		a( a a)
+		as( b as)
+		as( b as)
+		ges8 ges ges ges ges ges
+		f\ff f f f f f %110
+		es\mf es es es es es
+		des\p des des des des des
+		c4(\ff des c)
+		c( des c)
+		f( ges f) %115
+		f( ges f)
+		b8 b, b b b b
+		b b b b b b
+		a a a4 r
+		\clef "treble_8" r8 a'\p^\vlc^\senzaPed -\tweak TextScript.X-offset #2 -\tasto -\tweak TextScript.X-offset #2 -\soloE a a a a %120
+		a a a a a a
+		a a a a a a
+		a a a a a a
+		a a a a a a
+		a a a a a a %125
+		a a a a a a
+		a2 r4
+		\clef bass r r8. a,16[\f^\bassi^\ped -\tweak TextScript.X-offset #2 -\tuttiE a'8. g16]
+		f8 f16 e f8 e d c
+		b b'16 a b8 b a g %130
+		f f16 e f8 d e f
+		g, g'16 fis g8 a b g
+		d'4 a b
+		g a a,
+		d2 r4 %135
+		R2.
+		f2.~\p
+		f
+		b,4\f \appoggiatura c'16 b8. a16 b4
+		g, \appoggiatura a'16 g8. f16 g4 %140
+		d \appoggiatura es16 d8. c16 d4
+		c \appoggiatura d16 c8. h16 c4
+		h8 h c c b b
+		a a b b as as
+		ges ges ges ges f f %145
+		e e' e e e e
+		f8. f,16 f4 r
+		r r8. c''16[\ffE des8. e,16]
+		f8. f,16 f4 r
+		r r8. c''16[ des8. e,16] %150
+		f8.[ e16 f8. e16 f8. e16]
+		f2 r4
+		R2.
+		r4 r f\p
+		es!( f es) %155
+		es( f es)
+		d!( d d)
+		d( d d)
+		des( es des)
+		des( es des)\f %160
+		c8 b16 c d!8 c16 d es8 d16 es
+		f2 es4
+		d8 c16 d es8 d16 es f8 es16 f
+		g2 f4
+		es8 f16 es d8 es16 d c8 d16 es %165
+		f4 f f,
+		b8 b'16 c b8 f16 g f8 d
+		b4 r d
+		c8 b16 c d8 c16 d es8 d16 es
+		f8 f f f es es %170
+		d c16 d es8 d16 es f8 es16 f
+		g8 g g g f f
+		es f16 es d8 es16 d c8 d16 es
+		f8 f f f f f
+		g4\p g g %175
+		es es es
+		f f f
+		f f f
+		d8\f d d d d d
+		es es es es es es %180
+		f f f f f f
+		f, f f f f f
+		b4\ff d b
+		f' a f
+		b, d b %185
+		c c d
+		\tuplet 3/2 4 { es8 g f es es d c c b }
+		\tuplet 3/2 4 { a! a a } a2^\tenuto
+		\tuplet 3/2 4 { b8 b' a b f es d es f }
+		\tuplet 3/2 4 { b, b' a b f es d es f } %190
+		b,4 r b8.-\unisono d16
+		f4-! d-! b'-!
+		b, r r\fermata \bar "|." %193 finis
+	}
+}
+
+DerHerrBassFigures = \figuremode {
+	r2.
+	<5 3>
+	<6>
+	<4 2>
+	<6>4 <7>2 %5
+	<6>4 <6 _->2
+	<6 4>4 <5 3>2
+	r2.
+	r
+	r %10
+	r
+	<[5]>
+	<6>
+	<6 4+ 3>
+	<6>4 <6\\ 4 3>2 %15
+	<6 5> <6\\ 4 3>4
+	r2.
+	r
+	r
+	r %20
+	r
+	r
+	<6 _->
+	<\t \t>
+	<7-> %25
+	<\t>
+	<_->
+	<\t>
+	<6>
+	<\t> %30
+	<7 _!>
+	<_->
+	<6 5>
+	<_->
+	<6 5> %35
+	r
+	<6\\>
+	<\t>
+	<6 4>4 <5 _!>2
+	r8 <7 _!> r2 %40
+	<6! 4>2.
+	<7+ 6- 4>
+	<8 6- 4>4 <\t 5 _!> <\t 6 \t>
+	<7 _!>2.
+	<6! 4> %45
+	<7+ 6- 4>
+	<6- 4>4 <5 _!>2
+	r <_!>4
+	<6>2.
+	<5> %50
+	<6>
+	<_->
+	r4 <6 5>2
+	<6 _->4 <6 4> <5 _!>
+	r2. %55
+	<[_-]>
+	<8 6>4 <7 5>2
+	<6 _->4 <6 4> <5 _!>
+	r2.
+	r %60
+	<7->
+	r
+	r
+	<5 _->
+	<6-> %65
+	<6 4! _->
+	<6>4 <6! 4 3> <8 _->
+	<6> <7> <_!>
+	<_->2.
+	r %70
+	r
+	<[5]>
+	<6>
+	<6 4 2>
+	<6>4 <7>2 %75
+	<6>4 <6 _->2
+	<6 4>4 <5 3>2
+	r2.
+	<7 6- 4>4 <8 3>2
+	r2. %80
+	<7 6- 4>4 <8 3>2
+	r2.
+	<6 [5]>
+	<6 5>
+	\bo <[4]>4 \bc <[3]>2 %85
+	r <7>4
+	<6 4>2.
+	r2 <6 4!>4
+	<7 5>2.
+	r %90
+	r
+	r2 <7->4
+	<6 4>2.
+	r2 <6 4!>4
+	<7- 5>2. %95
+	r2 <\t \t>4
+	r2 <6>4
+	<6!> <6 5>2
+	<6 4>4 <5 3>2
+	r2. %100
+	r
+	r
+	<4! 2>
+	<\t \t>
+	<6> %105
+	<\t>
+	<4 2>
+	<\t \t>
+	<6>
+	<6 _-> %110
+	<_->
+	<6>
+	<7 _!>
+	<\t \t>
+	<7- _!> %115
+	<\t \t>
+	<_!>2 <7!>4
+	<6\\>2.
+	<6 4>4 <5! _+>2
+	r2. %120
+	r
+	r
+	r
+	r
+	r %125
+	r
+	r
+	r2 <[5!] _+>4
+	<6>2.
+	r %130
+	<6>
+	r
+	r4 <7 [5!] _+>2
+	<6!>4 <6 4> <5! _+>
+	r2. %135
+	r
+	<7->
+	r
+	r
+	<[5]> %140
+	<6>
+	<6- 4 [3]>
+	<6 5>2 <[6-] 4 2>4
+	<6 5> <_-> <4- 2>
+	<6! 5->2 <6- 4>4 %145
+	<7- 5> <6 \t> <7- \t>
+	<6- 4> <5 3>2
+	r4 r8. <[6]>16 <6 [4 2!]>4
+	<6- 4> <5 3>2
+	r4 r8. <[6]>16 <6 [4 2!]>4 %150
+	<6- 4> <5 3>2
+	r2.
+	r
+	r
+	<4 2> %155
+	<\t \t>
+	<6>
+	<\t>
+	<4 2>
+	<\t \t> %160
+	r4 \bo <[7]> \bc <[6]>
+	<7 5> <6 4> <4 2>
+	<5 3> <7> <6>
+	<7 5> <6 4> <6 4>
+	r <4 2> <5 3> %165
+	<9 7> <8 6> <7 5>
+	r2.
+	r2 <6>4
+	r <7> <6>
+	<7 [5]> <6 4> <4 2> %170
+	<5 3> <7> <6>
+	<7 5> <6 4> <4 2>
+	<5 3> <4 2> <5 3>
+	<7 5> <6 4> <7 5>
+	r2. %175
+	r
+	<6 4>
+	<5 3>
+	<6>
+	r %180
+	<6 4>
+	<5 3>
+	r4 <6>2
+	r4 q2
+	r4 q2 %185
+	<6->2 <5->4
+	r2 <5>4
+	<7 5>4 <6 \t>2
+	r2.
+	r %190
+	r
+	r
+	r %193 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

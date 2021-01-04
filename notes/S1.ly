@@ -871,6 +871,364 @@ SieheDasSopranoALyrics = \lyricmode {
 	wacht. %183 finis
 }
 
+DerHerrSopranoANotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/4 \autoBeamOff \tempoDerHerr
+		\mvTr b'2.\fE^\tuttiE
+		d
+		f~
+		f~
+		f4 es d %5
+		es f g
+		g\trill f r
+		R2.*3 %10
+		b,2.\mfE
+		d
+		f
+		fis\fE
+		g4 d d %15
+		d d d
+		d b r
+		R2.*2
+		r4 r g' %20
+		d( es) d
+		d( es) d
+		d2.
+		d2 d4
+		des( es) des %25
+		des( es) des
+		ces2.\pE
+		ces2 ces4
+		b( es) es
+		es( d!) es %30
+		es2.\ffE
+		des
+		c~
+		c
+		f %35
+		es~
+		es4 d c
+		c( d) es
+		es\trill d r
+		r \mvTr h\pE^\solo h %40
+		c2.
+		fis,
+		g2 r4
+		r h h
+		c2. %45
+		fis,
+		g2 r4
+		r r \mvTrh g\ffE^\tutti
+		c2.
+		es2 c4 %50
+		g'2.
+		f
+		es4 d c
+		d c h
+		c2. %55
+		as'
+		g4 f es
+		d c h\trill
+		c2 r4
+		R2.*3 %62
+		as2.\fE
+		c
+		es %65
+		e
+		f4 c c
+		c c c
+		as'8.([ g16)] f4 r
+		R2. %70
+		b,
+		d
+		f~
+		f~
+		f4 es d %75
+		es f g
+		g\trill f r
+		r r b,
+		ges' f r
+		r r b, %80
+		ges' f r
+		r r f
+		c2.~
+		c4 c c
+		c4. b8[ c d] %85
+		es4 d c
+		d4. c8[ d es]
+		f4 es d
+		es4. d8[ es f]
+		g4 f es %90
+		d8.([\trill c16)] b4 r
+		R2.*4 %95
+		r4 r d
+		es g f
+		\appoggiatura f8 es4 es d
+		d\trill c r
+		r r c\mfE %100
+		c( d) c
+		c( d) c
+		g2.
+		g2 g4
+		a( b) c %105
+		c( d) c
+		f,2.
+		f4 f f
+		b2.
+		as'\ffE %110
+		ges\mfE
+		f\pE
+		e\ffE
+		e
+		es %115
+		es2 es4
+		d!2 d4
+		d( e) f
+		f\trill e r
+		r \mvTr cis\pE^\solo cis %120
+		d2.
+		gis,
+		a2 r4
+		r cis cis
+		d2. %125
+		gis,
+		a2 r4
+		r r \mvTr a\fE^\tutti
+		d2.
+		f2 d4 %130
+		a'2.
+		g
+		f4 e d
+		e d cis
+		d2 r4 %135
+		R2.*3
+		b2.
+		d %140
+		f~
+		f~
+		f4 es2~
+		es4 des2~
+		des4 c b %145
+		b2 b4
+		b\trill a r
+		r r des\ffE
+		des\trill c r
+		r c des %150
+		des\trill c r
+		r r f\pE
+		f( g) f
+		f( g) f
+		c2. %155
+		c2 c4
+		d!( es) f
+		f( g) f
+		b,2.
+		b2 b4\fE %160
+		es2.~
+		es4 d c
+		f2.~
+		f4 es d
+		g2.~ %165
+		g4 f a,
+		b2 r4
+		r r b
+		es2.~
+		es4 d c %170
+		f2.~
+		f4 es d
+		g2.~
+		g4 f a,
+		b2.\pE %175
+		g'
+		f4 d b
+		\appoggiatura f'8 es4 \appoggiatura d8 c4 \appoggiatura b8 a4
+		b'2.\fE
+		g %180
+		f4 \appoggiatura es8 d4 \appoggiatura c8 b4
+		f'8([ es)] d([ c)] b([ a)]
+		b2 r4
+		R2.*9 %192
+		R2.\fermataMarkup \bar "|." %193 finis
+	}
+}
+
+DerHerrSopranoALyrics = \lyricmode {
+	Der
+	Herr
+	töd --
+
+	tet und %5
+	ma -- chet le --
+	ben -- dig,
+
+	der %11
+	Herr
+	töd --
+	_
+	_ tet und %15
+	ma -- chet le --
+	ben -- dig,
+
+	er %20
+	füh -- ret
+	in __ die
+	Höl --
+	le, er
+	füh -- ret %25
+	in __ die
+	Höl --
+	le, er
+	füh -- ret
+	in __ die %30
+	Höl --
+	_
+	_
+
+	_ %35
+	_
+	_ le,
+	in __ die
+	Höl -- le,
+	in die %40
+	Höl --
+	_
+	le,
+	in die
+	Höl -- %45
+	_
+	le,
+	und
+	füh --
+	ret hin -- %50
+	aus,
+	er
+	füh -- ret, er
+	füh -- ret hin --
+	aus, %55
+	er
+	füh -- ret, er
+	füh -- ret hin --
+	aus.
+
+	Der %63
+	Herr
+	töd -- %65
+	_
+	_ tet und
+	ma -- chet le --
+	ben -- dig,
+	%70
+	der
+	Herr
+	töd --
+
+	tet und %75
+	ma -- chet le --
+	ben -- dig,
+	er
+	töd -- tet,
+	er %80
+	töd -- tet
+	und
+	ma --
+	chet le --
+	ben -- _ %85
+	_ _ _
+	_ _
+	_ _ _
+	_ _
+	_ dig, le -- %90
+	ben -- dig,
+
+	er %96
+	töd -- tet und
+	ma -- chet le --
+	ben -- dig,
+	er %100
+	füh -- ret
+	in __ die
+	Höl --
+	le, er
+	füh -- ret %105
+	in __ die
+	Höl --
+	le, in die
+	Höl --
+	_ %110
+	_
+	le,
+	in
+	die
+	Höl -- %115
+	le, er
+	füh -- ret
+	in __ die
+	Höl -- le,
+	in die %120
+	Höl --
+	_
+	le,
+	in die
+	Höl -- %125
+	_
+	le
+	und
+	füh --
+	ret hin -- %130
+	aus,
+	er
+	füh -- ret, er
+	füh -- ret hin --
+	aus. %135
+
+	Der %139
+	Herr %140
+	töd --
+
+	_
+	_
+	_ tet, %145
+	der Herr
+	töd -- tet,
+	er
+	töd -- tet,
+	der Herr %150
+	töd -- tet
+	und
+	füh -- ret
+	in __ die
+	Höl -- %155
+	le, er
+	füh -- ret
+	in __ die
+	Höl --
+	le und %160
+	ma --
+	chet le --
+	ben --
+	dig, und
+	füh -- %165
+	ret hin --
+	aus,
+	er
+	ma --
+	chet le -- %170
+	ben --
+	dig, und
+	füh --
+	ret hin --
+	aus, %175
+	er
+	füh -- ret, er
+	füh -- ret hin --
+	aus,
+	er %180
+	füh -- ret, er
+	füh -- ret hin --
+	aus. %183 finis
+}
+
 % SopranoANotes = {
 % 	\relative c' {
 % 		\clef treble

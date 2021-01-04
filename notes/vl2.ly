@@ -479,3 +479,203 @@ SieheDasViolinoII = {
 		q4 r r2\fermata \bar "|." %191 finis
 	}
 }
+
+DerHerrViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/4 \tempoDerHerr
+		f2.\fE
+		b
+		d4 b b
+		a a a
+		b b b %5
+		es f g
+		g\trill f r
+		r r8. cis16[ d8. f,16]
+		b4 r r
+		r r8. cis16[ d8. f,16] %10
+		b4 f\mf f
+		b b b
+		d b b
+		a\f a a
+		g c b %15
+		a g fis
+		g8. b16 d,4 r
+		r r8. b'16[\ff es8. fis,16]
+		g8. g,16 g4 r
+		r r8. b'16[ es8. fis,16] %20
+		g4 c,(\fE b)
+		b( c b)
+		as( b as)
+		as( b as)
+		g( c b) %25
+		b( c b)
+		as(\p as') as
+		as( as as)
+		b8 b b b b b
+		b b' b b b b %30
+		a!\ff a a a a a
+		b b b b b b
+		b b b b b b
+		as as as as as as
+		g g g g g g %35
+		g g g g g g
+		fis fis fis fis fis fis
+		fis fis fis fis fis fis
+		g g g4 g,\p
+		f!2. %40
+		e
+		es~
+		es4 d g
+		f!2.
+		e %45
+		es~
+		es4 d g,(\pp
+		as g) g'\ff
+		g2.
+		c~ %50
+		c4 c2~
+		c4 f2
+		es8 f16 es d8 es16 d c8 d16 c
+		as'8 g16 f es8 f16 es \appoggiatura es d8 c16 d
+		c8 c4 c c8 %55
+		as'2.\sf
+		es8 f16 es d8 es16 d c8 d16 c
+		as8 g16 f es8 f16 es \appoggiatura es d8 c16 d
+		es4 g(\p g)
+		g( f es) %60
+		r des( des)
+		f( es des)
+		c\f c c
+		as' as as
+		as as as %65
+		g g g
+		f b' as
+		g f e
+		\appoggiatura { f32[ g] } as8. g16 f4 r
+		R2. %70
+		d,!
+		b'
+		\appoggiatura es16 d8 c16 b b4 b
+		a a a
+		b b b %75
+		es f g
+		g\trill f r
+		r r8. cis16[ d8. b16]
+		<c es,>4-! <d f,>-! r
+		r r8. cis16[ d8. b16] %80
+		<c es,>4-! <d f,>-! r
+		r r8. cis16[ d8. b16]
+		\tuplet 3/2 4 { c8 es! d c es g g g g }
+		\tuplet 3/2 4 { c, e d c e g g g g }
+		c,4 r r %85
+		r r \tuplet 3/2 4 { es!8-! es-! es-! }
+		d4-! r r
+		r r \tuplet 3/2 4 { f8-! f-! f-! }
+		es4-! r r
+		r r <es f,> %90
+		<d f, b,>\arpeggio r r
+		r r \tuplet 3/2 4 { as8-! as-! as-! }
+		g4-! r r
+		r r \tuplet 3/2 4 { b8-! b-! b-! }
+		as4-! r r %95
+		r r <f' b, d,>\arpeggio
+		\tuplet 3/2 4 { es8 g g g g g f f f }
+		\tuplet 3/2 4 { es c a! c c c b b b }
+		\tuplet 3/2 4 { b d b a a' f c a f }
+		<f c' a'>4\arpeggio r a\mf %100
+		a( b a)
+		a( b a)
+		e( e e)
+		e( e e)
+		f( g a) %105
+		a( b a)
+		d,( d d)
+		d( d d)
+		es8 es' es es es es
+		d\ff d d d d d %110
+		es\mf b b b b b
+		b\p b b b b b
+		b\ff g!4 g g8
+		b g4 g g8
+		a! a4 a a8 %115
+		es c4 c c8
+		b16 d'! d d d d d d d d d d
+		d d d d e e e e f f f f
+		<f a,>4-! <e a,>-! a,\p
+		g!2. %120
+		fis
+		f~
+		f4 e a
+		g!2.
+		fis %125
+		f~
+		f4 e a,(\pp
+		b! a) <e' a>\f
+		<f a>2.
+		d' %130
+		<d f>
+		<g, d'>
+		f'8 g16 f e8 f16 e d8 e16 d
+		e8 f16 e d8 e16 d \appoggiatura d cis8 h16 cis
+		d4 d(\p d) %135
+		d( es! d)
+		r g,( f)
+		es( d c)
+		<b d>\f q q
+		b' b b %140
+		b b'2
+		as2.
+		g2 ges4(
+		f2.)
+		e4 e( f) %145
+		g!2.
+		f4 r8. gis16[\ff a8. gis16]
+		a8.[ e16 f8. c16 des8. e,16]
+		f4 r8. gis'16[ a8. gis16]
+		a8.[ e16 f8. c16 des8. e,16] %150
+		f8.[ e16 f8. e16 f8. e16]
+		f2 a4\p
+		a( b a)
+		a( b a)
+		a( a a) %155
+		a( a a)
+		b( c d)
+		d( es d)
+		g,( g g)
+		g( g) g\f %160
+		c2.~
+		c8 d16 c b8 c16 b a8 b16 c
+		d2.~
+		d8 es16 d c8 d16 c b8 c16 d
+		es2.~ %165
+		es8 f16 es d8 es16 d c8 d16 c
+		b4 b b
+		b r b
+		c8 c4 c c8~
+		c d16 c b8 c16 b a8 b16 c %170
+		d8 d4 d d8~
+		d es16 d c8 d16 c b8 c16 d
+		es8 es4 es es8~
+		es f16 es d8 es16 d c8 d16 c
+		\tuplet 3/2 4 { b8\p d d d d d d d d } %175
+		\tuplet 3/2 4 { es g g g g g g g g }
+		\tuplet 3/2 4 { d d d d d d d d d }
+		\tuplet 3/2 4 { es c c c c c c c c }
+		b16\f d f f f f f f f f f f
+		es g g g g g g g g g g g %180
+		d d d d d d d d d d d d
+		es c c c c c c c c c c c
+		\tuplet 3/2 4 { \parOn d8-\parenthesize-!\ff f-! \parOff a-\parenthesize-! b-! f-! es-! d-! c-! b-! }
+		\tuplet 3/2 4 { a f' e f c b a g f }
+		\tuplet 3/2 4 { d' b a b f es d c b } %185
+		\tuplet 3/2 4 { as \appoggiatura b16 as8 g as as' as, \appoggiatura b16 as8 g as }
+		g4 g'' g
+		c~ \tuplet 3/2 4 { c8 b a g f es }
+		d4 r f8. d16
+		<b' d, f, b,>4\arpeggio r f8. d16 %190
+		<b' d, f, b,>4\arpeggio r b,,8. d16
+		f4-! d-! b'-!
+		b, r r\fermata \bar "|." %193 finis
+	}
+}

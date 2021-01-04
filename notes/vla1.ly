@@ -556,3 +556,203 @@ SieheDasViola = {
 		q4 r r2\fermata \bar "|." %191 finis
 	}
 }
+
+DerHerrViola = {
+	\relative c' {
+		\clef alto
+		\key b \major \time 3/4 \tempoDerHerr
+		d2.\fE
+		g
+		f4 f f
+		c' c c
+		d es, f %5
+		g d es
+		es\trill d r
+		r r8. cis'16[ d8. f,16]
+		b8. b,16 b4 r
+		r r8. cis'16[ d8. f,16] %10
+		b4 d,\mf d
+		g g g
+		f f f
+		es\f es es
+		d fis g %15
+		c b a
+		b8. g16 b4 r
+		r r8. b16[\ff es8. fis,16]
+		g8. g,16 g4 r
+		r r8. b16[ es8. fis,16] %20
+		g4 c(\fE b)
+		b( c b)
+		as( b as)
+		as( b as)
+		g( c b) %25
+		b ( c b)
+		as\p es'( es)
+		es( es es)
+		es8 es es es es es
+		es es es es es es %30
+		c'\ff c c c c c
+		b f f f f f
+		g! g g g g g
+		f f f f f f
+		d'! d d d d d %35
+		c c c c c c
+		c, c d d es es
+		es es d d c c
+		c4\trill h es\p
+		d2. %40
+		c~
+		c~
+		c4 h es
+		d2.
+		c~ %45
+		c~
+		c4 h r
+		r r <h d>\ff
+		<c es> q q
+		<as es'> <as as'> q %50
+		g' g g
+		f c' c
+		c8 g4 g g8
+		f8. as16 g4 g8. f16
+		es4 es es %55
+		f8\sf f16 e f8 c' as f
+		g g4 g g8
+		f8. as16 g4 g,
+		c~ c2~\p
+		c2. %60
+		es,~
+		es
+		as4\f \appoggiatura b16 as8. g16 as4
+		f \appoggiatura g'16 f8. es16 f4
+		c \appoggiatura des16 c8. b16 c4 %65
+		des des des
+		c e f
+		c' r g
+		f8. g16 as4 r
+		R2. %70
+		f
+		g
+		f4 f f
+		c' c c
+		f, r f %75
+		b d, es
+		es\trill d r
+		r r f
+		es-! b'-! r
+		r r f8. d16-\critnote %80
+		es4-! b'-! r
+		r r f8. d16
+		g4 g g
+		b, b b~
+		b a r %85
+		r r \tuplet 3/2 4 { a8-! a-! a-! }
+		b4-! r r
+		r r \tuplet 3/2 4 { h8-! h-! h-! }
+		c4-! r r
+		r r f %90
+		b b, b
+		r r \tuplet 3/2 4 { d8-! d-! d-! }
+		es4-! r r
+		r r \tuplet 3/2 4 { e8-! e-! e-! }
+		f4-\parenthesize-! r r %95
+		r r b,
+		b es d
+		c f f
+		f f <f a>
+		q r r %100
+		R2.
+		r4 r c\mf
+		c( c c)
+		c( c c)
+		c( c c) %105
+		c( c c)
+		b( b b)
+		b( b b)
+		ges'8 ges ges ges ges ges
+		f\ff f f f f f %110
+		es\mf es es es es es
+		des\p des des des des des
+		g,\ffE e'4 e e8
+		g e4 e e8
+		f c4 c c8~ %115
+		c a4 a a8
+		b b f f f' f
+		f f e e d d
+		d4-! cis-! f\p
+		e2. %120
+		d~
+		d~
+		d4 cis f
+		e2.
+		d~ %125
+		d~
+		d4 cis r
+		r r cis\f
+		d2.
+		b' %130
+		a8 a16 g a8 f g a
+		g, g'16 fis g8 a b g
+		d'4 cis d
+		b8. g16 a4 a,
+		d2 r4 %135
+		R2.
+		f,2.~\p
+		f
+		f4\f f f'
+		g g g %140
+		f d' d
+		c c c
+		d c2~
+		c4 b2~
+		b4 c( des) %145
+		des( c des)
+		des\trill c r
+		r r8. c16[\ffE des8. e,16]
+		f4 r r
+		r r8. c'16[ des8. e,16] %150
+		f8.[ e16 f8. e16 f8. e16]
+		f2 r4
+		R2.
+		r4 r c\p
+		f( f f) %155
+		f( f f)
+		f( f f)
+		f( f f)
+		es( es es)
+		es( es) es\f %160
+		es8 d16 es f8 es16 f g8 f16 g
+		a4( b) f
+		f8 es16 f g8 f16 g a8 g16 a
+		b4 c g
+		g8 a16 g f8 g16 f es8 f16 g %165
+		a,4 b f
+		f' b8 f16 g f8 d
+		b4 r f'
+		es8 d16 es f8 es16 f g8 f16 g
+		a4 b f %170
+		f8 es16 f g8 f16 g a8 g16 a
+		b8. g16 c4 g
+		g8 a16 g f8 g16 f es8 f16 g
+		a,4 b f
+		d'\p g g %175
+		g es b'~
+		b f f
+		f f f
+		f16\f b b b b b b b b b b b
+		b g es es es es es es es es es es %180
+		f f f f f f f f f f f f
+		f f f f f f f f f f f f
+		f4\ffE f \tuplet 3/2 4 { f8-! es-! d-! }
+		c4 c \tuplet 3/2 4 { c8 b a }
+		b4 f f8. g16 %185
+		\tuplet 3/2 4 { as8 \appoggiatura b16 as8 g as as' as, \appoggiatura b16 as8 g as }
+		g4 es' es~
+		\tuplet 3/2 4 { es8 es es es d c b a c }
+		\tuplet 3/2 4 { b b' a b f es d es f }
+		\tuplet 3/2 4 { b, b' a b f es d es f } %190
+		b,4 r b8. d16
+		f4-! d-! b'-!
+		b, r r\fermata \bar "|." %193 finis
+	}
+}

@@ -685,6 +685,7 @@ tempoWieDie = \tempoMarkup "Adagio"
 tempoSieheDas = \tempoMarkup "Allegro"
 	tempoSieheDasB = \tempoMarkup "Andante"
 	tempoSieheDasC = \tempoMarkup "Allegro"
+tempoDerHerr = \tempoMarkup "Allegro moderato"
 
 senzaPed = \markup \remark "senza Ped."
 ped = \markup \remark "Ped."

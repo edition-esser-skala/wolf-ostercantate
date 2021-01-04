@@ -429,6 +429,328 @@ JesusChristusBassoLyricsB = \lyricmode {
 	jah! %20 finis
 }
 
+DerHerrBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 3/4 \autoBeamOff \tempoDerHerr
+		\mvTr b'2.\fE^\tuttiE
+		g
+		d
+		es
+		d4 c b %5
+		g' f es
+		b' b, r
+		R2.*3 %10
+		b'2.\mfE
+		g
+		d
+		c'\fE
+		b4 a g %15
+		fis g a
+		g g, r
+		R2.*4 %21
+		r4 r g'
+		f!( g) f
+		f( g) f
+		es2. %25
+		es2 es4
+		as2\pE as4
+		as2 as4
+		ges2.
+		ges4 ges ges %30
+		f2.\ffE
+		b
+		e,
+		f
+		h %35
+		c
+		as2 as4
+		as2 as4
+		g g r
+		R2.*8 %47
+		r4 r \mvTrh g8.([\ffE^\tutti f16)]
+		es2( c4)
+		as2 as'4 %50
+		es2.
+		f
+		c'4 h c
+		f, g g
+		as2. %55
+		f
+		g4 g c
+		f, g g
+		c,2 r4
+		R2.*3 %62
+		as'2.\fE
+		f
+		c %65
+		b'
+		as4 g f
+		e d c
+		f f r
+		R2. %70
+		b
+		g
+		d
+		es
+		d4 c b %75
+		g' f es
+		b' b, r
+		r r b
+		b' b, r
+		r r b %80
+		b' b, r
+		r r b
+		es es es
+		e2.
+		f4. g8[ a b] %85
+		c4 b a
+		b4. a8[ b c]
+		d4 c h
+		c4. h8[ c d]
+		es4 d c %90
+		b b, r
+		R2.*4 %95
+		r4 r b'
+		es, es d
+		c a'! b
+		f f r
+		R2.*2 %101
+		r4 r f\mfE
+		b( c) b
+		b( c) b
+		a2. %105
+		a2 a4
+		as( b) as
+		as( b) as
+		ges2.
+		f\ffE %110
+		es\mfE
+		des\pE
+		c4(\ffE des) c
+		c( des) c
+		f( ges) f %115
+		f( ges) f
+		b b b
+		b2 b4
+		a a r
+		R2.*8 %127
+		r4 r \mvTr a\fE^\tuttiE
+		f2.
+		b,2 b'4 %130
+		f2.
+		g
+		d'4 a b
+		g a a
+		d,2 r4 %135
+		R2.*3
+		b'2.
+		g %140
+		d
+		c'
+		h4 c b
+		a b as
+		ges2 f4 %145
+		e2 e4
+		f f r
+		r r e\ffE
+		f f r
+		r f e %150
+		f f r
+		R2.*2
+		r4 r f\pE
+		es!( f) es %155
+		es( f) es
+		d!2.
+		d4 d d
+		des( es des)
+		des( es) des\fE %160
+		c d es
+		f f es
+		d es f
+		g g f
+		es d c %165
+		f f f
+		b,2 r4
+		r r d
+		c d es
+		f f es %170
+		d es f
+		g g f
+		es d c
+		f f f
+		g2.\pE %175
+		es
+		f4 f f
+		f f f
+		d2.\fE
+		es %180
+		f4 f f
+		f f f
+		b,2 r4
+		R2.*9 %192
+		R2.\fermataMarkup \bar "|." %193 finis
+	}
+}
+
+DerHerrBassoLyrics = \lyricmode {
+	Der
+	Herr
+	töd --
+	_
+	_ tet und %5
+	ma -- chet le --
+	ben -- dig,
+
+	der %11
+	Herr
+	töd --
+	_
+	_ tet und %15
+	ma -- chet le --
+	ben -- dig,
+
+	er %22
+	füh -- ret
+	in __ die
+	Höl -- %25
+	le, er
+	füh -- ret
+	in die
+	Höl --
+	le, in die %30
+	Höl --
+	_
+	_
+	_
+	_ %35
+	_
+	_ le,
+	in die
+	Höl -- le,
+
+	und %48
+	füh --
+	ret hin -- %50
+	aus,
+	er
+	füh -- ret, er
+	füh -- ret hin --
+	aus, %55
+	er
+	füh -- ret, er
+	füh -- ret hin --
+	aus.
+
+	Der %63
+	Herr
+	töd -- %65
+	_
+	_ tet und
+	ma -- chet le --
+	ben -- dig,
+	%70
+	der
+	Herr
+	töd --
+	_
+	_ tet und %75
+	ma -- chet le --
+	ben -- dig,
+	er
+	töd -- tet,
+	er %80
+	töd -- tet
+	und
+	ma -- chet le --
+	ben --
+	_ _ %85
+	_ _ _
+	_ _
+	_ _ _
+	_ _
+	_ dig, le -- %90
+	ben -- dig,
+
+	er %96
+	töd -- tet und
+	ma -- chet le --
+	ben -- dig,
+
+	er %102
+	füh -- ret
+	in __ die
+	Höl -- %105
+	le, er
+	füh -- ret
+	in __ die
+	Höl --
+	_ %110
+	_
+	le,
+	in __ die
+	Höl -- le,
+	in __ die %115
+	Höl -- le,
+	er füh -- ret
+	in die
+	Höl -- le,
+
+	und %128
+	füh --
+	ret hin -- %130
+	aus,
+	er
+	füh -- ret, er
+	füh -- ret hin --
+	aus. %135
+
+	Der %139
+	Herr %140
+	töd --
+	_
+	_ _ _
+	_ _ _
+	_ tet, %145
+	der Herr
+	töd -- tet,
+	er
+	töd -- tet,
+	der Herr %150
+	töd -- tet
+
+	und %154
+	füh -- ret %155
+	in __ die
+	Höl --
+	le, in die
+	Höl --
+	le __ und %160
+	ma -- _ _
+	_ chet le --
+	ben -- _ _
+	_ dig, und
+	füh -- ret, und %165
+	füh -- ret hin --
+	aus,
+	er
+	ma -- chet le --
+	ben -- dig, er %170
+	ma -- chet le --
+	ben -- dig, und
+	füh -- ret, und
+	füh -- ret hin --
+	aus, %175
+	er
+	füh -- ret, er
+	füh -- ret hin --
+	aus,
+	er %180
+	füh -- ret, er
+	füh -- ret hin --
+	aus. %183 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

@@ -480,6 +480,206 @@ SieheDasViolinoI = {
 	}
 }
 
+DerHerrViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/4 \tempoDerHerr
+		b'2.\fE
+		d
+		f4 f f
+		f f f
+		f8.[ d16 es8. c16 d8. b16] %5
+		b'8.[ b16 b8. b16 b8. b16]
+		b4 r8. a16[ b8. a16]
+		b8.[ e,16 f8. cis16 d8. f,16]
+		<b d,>4 r8. a'16[ b8. a16]
+		b8.[ e,16 f8. cis16 d8. f,16] %10
+		b4 b\mf b
+		d d d
+		f f f
+		fis\f fis fis
+		g8.[ d16 d8. d16 d8. d16] %15
+		d8.[ d'16 d8. d16 d8. d16]
+		d4 r8. fis,16[\ff g8. a16]
+		b8.[ cis,16 d8. b16 es8. fis,16]
+		g4 r8. fis'16[ g8. a16]
+		b8.[ cis,16 d8. b16 es8. fis,16] %20
+		g4 es'(\fE d)
+		d( es d)
+		d( d d)
+		d( d d)
+		des( es des) %25
+		des( es des)
+		ces(\p ces ces)
+		ces( ces ces)
+		b( es) es
+		es( d! es) %30
+		es8\ff es es es es es
+		des des des des des des
+		c! c c c c c
+		c c c c c c
+		f f f f f f %35
+		es es es es es es
+		es es d d c c
+		c c d d es es
+		es4\trill d r
+		r h\p h %40
+		c2.
+		fis,
+		g2 r4
+		r h h
+		c2. %45
+		fis,
+		g2 g,4(\pp
+		as g) g'\ff
+		c2.
+		es %50
+		g
+		as
+		g8 as16 g f8 g16 f es8 f16 es
+		d8 es16 d c8 d16 c \appoggiatura c h8 a!16 h
+		c2. %55
+		c'\sf
+		g8 as16 g f8 g16 f es8 f16 es
+		d8 es16 d c8 d16 c \appoggiatura c h8 a!16 h
+		c4 es(\p es)
+		es( d c) %60
+		r b!( b)
+		des( c b)
+		as\f as as
+		c c c
+		es es es %65
+		e e e
+		f \appoggiatura des16 c8. b16 c4
+		r8. c16[ c8. c16 c8. c16]
+		c8.[ e16 f8. g16 as8. b16]
+		c4. as8 f4 %70
+		b,2.
+		d
+		f4 f f
+		f f f
+		f es8. f16 d4 %75
+		r8. b'16[ b8. b16 b8. b16]
+		b4 r8. a16[ b8. a16]
+		b8.[ e,16 f8. cis16 d8. b16]
+		<a ges'>4-! <b f'>8.[-! a'16 b8. a16]
+		b8.[ e,16 f8. cis16 d8. b16] %80
+		<a ges'>4-! <b f'>8.[-! a'16 b8. a16]
+		b8.[ e,16 f8. cis16 d8. b16]
+		\tuplet 3/2 4 { c8 es d c es g g g g }
+		\tuplet 3/2 4 { c, e d c e g g g g }
+		f4 r r %85
+		r r \tuplet 3/2 4 { c'8-! c-! c-! }
+		b4-! r r
+		r r \tuplet 3/2 4 { d8-! d-! d-! }
+		c4-! r r
+		r r <a c, f,> %90
+		<b d, f, b,>\arpeggio r r
+		r r \tuplet 3/2 4 { f8-! f-! f-! }
+		es4-! r r
+		r r \tuplet 3/2 4 { g8-! g-! g-! }
+		f4 r r %95
+		r r <as b, d,>\arpeggio
+		\tuplet 3/2 4 { g8 b b b b b b b, b }
+		\tuplet 3/2 4 { a! c es es es es d d d }
+		\tuplet 3/2 4 { d b' d, c a' f c a f }
+		<f c' a'>4\arpeggio r c'\mf %100
+		c( d c)
+		c( d c)
+		g( g g)
+		g( g g)
+		a( b c) %105
+		c( d c)
+		f,( f f)
+		f( f f)
+		b8 b b b b b
+		as'\ff as as as as as %110
+		ges\mf ges ges ges ges ges
+		f\p f f f f f
+		e16\ff f g as b b b b b b b b
+		e, f g as b g e f g e c b
+		a! b c des es es es es es es es es %115
+		a, b c des es c a b c a f es
+		\kneeBeam d! b'' b b b b b b a a a a
+		gis gis gis gis gis gis gis gis gis gis gis gis
+		a2 r4
+		r cis,\p cis %120
+		d2.
+		gis,
+		a2 r4
+		r cis cis
+		d2. %125
+		gis,
+		a2 a,4(\pp
+		b! a) a'\f
+		d2.
+		f %130
+		a
+		b
+		a8 b16 a g8 a16 g f8 g16 f
+		g8 a16 g f8 g16 f \appoggiatura f e8 d16 e
+		d4 f(\p f) %135
+		f( g f)
+		r es!( d)
+		c( b a)
+		b\f b b
+		d d d %140
+		f f f
+		f f f~
+		f es2~
+		es4 des2~
+		des4( c b) %145
+		b2 b4
+		b\trill a8.[ gis'16\ff a8. gis16]
+		a8.[ e16 f8. c16 des8. e,16]
+		f4 r8. gis'16[ a8. gis16]
+		a8.[ e16 f8. c16 des8. e,16] %150
+		f8.[ e16 f8. e16 f8. e16]
+		f2 f'4\p
+		f( g! f)
+		f( g f)
+		c( c c) %155
+		c( c c)
+		d!( es f)
+		f( g f)
+		b,( b b)
+		b( b) b\f %160
+		es2.~
+		es8 f16 es d8 es16 d c8 b16 a
+		f'2.~
+		f8 g16 f es8 f16 es \appoggiatura es d8 c16 b
+		g'2.~ %165
+		g8 a16 g f8 g16 f es8 f16 es
+		d4 <b' d, f, b,>\arpeggio q\arpeggio
+		q\arpeggio r b,
+		es8 es4 es es8~
+		es f16 es d8 es16 d \appoggiatura d c8 b16 a %170
+		f'8 f4 f f8~
+		f g16 f es8 f16 es \appoggiatura es d8 c16 b
+		g'8 g4 g g8~
+		g a16 g f8 g16 f es8 f16 es
+		\tuplet 3/2 4 { d8\p b' b b b b b b b } %175
+		\tuplet 3/2 4 { g b b b b b b b b }
+		\tuplet 3/2 4 { f b b b b b b b b }
+		\tuplet 3/2 4 { c, a' a a a a a a a }
+		b,16\f b' b b b b b b b b b b
+		g b b b b b b b b b b b %180
+		f b b b b b b b b b b b
+		c, a' a a a a a a a a a a
+		\tuplet 3/2 4 { b8-!\ff f-! a-! b-! f-! es-! d-! c-! b-! }
+		\tuplet 3/2 4 { a f' e f c b a g f }
+		\tuplet 3/2 4 { d' b a b f es d c b } %185
+		\tuplet 3/2 4 { as \appoggiatura b16 as8 g as as' as, \appoggiatura b16 as8 g as }
+		g4 g'' g
+		c~ \tuplet 3/2 4 { c8 b a g f es }
+		d4 r b'8. b16
+		<d f,>4 r b8. b16 %190
+		<d f,>4 r b,8. d16
+		f4-! d-! b'-!
+		b,, r r\fermata \bar "|." %193 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
