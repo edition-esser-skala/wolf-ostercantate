@@ -963,6 +963,88 @@ DerHerrTenoreLyrics = \lyricmode {
 	aus. %183 finis
 }
 
+NahIstTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \minor \time 2/2 \autoBeamOff \tempoNahIst
+		a2 d
+		d e
+		e e
+		e2.( d4)
+		cis1\fermata %5
+		a2 a
+		b d
+		b( a4.) g8
+		f1\fermata
+		a2 a %10
+		a h
+		a a
+		a( gis4 d')
+		cis1\fermata
+		d2 c %15
+		b a
+		a2. a8([ g)]
+		f1\fermata
+		a2 c!
+		c es %20
+		d4( e) c2
+		c2.( b4)
+		a1\fermata
+		c2 c
+		c c4.( d8) %25
+		e2 f
+		d( c4 b)
+		a1\fermata
+		c2 f
+		e c %30
+		b d
+		a1\fermata
+		a2 a
+		a b
+		a a %35
+		a1\fermata \bar "|." %36 finis
+	}
+}
+
+NahIstTenoreLyrics = \lyricmode {
+	Nah iſt
+	mei -- nes
+	Hel -- fers
+	Rech --
+	te, %5
+	ſieht ſie
+	gleich mein
+	Au -- ge
+	nicht,
+	wei -- ter %10
+	hin, im
+	Thal der
+	Näch --
+	te,
+	iſt mein %15
+	Ret -- ter
+	und ſein
+	Licht.
+	Da, da
+	wird mir %20
+	Gott be --
+	geg --
+	nen,
+	da wird
+	mich ſein %25
+	Ant -- litz
+	ſeg --
+	nen,
+	in der
+	trüb -- ſten %30
+	Stun -- den
+	Graun,
+	will ich
+	hof -- fend
+	nach ihm %35
+	ſchaun. %36 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

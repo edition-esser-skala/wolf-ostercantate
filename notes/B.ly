@@ -751,6 +751,88 @@ DerHerrBassoLyrics = \lyricmode {
 	aus. %183 finis
 }
 
+NahIstBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \minor \time 2/2 \autoBeamOff \tempoNahIst
+		d2 d4( e)
+		f2 e
+		a c,
+		e1
+		a,\fermata %5
+		d2 c!
+		b a
+		g a
+		d1\fermata
+		d2 d4( e) %10
+		f2 gis,
+		a f'
+		dis e
+		a1\fermata
+		b2 fis %15
+		g d
+		a' a,
+		d1\fermata
+		d2 c!
+		f a, %20
+		b f'
+		c1
+		f\fermata
+		a2 b
+		a f %25
+		c d
+		b c
+		f1\fermata
+		f2 d
+		e f %30
+		b a4( gis)
+		a1\fermata
+		f2 cis
+		d g
+		a a %35
+		d,1\fermata \bar "|." %36 finis
+	}
+}
+
+NahIstBassoLyrics = \lyricmode {
+	Nah iſt
+	mei -- nes
+	Hel -- fers
+	Rech --
+	te, %5
+	ſieht ſie
+	gleich mein
+	Au -- ge
+	nicht,
+	wei -- ter %10
+	hin, im
+	Thal der
+	Näch --
+	te,
+	iſt mein %15
+	Ret -- ter
+	und ſein
+	Licht.
+	Da, da
+	wird mir %20
+	Gott be --
+	geg --
+	nen,
+	da wird
+	mich ſein %25
+	Ant -- litz
+	ſeg --
+	nen,
+	in der
+	trüb -- ſten %30
+	Stun -- den
+	Graun,
+	will ich
+	hof -- fend
+	nach ihm %35
+	ſchaun. %36 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

@@ -1229,6 +1229,88 @@ DerHerrSopranoALyrics = \lyricmode {
 	aus. %183 finis
 }
 
+NahIstSopranoANotes = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 2/2 \autoBeamOff \tempoNahIst
+		d'2 a
+		d d
+		c c
+		h1\trill
+		a\fermata %5
+		f2 a
+		g f
+		e2.\trill d4
+		d1\fermata
+		d'2 a %10
+		d d
+		c c
+		h1\trill
+		a\fermata
+		f2 a %15
+		g f
+		e2.\trill d4
+		d1\fermata
+		f2 g
+		a c %20
+		b a
+		g1
+		f\fermata
+		f2 g
+		a c %25
+		b a
+		g1\trill
+		f\fermata
+		a2 h
+		c a %30
+		d d
+		cis1\fermata
+		d2 e
+		f e4( d)
+		d2 cis\trill %35
+		d1\fermata \bar "|." %36 finis
+	}
+}
+
+NahIstSopranoALyrics = \lyricmode {
+	Nah iſt
+	mei -- nes
+	Hel -- fers
+	Rech --
+	te, %5
+	ſieht ſie
+	gleich mein
+	Au -- ge
+	nicht,
+	wei -- ter %10
+	hin, im
+	Thal der
+	Näch --
+	te,
+	iſt mein %15
+	Ret -- ter
+	und ſein
+	Licht.
+	Da, da
+	wird mir %20
+	Gott be --
+	geg --
+	nen,
+	da wird
+	mich ſein %25
+	Ant -- litz
+	ſeg --
+	nen,
+	in der
+	trüb -- ſten %30
+	Stun -- den
+	Graun,
+	will ich
+	hof -- fend
+	nach ihm %35
+	ſchaun. %36 finis
+}
+
 % SopranoANotes = {
 % 	\relative c' {
 % 		\clef treble

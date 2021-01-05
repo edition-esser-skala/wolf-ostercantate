@@ -686,6 +686,7 @@ tempoSieheDas = \tempoMarkup "Allegro"
 	tempoSieheDasB = \tempoMarkup "Andante"
 	tempoSieheDasC = \tempoMarkup "Allegro"
 tempoDerHerr = \tempoMarkup "Allegro moderato"
+tempoNahIst = \tempoMarkup "[Tempo deest]"
 
 senzaPed = \markup \remark "senza Ped."
 ped = \markup \remark "Ped."
@@ -699,6 +700,32 @@ twoStanzaDistance = {
 	\override StaffGrouper.staff-staff-spacing =
 		#'((basic-distance . 15)
        (minimum-distance . 15)
+       (padding . -100)
+			 (stretchability . 0))
+}
+
+smallChoirDistance = {
+	\override StaffGrouper.staffgroup-staff-spacing =
+		#'((basic-distance . 12)
+			 (minimum-distance . 12)
+			 (padding . -100)
+			 (stretchability . 0))
+	\override StaffGrouper.staff-staff-spacing =
+		#'((basic-distance . 12)
+       (minimum-distance . 12)
+       (padding . -100)
+			 (stretchability . 0))
+}
+
+tinyGroupDistance = {
+	\override StaffGrouper.staffgroup-staff-spacing =
+		#'((basic-distance . 11)
+			 (minimum-distance . 11)
+			 (padding . -100)
+			 (stretchability . 0))
+	\override StaffGrouper.staff-staff-spacing =
+		#'((basic-distance . 11)
+       (minimum-distance . 11)
        (padding . -100)
 			 (stretchability . 0)) }
 

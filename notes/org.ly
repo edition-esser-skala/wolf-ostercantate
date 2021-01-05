@@ -1612,6 +1612,88 @@ DerHerrBassFigures = \figuremode {
 	r %193 finis
 }
 
+NahIstOrgano = {
+	\relative c {
+		\clef bass
+		\key d \minor \time 2/2 \tempoNahIst
+		d2 d4 e
+		f2 e
+		a c,4. a8
+		e'2 e,
+		a1\fermata %5
+		d2 c!
+		b a
+		g a
+		d,1\fermata
+		d2 d'4 e %10
+		f2 gis,
+		a f'
+		dis e
+		a,1\fermata
+		b2 fis %15
+		g d'
+		a' a,
+		d1\fermata
+		d2 c!
+		f a, %20
+		b f
+		c' c,
+		f1\fermata
+		a2 b
+		a f %25
+		c' d
+		b c
+		f,1\fermata
+		f'2 d
+		e f %30
+		b,4 b' a gis
+		a1\fermata
+		f2 cis
+		d g
+		a a, %35
+		d1\fermata \bar "|." %36 finis
+	}
+}
+
+NahIstBassFigures = \figuremode {
+	r1
+	<6>2 <7 [5!] _+>
+	r <6>
+	<5! 4> <\t _+>
+	<_+>1 %5
+	r2 <6>
+	q <6 4>
+	<6 5> <_+>
+	r1
+	r %10
+	<6>2 <6 5 [_!]>
+	r1
+	<6! 5 [_+]>2 <7 [5!] _+>
+	<_+>1
+	r2 <6 5!> %15
+	r1
+	<5 4>2 <\t _+>
+	r1
+	r
+	r2 <6 5-> %20
+	<5 3>4 <6 4!> <5>2
+	<5 4> <\t 3>
+	r1
+	<6>2 <4 2>
+	<6>1 %25
+	<7>
+	<6 5>
+	r
+	r2 <6! 4 3>
+	<6>1 %30
+	r2 <6 4>4 <7 5 [_!]>
+	<_+>1
+	<6>2 <6 [5]>
+	r <6>4 <[5]>
+	<6 4>2 <5 _+> %35
+	r1 %36 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

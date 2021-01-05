@@ -438,68 +438,131 @@
 	% 		\midi { \tempo 2 = 65 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+  %     genre = "C O R O"
+	% 		number = "7"
+	% 		title = "Der Herr tödtet und machet lebendig"
+	% 	}
+	% 	\paper {
+	% 		top-system-spacing.basic-distance = #10
+	% 		top-system-spacing.minimum-distance = #10
+	% 		top-markup-spacing.basic-distance = #0
+	% 		top-markup-spacing.minimum-distance = #0
+	% 		markup-system-spacing.basic-distance = #10
+	% 		markup-system-spacing.minimum-distance = #10
+	% 		system-system-spacing.basic-distance = #17
+	% 		system-system-spacing.minimum-distance = #17
+	% 		systems-per-page = #2
+	% 	}
+	% 	\tocLabelLong "derherr" "7" "Coro" "Der Herr tödtet und machet lebendig"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup \with { \smallGroupDistance } <<
+	% 				\new GrandStaff \with { \tinyGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\DerHerrViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\DerHerrViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\DerHerrViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff \with { \smallChoirDistance } <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S 1"
+	% 					\new Voice = "SopranoA" { \dynamicUp \DerHerrSopranoANotes }
+	% 				}
+	% 				\new Lyrics \lyricsto SopranoA \DerHerrSopranoALyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S 2"
+	% 					\new Voice = "SopranoB" { \dynamicUp \DerHerrSopranoBNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto SopranoB \DerHerrSopranoBLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \DerHerrTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \DerHerrTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \DerHerrBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \DerHerrBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "org" "b" }
+	% 					% \transpose c c,
+	% 					\DerHerrOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \DerHerrBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 130 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-      genre = "C O R O"
-			number = "7"
-			title = "Der Herr tödtet und machet lebendig"
+      genre = "C H O R A L"
+			number = "8"
+			title = "Nah iſt meines Helfers Rechte"
 		}
-		\tocLabelLong "derherr" "7" "Coro" "Der Herr tödtet und machet lebendig"
+		\paper {
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
+		}
+		\tocLabelLong "nahist" "8" "Choral" "Nah iſt meines Helfers Rechte"
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff \with { \smallGroupDistance } <<
-						\set GrandStaff.instrumentName = "vl"
-						\new Staff {
-							\set Staff.instrumentName = "1"
-							\DerHerrViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "2"
-							\DerHerrViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "vla"
-						\DerHerrViola
-					}
-				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "S 1"
-						\new Voice = "SopranoA" { \dynamicUp \DerHerrSopranoANotes }
+						\set Staff.instrumentName = \markup \center-column { "S 1" "[vl 1]" "[ob 1]" }
+						\new Voice = "SopranoA" { \dynamicUp \NahIstSopranoANotes }
 					}
-					\new Lyrics \lyricsto SopranoA \DerHerrSopranoALyrics
+					\new Lyrics \lyricsto SopranoA \NahIstSopranoALyrics
 
 					\new Staff {
-						\set Staff.instrumentName = "S 2"
-						\new Voice = "SopranoB" { \dynamicUp \DerHerrSopranoBNotes }
+						\set Staff.instrumentName = \markup \center-column { "S 2" "[vl 2]" "[ob 2]" }
+						\new Voice = "SopranoB" { \dynamicUp \NahIstSopranoBNotes }
 					}
-					\new Lyrics \lyricsto SopranoB \DerHerrSopranoBLyrics
+					\new Lyrics \lyricsto SopranoB \NahIstSopranoBLyrics
 
 					\new Staff {
-						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \DerHerrTenoreNotes }
+						\set Staff.instrumentName = \markup \center-column { "T" "[vla]" }
+						\new Voice = "Tenore" { \dynamicUp \NahIstTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \DerHerrTenoreLyrics
+					\new Lyrics \lyricsto Tenore \NahIstTenoreLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \DerHerrBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \NahIstBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \DerHerrBassoLyrics
+					\new Lyrics \lyricsto Basso \NahIstBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup \center-column { "org" "b" }
 						% \transpose c c,
-						\DerHerrOrgano
+						\NahIstOrgano
 					}
 				>>
-				\new FiguredBass { \DerHerrBassFigures }
+				\new FiguredBass { \NahIstBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 130 }
+			\midi { \tempo 2 = 80 }
 		}
 	}
 }
