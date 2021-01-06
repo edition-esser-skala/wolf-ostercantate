@@ -1105,13 +1105,255 @@ JesusMeinTenoreLyrics = \lyricmode {
 	mei -- nem %25 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-%
-% 	}
-% }
-%
-% TenoreLyrics = \lyricmode {
-%
-% }
+HallelujahTenoreENotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 4/4 \autoBeamOff \tempoHallelujah
+		\mvTr c1\fE^\tuttiE
+		R1*4 %5
+		r2 \clef treble \mvTr h'\pE^\solo
+		g gis
+		a fis4.( d8)
+		a'2 a
+		d,1~ %10
+		d~
+		d2 r
+		R1*7 %19
+		r2 \mvTr h'\pE^\solo %20
+		gis e
+		fis cis
+		e e
+		a, r
+		R1*2 %26
+		r2 r4 \clef "treble_8" \mvTr cis\fE^\tutti
+		d2 e4 fis
+		fis( g) cis, d
+		d8([ e)] d fis e4 e %30
+		d d e a,
+		g h h h8 h
+		h4( a fis') h,
+		a cis cis cis8 cis
+		cis4 h e( d16[\trill cis]) d8 %35
+		cis2 r4 cis
+		d2 cis4 cis
+		fis2 e4 fis
+		fis4.( d8) e4 e
+		e4.( cis8) a4 d %40
+		d2. cis4\trill
+		d2 r
+		r4 d\pE d d8 d
+		d4 d, r d'\ffE
+		d4.( h8) e4 e %45
+		e2 d4 d
+		d2( cis4) cis
+		fis2 \clef treble \mvTr h\pE^\solo
+		g gis
+		a fis4.( d8) %50
+		a'2 a
+		d,1~
+		d~
+		d2 r
+		\clef "treble_8" \mvTr a4.\fE^\tutti a8 a4 h %55
+		a2 r
+		e'4. e8 e4 g
+		d2 r
+		fis,4. cis'8 h4 fis'
+		fis2 r %60
+		e4. e8 e4 e
+		e2 r
+		d4. d8 d4 d
+		d2 r
+		e r %65
+		d4. d8\pE g4 g
+		cis,2 r
+		cis4.\mfE cis8 d4 fis
+		ais,\ffE cis d d
+		cis2 r %70
+		R1 \bar "|" %71 finis
+	}
+}
+
+HallelujahTenoreELyrics = \lyricmode {
+	Fuß.
+
+	Hal -- %6
+	le -- lu --
+	jah, Hal --
+	le -- lu --
+	jah! __ %10
+
+	Hal -- %20
+	le -- lu --
+	jah, Hal --
+	le -- lu --
+	jah!
+
+	Der %27
+	Tod iſt ver --
+	ſchlun -- gen, ver --
+	ſchlun -- gen in Siegs -- ge -- %30
+	ſang, in Siegs -- ge --
+	ſang, ver -- ſchlun -- gen in
+	Siegs -- ge --
+	ſang, ver -- ſchlun -- gen in
+	Siegs, in Siegs -- ge -- %35
+	ſang, der
+	Tod iſt ver --
+	ſchlun -- gen, ver --
+	ſchlun -- gen, ver --
+	ſchlun -- gen in %40
+	Siegs -- ge --
+	ſang,
+	der Tod iſt ver --
+	ſchlun -- gen, der
+	Tod __ iſt ver -- %45
+	ſchlun -- gen in
+	Siegs -- ge --
+	ſang. Hal --
+	le -- lu --
+	jah, Hal -- %50
+	le -- lu --
+	jah! __
+
+	Tod, wo iſt dein %55
+	Pfeil?
+	Tod, wo iſt dein
+	Pfeil?
+	Grab, wo iſt dein
+	Sieg? %60
+	Grab, wo iſt dein
+	Sieg?
+	Tod, wo iſt __ dein
+	Pfeil?
+	Grab, %65
+	Tod, wo iſt dein
+	Pfeil?
+	Grab, wo iſt dein
+	Sieg, wo iſt dein
+	Sieg? %70
+}
+
+HallelujahTenoreZNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 4/4 \autoBeamOff \tempoHallelujah
+		\mvTr c1\fE^\tuttiE
+		R1*13 %14
+		r2 r4\mvTr a\fE^\tuttiE %15
+		d2 cis4 fis,
+		h2 a4 d,
+		g( h) cis a
+		h2( a4) a8.([ g16)]
+		fis2 r %20
+		R1*2
+		r2 r4 e'4
+		a2 gis4 cis,
+		fis2 e4 a, %25
+		d8([ h)] cis a h4( e8) d
+		cis4 d d( cis8) cis
+		d2 cis4 fis,
+		h2 a4 d
+		d8([ e)] d fis e4 e %30
+		d d e a,
+		g h h h8 h
+		h4( a fis') h,
+		a cis cis cis8 cis
+		cis4 h e( d16[\trill cis]) d8 %35
+		cis2 r4 cis
+		d2 cis4 cis
+		fis2 e4 fis
+		fis4.( d8) e4 e
+		e4.( cis8) a4 d %40
+		d2. cis4\trill
+		d2 r
+		r4 d\pE d d8 d
+		d4 d, r d'\ffE
+		d4.( h8) e4 e %45
+		e2 d4 d
+		d2( cis4) cis
+		d2 r
+		R1*7 %55
+		cis4. cis8 e4 fis
+		h,2 r
+		h4. h8 h4 e8([ g)]
+		cis,2 r
+		d4. d8 e4 fis %60
+		e2 r
+		e4. cis8 d4 e
+		d4. d8 g4 d
+		d2 r
+		e r %65
+		R1
+		fis4.\pE cis8 e4 d
+		ais2 r
+		r4 cis\ffE fis h,
+		cis2 r %70
+		R1 \bar "|" %71
+	}
+}
+
+HallelujahTenoreZLyrics = \lyricmode {
+	Fuß.
+
+	Der %15
+	Tod iſt ver --
+	ſchlun -- gen, ver --
+	ſchlun -- gen in
+	Siegs -- ge --
+	ſang. %20
+
+	Der %23
+	Tod iſt ver --
+	ſchlun -- gen, ver -- %25
+	ſchlun -- gen in Siegs -- ge --
+	ſang, in Siegs -- ge --
+	ſang, iſt ver --
+	ſchlun -- gen, ver --
+	ſchlun -- gen in Siegs -- ge -- %30
+	ſang, in Siegs -- ge --
+	ſang, ver -- ſchlun -- gen in
+	Siegs -- ge --
+	ſang, ver -- ſchlun -- gen in
+	Siegs, in Siegs -- ge -- %35
+	ſang, der
+	Tod iſt ver --
+	ſchlun -- gen, ver --
+	ſchlun -- gen, ver --
+	ſchlun -- gen in %40
+	Siegs -- ge --
+	ſang,
+	der Tod iſt ver --
+	ſchlun -- gen, der
+	Tod __ iſt ver -- %45
+	ſchlun -- gen in
+	Siegs -- ge --
+	ſang.
+
+	Grab, wo iſt dein %56
+	Sieg?
+	Grab, wo iſt dein
+	Sieg?
+	Tod, wo iſt dein %60
+	Pfeil?
+	Tod, wo iſt dein
+	Pfeil, wo iſt dein
+	Pfeil?
+	Grab, %65
+
+	Grab, wo iſt dein
+	Sieg,
+	wo iſt dein
+	Sieg? %70
+}
+
+HallelujahFugaTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 2/2 \autoBeamOff \tempoHallelujahFuga
+			\set Score.currentBarNumber = #72
+	}
+}
+
+HallelujahFugaTenoreLyrics = \lyricmode {
+
+}

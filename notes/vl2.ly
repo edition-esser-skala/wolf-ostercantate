@@ -786,3 +786,90 @@ OAufViolinoII = {
 		g2 r \bar "|" %101 finis
 	}
 }
+
+HallelujahViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoHallelujah
+		a'4\fE a\p a a
+		a a a a
+		a8. g16 fis!4 r g
+		c8. h16 c4 r a
+		h8. a16 h4 cis8. h16 cis4 %5
+		d8 d d d d d d d
+		d d d d d d d d
+		cis e e e a a fis fis
+		<e a,> q q q q q q q
+		<< { fis[ fis] } \\ { a,4 } >> fis' r8 fis fis4  %10
+		r8 h-!\pp h( g) r h-! h( g)
+		r4 fis^\smorz r fis
+		d2\mf cis4 fis,
+		h2 a4 d,
+		g8 e fis d e h' a g %15
+		fis a[\f d d,] g cis, cis'16 h a g
+		fis8 fis h h, e a, a'16 g fis e
+		d8 h' h, h e cis a d
+		d4 d2 cis4\trill
+		d8 d'[\p d d] d d d d %20
+		d d d d d d d d
+		cis a a a <a e'> e' e e
+		e e e e d d d d
+		cis2\mf h4 e,
+		a2 gis4 cis, %25
+		fis8 d e cis d fis e4~
+		e d2 cis4\trill
+		d8 fis'[\ff h h,] e a, a'16 g fis e
+		d8 d g g, cis fis, fis'16 e d cis
+		h8( cis d) fis-! g,-! g'-! r a %30
+		a fis d g g4 fis\trill
+		g h, a'2
+		gis4 a2 gis4\trill
+		a cis, h'2
+		ais4 h a a %35
+		a8 h, cis e, cis' cis, cis'16 e d cis
+		d8 fis fis d cis cis, cis'16 e d cis
+		d8 fis fis d cis cis, cis'16 h a cis
+		h8 h, h'4~ h8 e, h'16 a g h
+		a4 e' d d8 fis %40
+		e e e e e e e e
+		fis d[\p fis d] a d fis,16 a g fis
+		g8 h h g fis a, fis'16 a g fis
+		h8 d g h a fis d16\ff c h a
+		g4 g g' g %45
+		g16 g g g g g g g fis fis fis fis fis fis fis fis
+		e e e e e e e e g e e e e e e e
+		d8 d[\p d d] d d d d
+		d d d d d d d d
+		cis e e e a a fis fis %50
+		e e e e e e e e
+		r fis fis4 r8 fis fis4
+		r8 h-!\pp h( g) r h-! h( g)
+		r4 fis^\smorz r fis
+		<d d,>\arpeggio\f r r2 %55
+		<e a,>4\arpeggio r r2
+		<g h, e,>4\arpeggio r r2
+		<h d, fis, h,>4\arpeggio r r2
+		r8 fis, fis'4~ fis8 h \appoggiatura fis16 e8 d16 cis
+		d4 r8 d, e4 fis %60
+		h,8 e e'4~ e8 a \appoggiatura e16 d!8 cis16 h
+		cis4 r8 cis, d4 e
+		a,8 d d'4~ d8 g \appoggiatura d16 c8 h16 a
+		h h h' h g g e e cis cis e e g g h, h
+		ais ais cis cis e e g, g fis fis g g e e cis cis %65
+		d8 d'[\p d d] e e e e
+		cis fis fis, fis' e fis d fis
+		fis, fis'[\mf ais fis] h fis d h
+		ais16\ff cis cis cis cis cis cis cis d d d d d d d d
+		<fis cis fis,>4\arpeggio r r2 %70
+		R1 \bar "|" %71
+	}
+}
+
+HallelujahFugaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 2/2 \tempoHallelujahFuga
+			\set Score.currentBarNumber = #72
+
+	}
+}

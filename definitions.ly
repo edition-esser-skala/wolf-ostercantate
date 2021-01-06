@@ -689,9 +689,12 @@ tempoDerHerr = \tempoMarkup "Allegro moderato"
 tempoNahIst = \tempoMarkup "[Tempo deest]"
 tempoOAuf = \tempoMarkup "Allegro moderato"
 tempoJesusMein = \tempoMarkup "[Tempo deest]"
+tempoHallelujah = \tempoMarkup "Allegro moderato"
+	tempoHallelujahFuga = \tempoMarkup "Allegro mà non troppo presto"
 
 senzaPed = \markup \remark "senza Ped."
 ped = \markup \remark "Ped."
+smorz = \markup \remark "smorz."
 
 twoStanzaDistance = {
 	\override StaffGrouper.staffgroup-staff-spacing =
@@ -731,6 +734,14 @@ tinyGroupDistance = {
        (padding . -100)
 			 (stretchability . 0)) }
 
+ tinyStaffDistance = {
+  	\override VerticalAxisGroup.staff-staff-spacing =
+  		#'((basic-distance . 11)
+  			 (minimum-distance . 11)
+  			 (padding . -100)
+  			 (stretchability . 0))
+ }
+
 
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"
@@ -742,8 +753,7 @@ tinyGroupDistance = {
 \include "notes/timp.ly"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
-\include "notes/vla1.ly"
-\include "notes/vla2.ly"
+\include "notes/vla.ly"
 \include "notes/S1.ly"
 \include "notes/S2.ly"
 \include "notes/T.ly"

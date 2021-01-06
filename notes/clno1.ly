@@ -109,3 +109,55 @@ ThutAufClarinoI = {
 		e1\fermata \bar "|." %120 finis
 	}
 }
+
+HallelujahClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoHallelujah
+		R1*26 %26
+		r2 r4 d'\ffE
+		\partcombineChords e8. e16 \pd e4 d r
+		e8. c16 c4 e r
+		R1 %30
+		c4 r r2
+		R1
+		r2 r4 fis
+		g8. g16 g4 r2
+		e4 r d \partcombineChordsOnce e %35
+		d d d d
+		e e d d8 d
+		e e16 e e8 e d4 r
+		e r r \pao d
+		d8 d16 d d8 d c4 e %40
+		d r d8 d16 d d8 d
+		\partcombineChordsOnce e4 r r2
+		R1
+		r2 r4 c8.\ffE c16
+		c4 r \pao d r %45
+		d r e r
+		d d d d
+		e r r2
+		R1*6 %54
+		e4\fE r r2 %55
+		g4 r r2
+		R1*2
+		e4 r r2
+		e4 r r2 %60
+		\pao d4 r r2
+		d4 r r d
+		c r r c
+		c r r2
+		R1*4 %68
+		e,4\ffE r e r
+		e8 e16 e e8 e e e16 e e e e e %70
+		e2 r \bar "|" %71
+	}
+}
+
+HallelujahFugaClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoHallelujahFuga
+			\set Score.currentBarNumber = #72
+	}
+}

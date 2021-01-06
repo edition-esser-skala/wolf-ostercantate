@@ -105,3 +105,54 @@ ThutAufClarinoIII = {
 		g1\fermata \bar "|." %120 finis
 	}
 }
+
+HallelujahClarinoIII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoHallelujah
+		R1*26 %26
+		r2 r4 g'8.\ffE g16
+		g4 c, g r
+		e' c e r
+		R1 %30
+		c4 r r2
+		R1
+		r2 r4 d'
+		d d r2
+		e,4 r g8 g16 g g8 g %35
+		g4 r r2
+		g8 g16 g g8 g g g16 g g8 g
+		g g16 g g g g g g4 r
+		r2 d'4 r
+		r g, c, g'8 g %40
+		c4 r g8 g16 g g g g g
+		g4 r r2
+		R1
+		r2 r4 c,8. c16
+		c4 r r2 %45
+		g'4 r g r
+		r2 r4 g8 g
+		g4 r r2
+		R1*6 %54
+		g4\fE r r2 %55
+		g4 r r2
+		R1*2 %58
+		e4 r r2
+		e4 r r2 %60
+		R1
+		g4 r r g
+		g r r2
+		R1*5 %68
+		e4\ffE r e r
+		e8 e16 e e8 e e e16 e e e e e %70
+		e2 r \bar "|" %71
+	}
+}
+
+HallelujahFugaClarinoIII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoHallelujahFuga
+			\set Score.currentBarNumber = #72
+	}
+}

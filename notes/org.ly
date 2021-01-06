@@ -1965,13 +1965,349 @@ JesusMeinBassFigures = \figuremode {
 	<5 4>2 <\t 3> %25
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassFigures = \figuremode {
-%
-% }
+HallelujahOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \tempoHallelujah
+		<< { r4 \clef "treble_8" f'\pE^\vlc^\senzaOrg -\tweak TextScript.X-offset #2 _\soloE f f } \\ { \mvTr f,,1\fE-\tuttiE } >>
+		e''4 e es es
+		d r r2
+		\clef bass R1*12 %15
+		r8 fis,\f^\bassi^\ped -\tweak TextScript.X-offset #2 -\tuttiE h h, e a, a'16 g fis e
+		d8 d g g, cis fis, fis'16 e d cis
+		h8 e, e' d cis a d fis
+		g fis g e a g a a,
+		d r r4 r2 %20
+		R1*2
+		r2 \clef "treble_8" r4 e'\mf^\vlc^\senzaPed
+		a2 gis4 cis,
+		fis2 e4 a, %25
+		d8 h cis a h4 e8 d
+		cis a d fis, g!4 \clef bass \mvTr a\ff-\bassi-\ped
+		d2 cis4 fis,
+		h2 a4 d,
+		g8 e fis d e e a g %30
+		fis d g h, c4 d
+		g,8 g' h g f e f d
+		e4 fis d e
+		a, a8 a' g! fis g e
+		fis4 h cis,8 a d fis %35
+		a a a a a, a' a a
+		a a a a a, a' a a
+		a a a a a, a' fis fis,
+		h h' h16 a g fis e4 e,
+		a8 a' a16 g fis e fis8 a fis16 e fis d %40
+		g8 fis g e a a a a
+		d, d[\p d d] d d d d
+		d d d d d d d d
+		d d d d d d d[\ff d]
+		g g, h'16 a g fis e8 e g16 fis e d %45
+		cis8 h cis a d a fis' d
+		a' a a a a a a a
+		d,4 r r2
+		R1*6 %54
+		d4\f r r2 %55
+		a'4 r r2
+		e4 r r2
+		h4 r r2
+		fis4 r8 fis' gis4 ais
+		h8 h, h'4. e,8 \appoggiatura h'16 a8 g16 fis %60
+		g4 r8 e fis4 gis
+		a8 a, a'4. d8 \appoggiatura a16 g8 fis16 e
+		fis4 r8 d e4 fis
+		g4 r e r
+		cis r ais r %65
+		h h'\p g g
+		fis fis, cis' h
+		fis'\mf e d h
+		fis'8\ff fis e e d d h h
+		fis4 r r2 %70
+		r2 r4 d'\fE \bar "|" %71
+	}
+}
+
+HallelujahBassFigures = \figuremode {
+	r1*15 %15
+	r8 \bo <[6]> <5>4 <6> \bc <[6]>
+	<6> <5> <6> q
+	q <5> <6 5>2
+	q <6 4>4 <5 3>
+	r1*3 %22
+	r2. <[_+]>4
+	<5> <6> q <5>
+	q <6> <6 _+>2 %25
+	r8 <6\\> <6>4 <7> <_!>8 <\t>
+	<5>2 <6 5>
+	<5>4 <6> q <5>
+	q <6> q2
+	r8 <6> q4 <7> <_!> %30
+	<6 5!>4. <6>8 <6 5>2
+	r4 <6> <6 4 3>2
+	<7 _+>2 <6 5>4 <_+>
+	r2 <6 4 3>
+	<7 _+> <6! 5> %35
+	r1
+	<6 4>2 <5 3>
+	<6 4> <5 3>4 q
+	r2 <7>
+	<[7]> <6> %40
+	<6 5> <5 4>4 <\t 3>
+	r1
+	<6 4>2 <5 3>
+	<6 4> <5 3>
+	r1 %45
+	<6 5>2. <6>4
+	<5 4>2 <\t 3>
+	r1
+	r1*6 %54
+	r1 %55
+	r
+	r
+	r
+	<[_+]>2 <7>4 <6 5>
+	r <5 3> <4 2>8 <\t \t> <4+ 2>4 %60
+	<6>4. <_+>8 <7>4 <6 5>
+	r <5 3> <4 2>8 <\t \t> <4 2>4
+	<6>2 <7>4 <6 5!>
+	r2 <6\\>
+	<6\\ [5]> <6> %65
+	r <6>
+	<_+> <6\\>
+	<_+>4 <4+ 2> <6>2
+	<_+>4 <4+ 2> <6>2
+	<_+>1 %70
+	r
+}
+
+
+HallelujahFugaOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 2/2 \tempoHallelujahFuga
+			\set Score.currentBarNumber = #72
+		a'2 a \noBreak %72
+		a2. h4
+		e,4. e8 a4 << {
+			a
+			d2 d
+			d2. fis4
+			h,4. h8 e4 d
+			cis h cis d
+		} \\ {
+			g,
+			fis e \appoggiatura g8 fis4 e8 d
+			h'2 a4 a
+			a2 gis\trill
+			a r4 h
+		} >>
+		fis4. fis8 \appoggiatura a g4 fis8 e
+		fis2 r4 g
+		a2. a4
+		h h a g
+		d'2 \clef "treble_8" fis4^\vlc^\senzaPed e8 d
+		e2 \clef bass r4 e,^\bassi^\ped
+		a2 a
+		a2 r4 h
+		e,4. e8 a4 g
+		\appoggiatura g8 fis4 e8 d g4 fis8 e
+		fis2 fis,
+		h \clef "treble_8" a'^\vlc^\senzaPed
+		g4 e8 fis g4 a
+		h2 \clef bass r4 h,^\bassi^\ped
+		e2 e
+		e2 r4 fis
+		h,4. h8 e4 d
+		cis a8. h16 cis4 d
+		e2 e,
+		a r4 h'
+		e,4. e8 a4 g
+		\appoggiatura g8 fis4 e8 d g2~
+		g fis\trill
+		g1
+		gis
+		a
+		ais2 r4 fis
+		h2 h
+		h r4 ais
+		h h, g' dis
+		e d cis h
+		a!1
+		g
+		fis4 ais' h d,
+		e d8 cis d4 h
+		fis' fis, fis' fis
+		fis fis fis fis
+		e e e e
+		d d g g
+		e e fis fis
+		h,8 h'[\p h h] h h h h
+		g g g g g g g g
+		d d d d h h h h
+		fis'\f fis fis fis fis fis fis fis
+		fis fis fis fis fis fis fis fis
+		h,2 r
+		R1
+		\clef "treble_8" r4 e'(\p^\vlc^\senzaPed fis gis)
+		a2 cis,4 d
+		e2. e4
+		fis2 e
+		d h4 g!
+		a2 r4 a
+		d2 d
+		d2. e4
+		a,4. a8 d4 \clef bass d,\f^\bassi^\ped
+		g2 g
+		e4 e, e' d
+		cis4. h8 cis4 a
+		d e fis g
+		gis4. fis8 gis4 e
+		a,1~-\tasto
+		a~
+		a~
+		a~
+		a2 r4 fis'
+		h,4. h8 e4. e8
+		a,4. a8 d4. d8
+		g,4. g8 e'4. e8
+		cis4. cis8 d4. d8
+		h'4. h8 b4. b8
+		a a a a a, a a a
+		d2 r4 d
+		d2-! d-!
+		d-! r4 d
+		d2 d
+		d r4 d
+		g2 fis
+		cis d
+		g4 g fis fis
+		cis cis d d
+		h'8 h, h h' a a, a a'
+		g g, g g' fis fis, fis fis'
+		g g, g g' a a, a a'
+		g g, g g' e e, e e'
+		a a a a a a a a
+		a a a a a a a a
+		a, a a a a a a a
+		a a a a a a a a
+		d4 d'\p d d
+		h h h h
+		fis fis fis fis
+		d d fis fis
+		a8\ff a a a a a a a
+		a, a a a a a a a
+		d, d' d d d d d d
+		d d d d d d d d
+		d4 r r2
+		R1*6 %182
+		R1\fermataMarkup \bar "|." %183 FINIS
+	}
+}
+
+HallelujahFugaBassFigures = \figuremode {
+	r %72
+	r
+	r
+	r
+	r
+	r
+	r
+	<6>2 <4 2>
+	<6>1
+	<5 4>2 <8 3>4 <7 \t>
+	r2 <6 4>4 <8 6>
+	<5 3>2 <6>
+	<5 4> <\t _+>4 <7 \t>
+	r2 <6 4>4 <7+ 2>
+	<8 3>2. <7>4
+	q2. <4 2>4
+	<6>2. <\t>8 <5>
+	<5 4>2 <\t _+>
+	r <4+ 2>
+	<6>2. <_!>4
+	<5 4>2 <\t _!>
+	<7 _+> <6\\ 4>
+	<5 _+>1
+	<7>2 <_+>
+	<6>1
+	<5 4>2 <\t _!>
+	<7 5> <6 4>4 <5>
+	<7>2 <_!>
+	<6 5!> <5>4 <6>
+	<4! 2>2 <6 5!>
+	<5 4!>4 <\t 3>2.
+	<6 5>1
+	<5 4>2 <\t _+>
+	<6 5>2. <7 _+>4
+	<9 4> <8 3> <\t \t> <6>
+	<4 2>2. <6 5>4
+	r2 <6>4 q
+	r <4 2> <5 3> <6 4 3>
+	<7 _+>2 <6 _!>
+	<7> <6>
+	<7 _+>4 <6>2 q4
+	r <\t>8 <7> <6>2
+	<6 4>4 <5 _+>2.
+	<_+>1
+	<4+ 2>
+	<6>2 <5>
+	r <_+>
+	r1
+	r
+	<6>
+	<6 4>
+	<5 _+>
+	r
+	r
+	r4 <_+> <7> <6>
+	r2 <6>
+	<\l 5 4> <\l \t _+>4 <7 \t \t>
+	<5>2 <6 4 _!>
+	r1
+	<\l 5 4>2 <\l \t 3>4 <7 \t \t>
+	r2 <4 2>4 <5 3>
+	<6 4>2 <7! 5>
+	<_!> <8 6>4 <7! 5>
+	<9 4!> <8 3>2.
+	r <4 2>4
+	<6 5>1
+	r4 <6> q2
+	<6 5>1
+	r
+	r
+	r
+	r
+	r
+	<7>2 q
+	q1
+	r
+	<6 5>
+	<6>2 <6\\ 5!>
+	<6+ 4> <5 3>
+	r1
+	r
+	r
+	r
+	r
+	<4 2>2 <6>
+	<6 5>1
+	<4 2>2 <6>
+	<6 5>1
+	<6>2 <6 _!>
+	<6> <6\\>
+	<6> <6 4+ _!>
+	<6>1
+	<6 4>1
+	<\t \t>
+	<5 3>
+	<\t \t>
+	r
+	<5>
+	<6>
+	r2 <6>
+	<5 4>1
+	<\t 3>
+	r
+	<6 4>2 <7 2>
+	<8 3>1
+	r1*7
+}

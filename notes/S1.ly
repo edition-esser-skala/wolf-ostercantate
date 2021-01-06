@@ -1501,13 +1501,252 @@ JesusMeinSopranoALyrics = \lyricmode {
 	mei -- nem %25 finis
 }
 
-% SopranoANotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% SopranoALyrics = \lyricmode {
-%
-% }
+HallelujahSopranoEANotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoHallelujah
+		\mvTr f'1\fE^\tuttiE
+		R1*4 %5
+		r2 \mvTr fis\pE^\solo
+		e2. e4
+		e2 fis
+		e2. e4
+		fis1 %10
+		g
+		fis2 r
+		R1*7 %19
+		r2 \mvTr fis\pE^\solo %20
+		e2. e4
+		a2 a
+		a( gis4) gis
+		a2 r
+		R1*2 %26
+		r2 r4 \mvTr a,\fE^\tutti
+		fis'2 e4 a,
+		d2 cis4 fis,
+		h8([ cis)] d d d4 c %30
+		c h a8([ e')] d([ c)]
+		h4( d2) d4
+		d cis!8 a h([ fis')] e([ d)]
+		cis8.([ d16] e2) e4
+		e d8. h16 g'4( fis16[\trill e)] fis8 %35
+		e2 r4 a,
+		fis'2 e4 a,
+		\afterGrace d2( { e32[ d]) } cis4 r
+		r d g2~
+		g4 e8 e a4 a8 fis %40
+		e2. e4\trill
+		fis2 r
+		r4 d\pE d d8 d
+		d4 d, r a'\ffE
+		h2 g'4 g %45
+		g2 fis4 fis
+		e2.\trill d4
+		d2 \mvTr fis\pE^\solo
+		e2. e4
+		e2 fis %50
+		e2. e4
+		fis1
+		g
+		fis2 r
+		\mvTr d4.\fE^\tutti d8 d4 \appoggiatura cis8 h4 %55
+		cis2 r
+		h4. h8 h4 e8.([ g16)]
+		fis2 r
+		fis,4. fis8 fis4 fis
+		d'2 r %60
+		e,4. e'8 e4 h
+		cis2 r
+		d4. d8 d4( c16[\trill h)] c8
+		h2 r
+		g' r %65
+		fis4. h,8\pE e4 e
+		fis2 r
+		fis4.\mfE fis8 fis4 fis
+		fis\ffE ais, h d
+		fis2 r \noBreak %70
+		R1 \bar "|"
+	}
+}
+
+HallelujahSopranoEALyrics = \lyricmode {
+	Fuß.
+
+	Hal -- %6
+	le -- lu --
+	jah, Hal --
+	le -- lu --
+	jah! __ %10
+	_
+	_
+
+	Hal -- %20
+	le -- lu --
+	jah, Hal --
+	le -- lu --
+	jah!
+
+	Der %27
+	Tod iſt ver --
+	ſchlun -- gen, ver --
+	ſchlun -- gen in Siegs -- ge -- %30
+	ſang, in Siegs -- ge --
+	ſang, __ ver --
+	ſchlun -- gen in Siegs -- ge --
+	ſang, __ ver --
+	ſchlun -- gen in Siegs -- ge -- %35
+	ſang, der
+	Tod iſt ver --
+	ſchlun -- gen,
+	ver -- ſchlun --
+	gen, ver -- ſchlun -- gen in %40
+	Siegs -- ge --
+	ſang,
+	der Tod iſt ver --
+	ſchlun -- gen, der
+	Tod iſt ver -- %45
+	ſchlun -- gen in
+	Siegs -- ge --
+	ſang. Hal --
+	le -- lu --
+	jah, Hal -- %50
+	le -- lu --
+	jah! __
+	_
+	_
+	Tod, wo iſt dein %55
+	Pfeil?
+	Tod, wo iſt dein
+	Pfeil?
+	Grab, wo iſt dein
+	Sieg? %60
+	Grab, wo iſt dein
+	Sieg?
+	Tod, wo iſt __ dein
+	Pfeil?
+	Grab, %65
+	Tod, wo iſt dein
+	Pfeil?
+	Grab, wo iſt dein
+	Sieg, wo iſt dein
+	Sieg? %70
+}
+
+HallelujahSopranoZANotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoHallelujah
+		\mvTr f'1\fE^\tuttiE
+		R1*13 %14
+		r2 r4 \mvTr a,\fE^\tuttiE %15
+		d2 cis4 fis,
+		h2 a4 d,
+		g2 g4 fis
+		e4.( fis16[ g)] \appoggiatura fis4 e2\trill
+		d2 r %20
+		R1*6 %26
+		r2 r4 a'
+		fis'2 e4 a
+		d,2 cis4 fis
+		h,8([ cis)] d d d4 c %30
+		c h a8([ e')] d([ c)]
+		h4( d2) d4
+		d cis!8 a h([ fis')] e([ d)]
+		cis8.([ d16] e2) e4
+		e d8. h16 g'4( fis16[\trill e)] fis8 %35
+		e2 r4 a,
+		fis'2 e4 a,
+		\afterGrace d2( { e32[ d]) } cis4 r
+		r d g2~
+		g4 e8 e a4 a8 fis %40
+		e2. e4\trill
+		fis2 r
+		r4 d\pE d d8 d
+		d4 d, r a'\ffE
+		h2 g'4 g %45
+		g2 fis4 fis
+		e2.\trill d4
+		d2 r
+		R1*7 %55
+		a4. a8 cis4 dis
+		e2 r
+		d!4. d8 \appoggiatura e d4 cis8([ h)]
+		fis'2 r
+		h,4. h8 cis4 dis %60
+		e2 r
+		e4. a,8 h4 cis
+		d4. d8 d4( c16[\trill h]) c8
+		h2 r
+		e r %65
+		R1
+		cis4.\pE fis8 ais,4 h
+		cis2 r
+		r4 fis\ffE fis fis
+		ais,2 r %70
+		R1 \bar "|" %71
+	}
+}
+
+HallelujahSopranoZALyrics = \lyricmode {
+	Fuß.
+
+	Der %15
+	Tod iſt ver --
+	ſchlun -- gen, ver --
+	ſchlun -- gen in
+	Siegs -- ge --
+	ſang. %20
+
+	Der %27
+	Tod iſt ver --
+	ſchlun -- gen, ver --
+	ſchlun -- gen in Siegs -- ge -- %30
+	ſang, in Siegs -- ge --
+	ſang, __ ver --
+	ſchlun -- gen in Siegs -- ge --
+	ſang, __ ver --
+	ſchlun -- gen in Siegs -- ge -- %35
+	ſang, der
+	Tod iſt ver --
+	ſchlun -- gen,
+	ver -- ſchlun --
+	gen, ver -- ſchlun -- gen in %40
+	Siegs -- ge --
+	ſang,
+	der Tod iſt ver --
+	ſchlun -- gen, der
+	Tod iſt ver -- %45
+	ſchlun -- gen in
+	Siegs -- ge --
+	ſang.
+
+	Grab, wo iſt dein %56
+	Sieg?
+	Grab, wo iſt dein
+	Sieg?
+	Tod, wo iſt dein %60
+	Pfeil?
+	Tod, wo iſt dein
+	Pfeil, wo iſt __ dein
+	Pfeil?
+	Grab, %65
+
+	Grab, wo iſt dein
+	Sieg,
+	wo iſt dein
+	Sieg? %70
+}
+
+HallelujahFugaSopranoANotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 2/2 \autoBeamOff \tempoHallelujahFuga
+			\set Score.currentBarNumber = #72
+	}
+}
+
+HallelujahFugaSopranoALyrics = \lyricmode {
+	% Gelobt ſey Gott, der uns den Sieg gegeben
+	% durch Chriſtum, unſern Herrn.
+	% Hallelujah!
+}

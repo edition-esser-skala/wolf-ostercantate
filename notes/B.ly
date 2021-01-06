@@ -893,13 +893,214 @@ JesusMeinBassoLyrics = \lyricmode {
 	mei -- nem %25 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassoLyrics = \lyricmode {
-%
-% }
+HallelujahBassoENotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \autoBeamOff \tempoHallelujah
+		\mvTr f1\fE^\tuttiE
+		R1*25 %26
+		r2 r4 \mvTr a\fE^\tutti
+		d2 cis4 fis,
+		h2 a4 d,
+		g8([ e)] fis d e4 a8.([ g16)] %30
+		fis4 g c, d
+		g, g' f f8 f
+		e4( fis d) e
+		a, a' g! g8 g
+		fis4 h cis, d %35
+		a'2 r
+		r4 a a a8 a
+		a4 a, r fis'
+		h2 e,4 e
+		a2 fis4 fis %40
+		g2 a
+		d, r4 fis\pE
+		g2 fis4 fis
+		h2 a4 d,\ffE
+		g2 e4 e %45
+		cis2 d4 fis
+		a2 a,
+		d r
+		R1*6 %54
+		\mvTr d4.\fE^\tutti d8 fis4 gis %55
+		a2 r
+		e4. e8 \appoggiatura a g!4 fis8([ e)]
+		h'2 r
+		fis4. fis8 gis4 ais
+		h2 r %60
+		g!4. e8 fis4 gis
+		a2 r
+		fis4. d8 e4 fis
+		g2 r
+		cis, r %65
+		h'4. h8\pE g4 g
+		fis2 r
+		fis4\mfE e d h
+		fis'\ffE e d h
+		fis2 r %70
+		r r4 d'\fE \bar "|" %71 finis
+	}
+}
+
+HallelujahBassoELyrics = \lyricmode {
+	Fuß.
+
+	Der %27
+	Tod iſt ver --
+	ſchlun -- gen, ver --
+	ſchlun -- gen in Siegs -- ge -- %30
+	ſang, in Siegs -- ge --
+	ſang, ver -- ſchlun -- gen in
+	Siegs -- ge --
+	ſang, ver -- ſchlun -- gen in
+	Siegs, in Siegs -- ge -- %35
+	ſang,
+	der Tod iſt ver --
+	ſchlun -- gen, ver --
+	ſchlun -- gen, ver --
+	ſchlun -- gen in %40
+	Siegs -- ge --
+	ſang, der
+	Tod iſt ver --
+	ſchlun -- gen, der
+	Tod iſt ver -- %45
+	ſchlun -- gen in
+	Siegs -- ge --
+	ſang.
+
+	Tod, wo iſt dein %55
+	Pfeil?
+	Tod, wo iſt dein
+	Pfeil?
+	Grab, wo iſt dein
+	Sieg? %60
+	Grab, wo iſt dein
+	Sieg?
+	Tod, wo iſt __ dein
+	Pfeil?
+	Grab, %65
+	Tod, wo iſt dein
+	Pfeil?
+	Grab, wo iſt dein
+	Sieg, wo iſt dein
+	Sieg? %70
+	Ge_- %71
+}
+
+HallelujahBassoZNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \autoBeamOff \tempoHallelujah
+		\mvTr f1\fE^\tuttiE
+		R1*13 %14
+		r2 r4 \mvTr a\fE^\tuttiE %15
+		d2 cis4 fis,
+		h2 a4 d,
+		h( e8[ d)] cis4 d
+		g2( a4) a,
+		d2 r %20
+		R1*6 %26
+		r2 r4 a'
+		d2 cis4 fis,
+		h2 a4 d,
+		g8([ e)] fis d e4 a8.([ g16)] %30
+		fis4 g c, d
+		g, g' f f8 f
+		e4( fis d) e
+		a, a' g! g8 g
+		fis4 h cis, d %35
+		a'2 r
+		r4 a a a8 a
+		a4 a, r fis'
+		h2 e,4 e
+		a2 fis4 fis %40
+		g2 a
+		d, r4 fis\pE
+		g2 fis4 fis
+		h2 a4 d,\ffE
+		g2 e4 e %45
+		cis2 d4 fis
+		a2 a,
+		d r
+		R1*7 %55
+		a'4. a8 a4 fis
+		e2 r
+		h4. h'8 h4 g
+		fis2 r
+		h4. h,8 h'4 a! %60
+		g2 r
+		<a a,>4. a,8 a'4 g!
+		fis4. d8 e4 fis
+		g2 r
+		cis, r %65
+		R1
+		fis4.\pE fis8 cis4 h
+		fis'2 r
+		r4 e\ffE d h'
+		fis2 r %70
+		r r4 d\fE \bar "|" %71
+	}
+}
+
+HallelujahBassoZLyrics = \lyricmode {
+	Fuß.
+
+	Der %15
+	Tod iſt ver --
+	ſchlun -- gen, ver --
+	ſchlun -- gen in
+	Siegs -- ge --
+	ſang. %20
+
+	Der %27
+	Tod iſt ver --
+	ſchlun -- gen, ver --
+	ſchlun -- gen in Siegs -- ge -- %30
+	ſang, in Siegs -- ge --
+	ſang, ver -- ſchlun -- gen in
+	Siegs -- ge --
+	ſang, ver -- ſchlun -- gen in
+	Siegs, in Siegs -- ge -- %35
+	ſang,
+	der Tod iſt ver --
+	ſchlun -- gen, ver --
+	ſchlun -- gen, ver --
+	ſchlun -- gen in %40
+	Siegs -- ge --
+	ſang, der
+	Tod iſt ver --
+	ſchlun -- gen, der
+	Tod iſt ver -- %45
+	ſchlun -- gen in
+	Siegs -- ge --
+	ſang.
+
+	Grab, wo iſt dein %56
+	Sieg?
+	Grab, wo iſt dein
+	Sieg?
+	Tod, wo iſt dein %60
+	Pfeil?
+	Tod, wo iſt dein
+	Pfeil, wo iſt dein
+	Pfeil?
+	Grab, %65
+
+	Grab, wo iſt dein
+	Sieg,
+	wo iſt dein
+	Sieg? %70
+	Ge_- %71
+}
+
+HallelujahFugaBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 2/2 \autoBeamOff \tempoHallelujahFuga
+			\set Score.currentBarNumber = #72
+	}
+}
+
+HallelujahFugaBassoLyrics = \lyricmode {
+
+}

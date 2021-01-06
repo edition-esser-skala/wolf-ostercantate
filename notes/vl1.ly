@@ -787,9 +787,89 @@ OAufViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
+HallelujahViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoHallelujah
+		f'8\fE c[\p c c] r c( h! c)
+		r cis cis cis r cis( d cis)
+		d2 h
+		e fis!
+		g \appoggiatura fis4 e2\trill %5
+		r8 fis fis fis fis fis fis fis
+		<e h> q q q e h' h h
+		a cis cis cis d d d d
+		d d d d cis cis cis cis
+		r d-! d( a) r d-! d( a) %10
+		r d-!\pp d( h) r d-! d( h)
+		r4 d^\smorz r d
+		r8 fis,\mf h h, e a, a'16 g fis e
+		d8 d g g, cis fis, fis'16 e d cis
+		h8 cis d2 cis4\trill %15
+		d2\f cis4 fis,
+		h2 a4 d,
+		g g g fis
+		e4.( fis16 g) \appoggiatura fis4 e2\trill
+		d8 fis'[\p fis fis] fis fis fis fis %20
+		e e e e <gis h,> q q q
+		<a a,> <a cis,> q q q q q q
+		<a h,> q q q <gis h,> q q q
+		<a cis,> cis,[\mf fis fis,] h e, e'16 d cis h
+		a8 a d d, gis cis, cis'16 h a gis %25
+		fis8( gis a) a-! a4 g~
+		g fis e8 h' a g
+		fis8 fis'[\ff h h,] e a, a'16 g fis e
+		d8 d g g, cis fis, fis'16 e d cis
+		h8( cis d) d-! d4 c~ %30
+		c h a8 e' d c
+		h4 d2 d4~
+		d8 d cis! a h fis' e d
+		cis16( h cis d) e2 e4~
+		e8 fis16 e \appoggiatura e d8 cis16 h g'4 fis\trill %35
+		e8 gis a a, e' a, a'16 g fis e
+		fis8 a d fis, e a, a'16 g fis e
+		fis8 a d fis, e a, a'16 g fis e
+		d8 d, d'4~ d8 g, g'16 fis e d
+		cis4 cis' d d %40
+		d8 d d d d d cis cis
+		d fis,[\p a fis] d fis a,16 c h a
+		h8 d g h, a d, d'16 c h a
+		g8 h d g fis a, d16\ff c h a
+		h4 h h' h %45
+		a16 a a a a a a a a d d d d d d d
+		d d d d d d d d e, cis' cis cis cis cis cis cis
+		d8 fis,[\p fis fis] fis fis fis fis
+		e h' h h h h h h
+		a cis cis cis d d d d %50
+		d d d d cis cis cis cis
+		r d-! d( a) r d-! d( a)
+		r d-!\pp d( h) r d-! d( h)
+		r4 d^\smorz r d
+		<fis, a, d,>\arpeggio\f r r2 %55
+		<e cis e,>4\arpeggio r r2
+		<g h, e,>4\arpeggio r r2
+		<fis h, d,>4\arpeggio r r2
+		r8 fis, fis'4~ fis8 h \appoggiatura fis16 e8 d16 cis
+		d4 r8 h cis4 dis %60
+		e8 e, e'4~ e8 a \appoggiatura e16 d8 cis16 h
+		cis4 r8 a h4 cis
+		d8 d, d'4~ d8 g \appoggiatura d16 c8 h16 a
+		h h h' h g g e e cis cis e e g g h, h
+		ais ais cis cis e e g, g fis fis g g e e cis cis %65
+		d8 h''[\p h h] h h h h
+		ais fis fis, fis' e fis d fis
+		fis, fis'[\mf ais fis] h fis d h
+		ais16\ff ais' ais ais ais ais ais ais h h h h h h h h
+		<ais cis, fis,>4\arpeggio r r2 %70
+		R1 \bar "|" %71
+	}
+}
+
+HallelujahFugaViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 2/2 \tempoHallelujahFuga
+			\set Score.currentBarNumber = #72
+
+	}
+}

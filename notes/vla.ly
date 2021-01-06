@@ -77,6 +77,83 @@ DesLebensViolaI = {
 	}
 }
 
+DesLebensViolaII = {
+	\relative c' {
+		\clef alto
+    \key d \minor \time 4/4 \tempoDesLebens
+    R1*26 \bar "|" %26
+    \time 3/4 \tempoDerFromme R2. \noBreak
+    r4 e(\mf e)
+    r f( a)
+    g, g'(-. g-.) %30
+    r r8 a( g fis)
+    g4 d f~
+    f e8( e e e)
+    f4( e f)
+    f( e) a8. f16 %35
+    d2.~
+    d8.\sf g16 h2
+    r8 b(\p b b) r a
+    d,( g) r f r e
+    f4\f a( b) %40
+    e,2 f8.(\mfE g32 a)
+    a8( g) r c,16(\p a) r8 b16( g)
+    \appoggiatura g4 a2 r4
+    R2.
+    r4 r8. f'16[\f a8. c16] %45
+    c,4-! f-! r
+    R2.*2
+    r4 r8. b16[\fE fis8. g16]
+    es4( d8.)[ d'16 fis,8. g16] %50
+    b,8. g16 d'4 d,
+    g2 r4
+    R2.
+    r4 r8. g'16[\fE b8. d16]
+    d,4-! g-! r %55
+    R2.*4
+    r4 r8. a16[\fE e8. g!16] %60
+    f!8.[ d16 d'8. b!16 a8. gis16]
+    a8 a,[(\p cis e cis e)]
+    d4 g, gis
+    a8 e( e e e e) \noBreak
+    e2.\fermata \bar "|" %65
+    \time 2/2 \tempoAberDeine R1*6 %71
+    R1\fermataMarkup
+    R1*4 \noBreak %76
+    R1\fermataMarkup \bar "|"
+    \key b \major \time 3/4 \tempoErwacht R2.*4 %81
+    r8 f16(\f g f8) f(-. f-. f-.)
+    f2 r4
+    R2.*2 %85
+    r8 fis'16(\p g fis8) fis(-. fis-. fis-.)
+    fis2 f8.\f d16
+    b4 r r
+    R2.
+    r8 g16(\p as g8) g(-. g-. g-.) %90
+    g2 r4
+    R2.*4 %95
+    r8 c(\f b! a! g f)
+    d'4. c8 b4
+    c b( a)
+    b8 f16( g f8) f(-. f-. f-.)
+    f2 r4 %100
+    R2.*2
+    r8 c'16(\p d c8) c(-. c-. c-.)
+    c2 r4
+    R2.*2 %106
+    r8 f,16(\f g f8) f(-. f-. f-.)
+    f2 r4
+    R2.*2 %110
+    r8 c'16(\p d c8) c(-. c-. c-.)
+    c2 r4
+    R2.*2
+    r8 f,16(\f g f8) f(-. f-. f-.) %115
+    r b16(\p c b8) b(-. b-. b-)
+    r g'(\pp f es d c
+    b) c( b as g f) \bar "|" %118 finis
+	}
+}
+
 AllmaechtgerViola = {
 	\relative c' {
 		\clef alto
@@ -862,5 +939,90 @@ OAufViola = {
 		r f4 r
 		g, r8. g16 g4 g %100
 		r8 g h d g e f d \bar "|" %101 finis
+	}
+}
+
+HallelujahViola = {
+	\relative c' {
+		\clef alto
+		\key d \major \time 4/4 \tempoHallelujah
+		c4\fE f\p f f
+		g g g g
+		fis!8. e16 d4 r2
+		R1*2 %5
+		r2 h'4 h
+		g g gis gis
+		a8 a a a fis fis d d
+		a' a a a a, a a a
+		d4 d d d %10
+		d'\pp d d d
+		d r d^\smorz r
+		d2\mf cis4 fis,
+		h2 a4 d,
+		g8 e fis d e h' a g %15
+		fis fis[\f h h,] e a, a'16 g fis e
+		d8 d g g, cis fis, fis'16 e d cis
+		h8 e, e' e a,4 r8 a
+		h4 h a a
+		a8 r d'4\p h h %20
+		gis gis e e
+		fis8 fis fis fis cis cis cis cis
+		e e e e e e e e
+		a2\mf gis4 cis,
+		fis2 e4 a, %25
+		d8 h cis a h4 e8 d
+		cis a d fis, g!4 a
+		d'2\ff cis4 fis,
+		h2 a4 d,
+		g8 e fis d h h' a e %30
+		fis d g d e c a d
+		d4 g h, h'~
+		h a fis h
+		a8 e e e cis'4 cis,~
+		cis h8. d16 e8.[ cis16 d8. d16] %35
+		cis4 e8 a a e e a
+		a d a a a e e a
+		a d a a, a' e fis fis
+		fis fis fis fis g h e, e
+		e e a a a fis a16 g a fis %40
+		h8 h h h a a a a
+		a a[\p d a] fis a d, d
+		d g d d d fis d d
+		d g h d d, d fis[\ff fis]
+		d4 d e e %45
+		e8 d e cis d16 d' d d d d d d
+		a a a a a a a a a a a a g g g g
+		fis8 r r4 h\p h
+		g g gis gis
+		a8 a a a fis fis d d %50
+		a' a a a a a a a
+		d,4 <d d'> q q
+		q\pp q q q
+		q r d'^\smorz r
+		<fis, a, d,>\arpeggio\f r r2 %55
+		<e a,>4\arpeggio r r2
+		e4 r r2
+		h4 r r2
+		fis'4 r8 ais h4 cis
+		fis,8 h, h'4. e,8 \appoggiatura h'16 a8 g!16 fis %60
+		g4 r8 gis a4 h
+		e,8 a, a'4. d8 \appoggiatura a16 g8 fis16 e
+		fis4 r8 fis g4 a
+		d, r g r
+		e r cis r %65
+		h8 fis[\p fis' fis] h, h' h h,
+		fis'4 ais r fis
+		fis\mf cis' fis, fis
+		fis16\ff fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis
+		fis4 r r2 %70
+		R1 \bar "|" %71
+	}
+}
+
+HallelujahFugaViola = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 2/2 \tempoHallelujahFuga
+			\set Score.currentBarNumber = #72
 	}
 }

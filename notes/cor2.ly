@@ -310,3 +310,61 @@ OAufCornoII = {
 		R1*46 \bar "|" %101 finis
 	}
 }
+
+HallelujahCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoHallelujah
+		R1*14 %14
+		r2 r4 g'\fE %15
+		c2 r
+		R1
+		r2 g4 c,
+		r c c' g
+		c, r r2 %20
+		R1*6 %26
+		r2 r4 g'\ffE
+		c2 g4 g
+		e c e r
+		R1 %30
+		r2 r4 c
+		c c c2
+		R1
+		r4 g' d'2
+		r4 e, g c, %35
+		g' r r2
+		R1
+		r2 r4 e
+		e r r2
+		R1*2 %41
+		c1~\p
+		c~
+		c
+		R %45
+		g'2\f c,4 c'
+		g r r g
+		c, r r2
+		R1*10 %58
+		e1~\fE
+		e2 r %60
+		R1
+		g
+		c,2 r
+		R1
+		r2 e %65
+		e4 r r2
+		e1~\p
+		e~\mfE
+		e4\ffE e e e
+		e e8 e e e e e %70
+		e2 r \bar "|" %71 finis
+	}
+}
+
+HallelujahFugaCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoHallelujahFuga
+			\set Score.currentBarNumber = #72
+	}
+}

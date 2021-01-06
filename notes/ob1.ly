@@ -379,3 +379,66 @@ OAufOboeI = {
 		R1*15 \bar "|" %101 finis
 	}
 }
+
+HallelujahOboeI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoHallelujah
+		R1*14 %14
+		r2 r4 a''\fE %15
+		d2 cis4 fis,
+		h2 a4 d,
+		g g2 fis4
+		e4.( fis16 g) \appoggiatura fis4 e2\trill
+		\pao d8 r r4 r2 %20
+		R1*6 %26
+		r2 r4 a\ffE
+		fis'2 e4 a,
+		d2 cis4 fis,
+		h8 cis d2 c4~ %30
+		c h a2
+		h4 d2 d4~
+		d cis! h2
+		cis4 e2 e4~
+		e d g! fis\trill %35
+		e1
+		fis2 e
+		fis e4 a
+		d,2 g
+		e a %40
+		g4 g2 g4
+		fis r a,2\p
+		h a
+		h a4 a\ffE
+		h2 g'~ %45
+		g fis
+		e4 e e e
+		\pao d8 r r4 r2
+		R1*6 %54
+		fis4\fE r r2 %55
+		e4 r r2
+		g4 r r2
+		fis4 r r2
+		fis4 r8 fis fis4 e
+		d r8 d e4 fis %60
+		h, r8 e e4 d
+		cis r8 cis d4 e
+		\pao d r8 d d4 c
+		h2 e~
+		e cis %65
+		h4 r r2
+		R1
+		cis2\p d
+		cis d
+		cis4 r r2 %70
+		R1 \bar "|" %71 finis
+	}
+}
+
+HallelujahFugaOboeI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 2/2 \tempoHallelujahFuga
+			\set Score.currentBarNumber = #72
+	}
+}
