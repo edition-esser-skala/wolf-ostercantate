@@ -565,66 +565,118 @@
 	% 		\midi { \tempo 2 = 80 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+  %     genre = "R E C I T A T I V O"
+	% 		number = "9"
+	% 		title = "O Auferſtandener, wo ſchwebeſt du"
+	% 	}
+	% 	\paper {
+	% 		systems-per-page = #2
+	% 	}
+	% 	\tocLabelLong "oauf" "9" "Recitativo" "O Auferſtandener, wo ſchwebeſt du"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup \with { \smallGroupDistance } <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+	% 					\partcombine \OAufOboeI \OAufOboeII
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup \with { \smallGroupDistance } <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "cor (D)" "1, 2" }
+	% 					% \transpose c d
+	% 					\partcombine \OAufCornoI \OAufCornoII
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup \with { \smallGroupDistance } <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\OAufViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\OAufViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\OAufViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S [1]"
+	% 					\new Voice = "SopranoA" { \dynamicUp \OAufSopranoANotes }
+	% 				}
+	% 				\new Lyrics \lyricsto SopranoA \OAufSopranoALyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "org" "b" }
+	% 					% \transpose c c,
+	% 					\OAufOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \OAufBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 2 = 60 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-      genre = "R E C I T A T I V O"
-			number = "9"
-			title = "O Auferſtandener, wo ſchwebeſt du"
+      genre = "C H O R A L"
+			number = "10"
+			title = "Jeſus mein Erlöſer lebt"
 		}
 		\paper {
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
 			systems-per-page = #2
 		}
-		\tocLabelLong "oauf" "9" "Recitativo" "O Auferſtandener, wo ſchwebeſt du"
+		\tocLabelLong "jesusmein" "10" "Choral" "Jeſus mein Erlöſer lebt"
 		\score {
 			<<
-				\new StaffGroup \with { \smallGroupDistance } <<
-					\new Staff <<
-						\set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
-						\partcombine \OAufOboeI \OAufOboeII
-					>>
-				>>
-				\new StaffGroup \with { \smallGroupDistance } <<
-					\new Staff <<
-						\set Staff.instrumentName = \markup \center-column { "cor (D)" "1, 2" }
-						% \transpose c d
-						\partcombine \OAufCornoI \OAufCornoII
-					>>
-				>>
-				\new StaffGroup \with { \smallGroupDistance } <<
-					\new GrandStaff \with { \smallGroupDistance } <<
-						\set GrandStaff.instrumentName = "vl"
-						\new Staff {
-							\set Staff.instrumentName = "1"
-							\OAufViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "2"
-							\OAufViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "vla"
-						\OAufViola
-					}
-				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "S [1]"
-						\new Voice = "SopranoA" { \dynamicUp \OAufSopranoANotes }
+						\set Staff.instrumentName = \markup \center-column { "S 1" "vl 1" "ob 1" }
+						\new Voice = "SopranoA" { \dynamicUp \JesusMeinSopranoANotes }
 					}
-					\new Lyrics \lyricsto SopranoA \OAufSopranoALyrics
+					\new Lyrics \lyricsto SopranoA \JesusMeinSopranoALyrics
+
+					\new Staff {
+						\set Staff.instrumentName = \markup \center-column { "S 2" "vl 2" "ob 2" }
+						\new Voice = "SopranoB" { \dynamicUp \JesusMeinSopranoBNotes }
+					}
+					\new Lyrics \lyricsto SopranoB \JesusMeinSopranoBLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = \markup \center-column { "T" "vla" }
+						\new Voice = "Tenore" { \dynamicUp \JesusMeinTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \JesusMeinTenoreLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "B"
+						\new Voice = "Basso" { \dynamicUp \JesusMeinBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \JesusMeinBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup \center-column { "org" "b" }
 						% \transpose c c,
-						\OAufOrgano
+						\JesusMeinOrgano
 					}
 				>>
-				\new FiguredBass { \OAufBassFigures }
+				\new FiguredBass { \JesusMeinBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 60 }
+			\midi { \tempo 2 = 80 }
 		}
 	}
 }

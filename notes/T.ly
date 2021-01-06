@@ -1045,6 +1045,66 @@ NahIstTenoreLyrics = \lyricmode {
 	ſchaun. %36 finis
 }
 
+JesusMeinTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key f \major \time 2/2 \autoBeamOff \tempoJesusMein
+		c2 c
+		b b
+		c d
+		c1\fermata
+		b!2 a %5
+		g4( c) c2
+		d4( c) c2
+		c2.( b4)
+		a1\fermata
+		e'2 c %10
+		b4( d) g2
+		f f
+		cis1\fermata
+		d2 c
+		c c %15
+		d c
+		c2.( b4)
+		a1\fermata
+		c2 d
+		a a %20
+		b a
+		a1\fermata
+		c2 c
+		c c
+		c c \bar "|" %25 finis
+	}
+}
+
+JesusMeinTenoreLyrics = \lyricmode {
+	Je -- ſus
+	mein Er --
+	lö -- ſer
+	lebt,
+	ich werd %5
+	auch das
+	Le -- ben
+	ſchau --
+	en;
+	ſchwe -- ben, %10
+	wo mein
+	Hei -- land
+	ſchwebt,
+	auf des
+	ſchö -- nen %15
+	Him -- mels
+	Au --
+	en.
+	Da wird
+	Schwach -- heit %20
+	und Ver --
+	druß
+	lie -- gen
+	un -- ter
+	mei -- nem %25 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

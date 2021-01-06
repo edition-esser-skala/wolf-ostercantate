@@ -688,6 +688,7 @@ tempoSieheDas = \tempoMarkup "Allegro"
 tempoDerHerr = \tempoMarkup "Allegro moderato"
 tempoNahIst = \tempoMarkup "[Tempo deest]"
 tempoOAuf = \tempoMarkup "Allegro moderato"
+tempoJesusMein = \tempoMarkup "[Tempo deest]"
 
 senzaPed = \markup \remark "senza Ped."
 ped = \markup \remark "Ped."

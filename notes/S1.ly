@@ -1441,6 +1441,66 @@ OAufSopranoALyrics = \lyricmode {
 	Chor. %100 finis
 }
 
+JesusMeinSopranoANotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/2 \autoBeamOff \tempoJesusMein
+		c'2 a
+		d e
+		f \appoggiatura e4 d2\trill
+		e1\fermata
+		d2 f %5
+		c a
+		b a
+		g1\trill
+		f\fermata
+		c'2 a %10
+		d e
+		f \appoggiatura e4 d2\trill
+		e1\fermata
+		d2 f
+		c \appoggiatura b4 a2
+		b a
+		g1\trill
+		f\fermata
+		a2 h
+		cis d
+		d cis\trill
+		d1\fermata
+		e2 f
+		g f
+		f e\trill \bar "|"
+	}
+}
+
+JesusMeinSopranoALyrics = \lyricmode {
+	Je -- ſus
+	mein Er --
+	lö -- ſer
+	lebt,
+	ich werd %5
+	auch das
+	Le -- ben
+	ſchau --
+	en;
+	ſchwe -- ben, %10
+	wo mein
+	Hei -- land
+	ſchwebt,
+	auf des
+	ſchö -- nen %15
+	Him -- mels
+	Au --
+	en.
+	Da wird
+	Schwach -- heit %20
+	und Ver --
+	druß
+	lie -- gen
+	un -- ter
+	mei -- nem %25 finis
+}
+
 % SopranoANotes = {
 % 	\relative c' {
 % 		\clef treble

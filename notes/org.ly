@@ -1905,6 +1905,66 @@ OAufBassFigures = \figuremode {
 	r8 <[_!]>4. r4 <4! 2> %101 finis
 }
 
+JesusMeinOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 2/2 \tempoJesusMein
+		e2 f
+		b g
+		a h,
+		c1\fermata
+		g'2 d %5
+		e f
+		d4 e f a,
+		c2 c,
+		f1\fermata
+		e'2 f %10
+		b cis,
+		d f4. d8
+		a1\fermata
+		b2 a
+		e' f %15
+		b, f
+		c' c,
+		f1\fermata
+		f'2 d
+		e f %20
+		g a
+		d,1\fermata
+		c!2 a'
+		e f
+		c' c, \bar "|" %25 finis
+	}
+}
+
+JesusMeinBassFigures = \figuremode {
+	<6>1
+	r2 <6>
+	q q
+	r1
+	<[_-]> %5
+	<6>
+	<6>4 <6 5>2 <6>4
+	<5 4>2 <\t 3>
+	r1
+	<6> %10
+	r2 <6 5>
+	r <6>
+	<_+>1
+	r2 <6 [_!]>
+	<6> \bo <[4]>4 \bc <[3]> %15
+	r1
+	<5 4>2 <\t 3>
+	r1
+	r2 <6!>
+	<6\\> <6> %20
+	<6 5> <_+>
+	r1
+	r2 <6>
+	<6 5>1
+	<5 4>2 <\t 3> %25
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

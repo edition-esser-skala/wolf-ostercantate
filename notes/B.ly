@@ -833,6 +833,66 @@ NahIstBassoLyrics = \lyricmode {
 	ſchaun. %36 finis
 }
 
+JesusMeinBassoNotes = {
+	\relative c {
+		\clef bass
+		\key f \major \time 2/2 \autoBeamOff \tempoJesusMein
+		e2 f
+		b g
+		a h
+		c1\fermata
+		g2 d %5
+		e f
+		d4( e) f2
+		c1
+		f\fermata
+		e2 f %10
+		b cis,
+		d f4.( d8)
+		a'1\fermata
+		b2 a
+		e f %15
+		b, f'
+		c1
+		f\fermata
+		f2 d
+		e f %20
+		g a
+		d,1\fermata
+		c!2 a'
+		e f
+		c' c, \bar "|" %25 finis
+	}
+}
+
+JesusMeinBassoLyrics = \lyricmode {
+	Je -- ſus
+	mein Er --
+	lö -- ſer
+	lebt,
+	ich werd %5
+	auch das
+	Le -- ben
+	ſchau --
+	en;
+	ſchwe -- ben, %10
+	wo mein
+	Hei -- land
+	ſchwebt,
+	auf des
+	ſchö -- nen %15
+	Him -- mels
+	Au --
+	en.
+	Da wird
+	Schwach -- heit %20
+	und Ver --
+	druß
+	lie -- gen
+	un -- ter
+	mei -- nem %25 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

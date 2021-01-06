@@ -943,6 +943,66 @@ NahIstSopranoBLyrics = \lyricmode {
 	ſchaun. %36 finis
 }
 
+JesusMeinSopranoBNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/2 \autoBeamOff \tempoJesusMein
+		g'2 f
+		f g
+		f g
+		g1\fermata
+		g2 f %5
+		e4( g) f2
+		f4( g) f2
+		f( e)
+		c1\fermata
+		g'2 f %10
+		f4( b) a2
+		a a
+		a1\fermata
+		f2 f
+		g f %15
+		f f
+		f( e)\trill
+		c1\fermata
+		f2 f
+		g f %20
+		e e
+		f1\fermata
+		e4( g) f( a)
+		b2 a
+		g g \bar "|" %25 finis
+	}
+}
+
+JesusMeinSopranoBLyrics = \lyricmode {
+	Je -- ſus
+	mein Er --
+	lö -- ſer
+	lebt,
+	ich werd %5
+	auch das
+	Le -- ben
+	ſchau --
+	en;
+	ſchwe -- ben, %10
+	wo mein
+	Hei -- land
+	ſchwebt,
+	auf des
+	ſchö -- nen %15
+	Him -- mels
+	Au --
+	en.
+	Da wird
+	Schwach -- heit %20
+	und Ver --
+	druß
+	lie -- gen
+	un -- ter
+	mei -- nem %25 finis
+}
+
 % SopranoBNotes = {
 % 	\relative c' {
 % 		\clef treble
