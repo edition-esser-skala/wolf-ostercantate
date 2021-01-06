@@ -756,3 +756,111 @@ DerHerrViola = {
 		b, r r\fermata \bar "|." %193 finis
 	}
 }
+
+OAufViola = {
+	\relative c' {
+		\clef alto
+		\key d \major \time 2/2 \tempoOAuf
+		d8\fE fis a d e, d cis e
+		a, g' fis e fis fis h a
+		h h, e e e cis d e
+		a,8.[ d'16] cis( d e d) cis([ d e d)] cis( d e d)
+		d,8.[ d'16] cis( d e d) cis([ d e d)] cis( d e d) %5
+		d,8.[ d'16] cis( d e d) cis([ d e d)] cis( d e d)
+		cis([ d e d)] cis( d e d) cis([ d e d)] cis( d e d)
+		e,4 r r fis8. fis16
+		e4 r r d8. d16
+		cis4 r r fis8. fis16 %10
+		cis8. cis16 d8. d16 e8. e16 cis8. cis16
+		d8.[ d16] cis( d e d) cis([ d e d)] cis( d e d)
+		cis([ d e d)] cis( d e d) cis([ d e d)] cis( d e d)
+		<g g,>4-! r d'2\p
+		a g %15
+		fis8.\f d16 cis([ d e d)] cis([ d e d)] cis( d e d)
+		cis([ d e d)] cis( d e d) cis([ d e d)] cis( d e d)
+		<g g,>4 r d2\p
+		d cis4. e8
+		d4 r <fis a>(\f^\markup \remark "a due" <g h>) %20
+		<dis fis>(\sf <e g>) <fis a>8(\p <e g> <dis fis> <e g>)
+		cis'1~
+		cis2 r
+		d,8\f fis a d e, d' cis h
+		a g fis e d cis h a %25
+		g h e g a, cis d e
+		<fis a,>4 r r2
+		d8. d'16 cis([ d e d)] cis( d e d) cis([ d e d])
+		d,8. d'16 cis([ d e d)] cis( d e d) cis([ d e d)]
+		cis( d e d) cis([ d e d)] cis( d e d) cis([ d e d)] %30
+		<e, a>4 r r2
+		gis,4 r r cis8. cis16
+		h4 r r a8. a16
+		gis8. gis16 h8. h16 e8. e16 fis8. fis16
+		gis4 r r2 %35
+		R1*2
+		a,8 cis e cis' h a gis h
+		e, d cis e a, gis' fis e
+		d fis h d, %40
+		h' gis a h
+		e,4 r r2
+		R1
+		cis8.[ fis16] eis( fis g! fis) eis([ fis g fis)] eis( fis g fis)
+		fis'8.[ fis,16] eis( fis g fis) eis([ fis g fis)] eis( fis g fis)
+		<fis cis>8.[ fis16] eis( fis g fis) eis([ fis g fis)] eis( fis g fis) %45
+		eis([ fis g fis)] eis( fis g fis) eis([ fis g fis)] eis( fis g fis)
+		h,4 r r2
+		fis'4-! r r2
+		R1
+		<g g,>4\arpeggio r r g8. g16 %50
+		a,4 r r a'8. a16
+		a4 r r2
+		r r8. a16 a8. a16
+		a8 a a a a, a a a
+		<a d>4 r d(\p e) %55
+		a,1~
+		a~
+		a~
+		a2 <fis' a>4(\mf <d fis>)
+		q( <g e>) <gis h,>8( <a c,> <h d,> <a c,>) %60
+		fis1\p
+		d~
+		d4 r <g h>(\mf <d g>)
+		<h d>( <c e>) <e g>8( <d f> <cis e> <d f>)
+		h1\p %65
+		\key f \major \grace s8 c1~\pp
+		c~
+		c4 r r8. c16\f c4-!
+		R1
+		a8\ff c f a g f e g %70
+		c, b a g' f e d c
+		d d g4~ g8 e f g
+		c,4 r r2
+		R1
+		d,8 f b d c b a c %75
+		d4 r r2
+		f,8 f' es d c b a c
+		f,4 r r8. es'16 es4
+		r2 r4 c'-!
+		b r b2\p %80
+		f a
+		f4-! r es2
+		d fis
+		d4-! r c2\f
+		b b %85
+		b r
+		f8.\p es16 d4 r es
+		as8. g16 as4 r as
+		b8. a16 b4 r f~
+		f f( f f) %90
+		f1~
+		f2 r
+		R1
+		g8.\mf f16 e!4 r f
+		<f b>2 b %95
+		c\p g
+		g1
+		r8. e'16\f e4 r2
+		r f4 r
+		g, r8. g16 g4 g %100
+		r8 g h d g e f d \bar "|" %101 finis
+	}
+}

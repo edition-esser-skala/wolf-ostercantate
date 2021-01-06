@@ -346,13 +346,13 @@
 	% 			>>
 	% 			\new ChoirStaff <<
 	% 				\new Staff {
-	% 					\set Staff.instrumentName = "S 1"
+	% 					\set Staff.instrumentName = "T 1"
 	% 					\new Voice = "TenoreA" { \dynamicUp \WieDieTenoreANotes }
 	% 				}
 	% 				\new Lyrics \lyricsto TenoreA \WieDieTenoreALyrics
 	%
 	% 				\new Staff {
-	% 					\set Staff.instrumentName = "S 2"
+	% 					\set Staff.instrumentName = "T 2"
 	% 					\new Voice = "TenoreB" { \dynamicUp \WieDieTenoreBNotes }
 	% 				}
 	% 				\new Lyrics \lyricsto TenoreB \WieDieTenoreBLyrics
@@ -513,56 +513,118 @@
 	% 		\midi { \tempo 4 = 130 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+  %     genre = "C H O R A L"
+	% 		number = "8"
+	% 		title = "Nah iſt meines Helfers Rechte"
+	% 	}
+	% 	\paper {
+	% 		system-system-spacing.basic-distance = #35
+	% 		system-system-spacing.minimum-distance = #35
+	% 		systems-per-page = #2
+	% 	}
+	% 	\tocLabelLong "nahist" "8" "Choral" "Nah iſt meines Helfers Rechte"
+	% 	\score {
+	% 		<<
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "S 1" "[vl 1]" "[ob 1]" }
+	% 					\new Voice = "SopranoA" { \dynamicUp \NahIstSopranoANotes }
+	% 				}
+	% 				\new Lyrics \lyricsto SopranoA \NahIstSopranoALyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "S 2" "[vl 2]" "[ob 2]" }
+	% 					\new Voice = "SopranoB" { \dynamicUp \NahIstSopranoBNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto SopranoB \NahIstSopranoBLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "T" "[vla]" }
+	% 					\new Voice = "Tenore" { \dynamicUp \NahIstTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \NahIstTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \NahIstBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \NahIstBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "org" "b" }
+	% 					% \transpose c c,
+	% 					\NahIstOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \NahIstBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 2 = 80 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-      genre = "C H O R A L"
-			number = "8"
-			title = "Nah iſt meines Helfers Rechte"
+      genre = "R E C I T A T I V O"
+			number = "9"
+			title = "O Auferſtandener, wo ſchwebeſt du"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
 			systems-per-page = #2
 		}
-		\tocLabelLong "nahist" "8" "Choral" "Nah iſt meines Helfers Rechte"
+		\tocLabelLong "oauf" "9" "Recitativo" "O Auferſtandener, wo ſchwebeſt du"
 		\score {
 			<<
+				\new StaffGroup \with { \smallGroupDistance } <<
+					\new Staff <<
+						\set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+						\partcombine \OAufOboeI \OAufOboeII
+					>>
+				>>
+				\new StaffGroup \with { \smallGroupDistance } <<
+					\new Staff <<
+						\set Staff.instrumentName = \markup \center-column { "cor (D)" "1, 2" }
+						% \transpose c d
+						\partcombine \OAufCornoI \OAufCornoII
+					>>
+				>>
+				\new StaffGroup \with { \smallGroupDistance } <<
+					\new GrandStaff \with { \smallGroupDistance } <<
+						\set GrandStaff.instrumentName = "vl"
+						\new Staff {
+							\set Staff.instrumentName = "1"
+							\OAufViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "2"
+							\OAufViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "vla"
+						\OAufViola
+					}
+				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "S 1" "[vl 1]" "[ob 1]" }
-						\new Voice = "SopranoA" { \dynamicUp \NahIstSopranoANotes }
+						\set Staff.instrumentName = "S [1]"
+						\new Voice = "SopranoA" { \dynamicUp \OAufSopranoANotes }
 					}
-					\new Lyrics \lyricsto SopranoA \NahIstSopranoALyrics
-
-					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "S 2" "[vl 2]" "[ob 2]" }
-						\new Voice = "SopranoB" { \dynamicUp \NahIstSopranoBNotes }
-					}
-					\new Lyrics \lyricsto SopranoB \NahIstSopranoBLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "T" "[vla]" }
-						\new Voice = "Tenore" { \dynamicUp \NahIstTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \NahIstTenoreLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \NahIstBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \NahIstBassoLyrics
+					\new Lyrics \lyricsto SopranoA \OAufSopranoALyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup \center-column { "org" "b" }
 						% \transpose c c,
-						\NahIstOrgano
+						\OAufOrgano
 					}
 				>>
-				\new FiguredBass { \NahIstBassFigures }
+				\new FiguredBass { \OAufBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 80 }
+			\midi { \tempo 2 = 60 }
 		}
 	}
 }

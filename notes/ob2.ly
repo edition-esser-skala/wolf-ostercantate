@@ -300,3 +300,82 @@ SieheDasOboeII = {
 		a4 r r2\fermata \bar "|." %191 finis
 	}
 }
+
+OAufOboeII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 2/2 \tempoOAuf
+		d'2\fE a'4. h16 cis
+		d2 d,4. e16 fis
+		g4~ g16 fis-! e-! d-! cis8 e a, cis
+		d4 r r g8. g16
+		fis4 r r h8. h16 %5
+		a4 r r d8. d16
+		a4 h fis \appoggiatura g16 fis8 e16 d
+		a'4 r r d,8. d16
+		cis4 r r fis8. fis16
+		e4 r r a8. a16 %10
+		e4 fis g e
+		fis r r d'8. d16
+		a4 h c a
+		h r r2
+		R1 %15
+		d,4\fE r r d8. d16
+		a4 h c a
+		h r r2
+		R1
+		r2 fis'4(\fE g) %20
+		dis(\sf e) fis8(\p e dis e)
+		e2 r
+		R1
+		d2\f a'
+		d d, %25
+		g4~ g16 fis-! e-! d-! cis8 e a, cis
+		d4 r r2
+		a4 r r g'8. g16
+		fis4 r r h8. h16
+		a4 d fis, \appoggiatura g16 fis8 e16 d %30
+		cis4 r r2
+		e4 r r a,8. a16
+		gis4 r r cis8. cis16
+		h4 e gis, a
+		h r r2 %35
+		R1*2
+		a2 e'4. fis16 gis
+		a2 a,
+		d~ d8 h e d %40
+		cis4 r r2
+		R1
+		fis,4 r r h8. h16
+		ais4 r r d8. d16
+		cis4 r r fis8. fis16 %45
+		e4 d e cis
+		d r r2
+		d4 r r2
+		R1
+		g,4 r r d'8. d16 %50
+		cis!4 r r cis8. cis16
+		d4 r r2
+		r r8. d16 d8. d16
+		d2 e
+		d4 r r2 %55
+		R1*10 %65
+		\key f \major \grace s8 R1*4
+		f,2\ffE c' %70
+		f4 f f4. g16 a
+		b2~ b8 g c e,
+		f4 r r2
+		R1
+		b,2 f'4. g16 a %75
+		b4 r r2
+		b, f'4. g16 a
+		b4 r r8. g16 g4
+		r2 r4 es-!
+		d r r2 %80
+		R1*3
+		r2 as\fE
+		g4 g( d f) %85
+		es2 r
+		R1*15 \bar "|" %101 finis
+	}
+}

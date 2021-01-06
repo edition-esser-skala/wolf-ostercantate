@@ -680,6 +680,113 @@ DerHerrViolinoI = {
 	}
 }
 
+OAufViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 2/2 \tempoOAuf
+		d'2\fE a'4. h16 cis
+		d2 d,4. e16 fis
+		g4~ g16 fis-! e-! d-! cis8-! h-! a-! g-!
+		fis4-! r r g'8. g16
+		fis4 r r h8. h16 %5
+		a4 r r d8. d16
+		a8.[ a16 h8. h16] fis8.[ fis16] \appoggiatura g fis8 e16 d
+		a'8.[ a,16] gis( a h a) gis([ a h a)] gis( a h a)
+		a'8.[ a,16] gis( a h a) gis([ a h a)] gis( a h a)
+		a'8.[ a,16] gis( a h a) gis([ a h a)] gis( a h a) %10
+		gis( a h a) gis([ a h a)] gis( a h a) gis([ a h a)]
+		<fis' a, d,>4\arpeggio r r d'8. d16
+		a8.[ a16 h8. h16] c8.[ c16 a8. a16]
+		h4-! r \appoggiatura { h32[ cis] } d4\p d
+		d4. fis,16 d a'4. cis,16 a %15
+		<fis' a, d,>4\arpeggio\f r r d8. d16
+		a8.[ a16 h8. h16] c8.[ c16 a8. a16]
+		h4 r \appoggiatura { h'32[ cis] } d4\p d
+		d4. fis,16 d a'4. e16 cis
+		d4 r a'\f( h) %20
+		fis(\sf g) a8(\p g fis g)
+		g1~
+		g2 r
+		d\f a'4. h16 cis
+		d4 d, d4. e16 fis %25
+		g4~ g16 fis-! e-! d-! cis8 h' a g
+		fis4 r r2
+		<d d'>4 r r g8. g16
+		fis4 r r h8. h16
+		a8.[ a16 d8. d16] fis,8.[ fis16] \appoggiatura g fis8 e16 d %30
+		a'4 r r2
+		<e h e,>8.\arpeggio e,16 dis([ e fis e)] dis( e fis e) dis([ e fis e)]
+		e'8.[ e,16] dis( e fis e) dis([ e fis e)] dis( e fis e)
+		dis([ e fis e)] dis( e fis e) dis([ e fis e)] dis( e fis e)
+		<e h' e>4\arpeggio r r2 %35
+		R1*2
+		a2 e'4. fis16 gis
+		a4 a a4. h16 cis
+		d4~ d16 cis-! h-! a-! gis8 fis e d %40
+		cis4 r r2
+		R1
+		<fis, cis' fis>4\arpeggio r r h8. h16
+		ais4 r r d8. d16
+		cis4 r r fis8. fis16 %45
+		e8.[ e16 d8. d16] e8.[ e16 cis8. cis16]
+		d4 r r2
+		<a! a'!>4\arpeggio-! r r2
+		R1
+		<g d' h'>4\arpeggio r r h'8. h16 %50
+		cis!4 r r cis8. cis16
+		<d d,>4 r r2
+		r r8. d16[ d8. d16]
+		d4. fis,16 d a'4. cis,16 a
+		<d, a' fis'>4\arpeggio r fis(\p g) %55
+		fis1~
+		fis~
+		fis~
+		fis2 a'4(\mf fis)
+		d( e) h8( c d c) %60
+		c1\p
+		fis
+		g4 r h(\mf g)
+		d( e) g8( f e f)
+		f1\p %65
+		\key f \major \grace s8 e4 r e(\pp g)
+		g,( a) a8( b c b)
+		b4 r r8. g'16\f g4-!
+		R1
+		f,2\ff c'4. d16 e %70
+		f4 f f~ f16 f-! g-! a-!
+		b4~ b16 a-! g-! f-! e8 d' c b
+		a4 r r2
+		R1
+		b,,2 f'4. g16 a %75
+		b4 r r2
+		b f'4. g16 a
+		b4 r r8. b16 b4
+		r2 r4 a-!
+		b r b(\p b) %80
+		b4. d,16 b f'4. a,16 f
+		b4-! r g'( g)
+		g4. b,16 g d'4. fis,16 d
+		g4-! r es'\f es
+		es4. b8 \appoggiatura b4 as2\trill %85
+		g r
+		b,\p g
+		c d
+		es \appoggiatura d4 c2\trill
+		r4 d8.( es16 d4-. d-.) %90
+		d1~
+		d2 r
+		R1
+		c2\mf a!
+		r4 d2 e!4 %95
+		r8 f-!\p f( a) r d,-! d( f)
+		\appoggiatura f4 e1
+		r8. g'16\f g4 r2
+		r <a c, f,>4\arpeggio r
+		g,, r8. g16 g4 g %100
+		g2 r \bar "|" %101 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

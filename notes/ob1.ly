@@ -300,3 +300,82 @@ SieheDasOboeI = {
 		f4 r r2\fermata \bar "|." %191 finis
 	}
 }
+
+OAufOboeI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 2/2 \tempoOAuf
+		d'2\fE a'4. h16 cis
+		d2 d,4. e16 fis
+		g4~ g16 fis-! e-! d-! cis8 h' a g
+		fis4 r r g8. g16
+		fis4 r r h8. h16 %5
+		a4 r r d8. d16
+		a4 h fis \appoggiatura g16 fis8 e16 d
+		a'4 r r d,8. d16
+		cis4 r r fis8. fis16
+		e4 r r a8. a16 %10
+		e4 fis g e
+		fis r r d'8. d16
+		a4 h c a
+		h r r2
+		R1 %15
+		d,4\fE r r d8. d16
+		a4 h c a
+		h r r2
+		R1
+		r2 a'4(\fE h) %20
+		fis(\sf g) a8(\p g fis g)
+		g2 r
+		R1
+		d2\f a'
+		d d, %25
+		g4~ g16 fis-! e-! d-! cis8 h' a g
+		fis4 r r2
+		fis4 r r g8. g16
+		fis4 r r h8. h16
+		a4 d fis, \appoggiatura g16 fis8 e16 d %30
+		a'4 r r2
+		h4 r r a,8. a16
+		gis4 r r cis8. cis16
+		h4 e gis, a
+		h r r2 %35
+		R1*2
+		a2 e'4. fis16 gis
+		a2 a,
+		\pa d~ d8 fis e gis \pd %40
+		a4 r r2
+		R1
+		fis4 r r h,8. h16
+		ais4 r r d8. d16
+		cis4 r r fis8. fis16 %45
+		e4 d e cis
+		d r r2
+		a'!4 r r2
+		R1
+		\partcombineChordsOnce h4 r r h8. h16 %50
+		e,4 r r e8. e16
+		fis4 r r2
+		r r8. fis16 fis8. fis16
+		fis2 g
+		fis4 r r2 %55
+		R1*10 %65
+		\key f \major \grace s8 R1*4
+		f,2\ffE c' %70
+		f4 f f4. g16 a
+		\pa b4~ b16 a-! g-! f-! e8 d' c b \pd
+		a4 r r2
+		R1
+		b,2 f'4. g16 a %75
+		b4 r r2
+		b, f'4. g16 a
+		b4 r r8. b16 b4
+		r2 r4 a-!
+		b r r2 %80
+		R1*3
+		r2 es,4\fE es
+		es b( f as) %85
+		g2 r
+		R1*15 \bar "|" %101 finis
+	}
+}

@@ -1694,6 +1694,217 @@ NahIstBassFigures = \figuremode {
 	r1 %36 finis
 }
 
+OAufOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 2/2 \tempoOAuf
+		\mvTr d8\fE-\soloE fis a d cis h a g
+		fis e d cis h a' g fis
+		e d cis h a g' fis e
+		d4 r r h'8. h16
+		a4 r r g8. g16 %5
+		fis4 r r h8. h16
+		fis8.[ fis16 g8. g16] d8.[ d16 h8. h16]
+		a4 r r fis'8. fis16
+		e4 r r d8. d16
+		cis4 r r fis8. fis16 %10
+		cis8.[ cis16 d8. d16] e8.[ e16 cis8. cis16]
+		d4 r r h'8. h16
+		fis8.[ fis16 g8. g16] a8.[ a16 fis8. fis16]
+		g8 g[\p g g] h h h h
+		a a a a a a a a %15
+		<d d,>4\f r r h8. h16
+		fis8.[ fis16 g8. g16] a8.[ a16 fis8. fis16]
+		g8 g[\p g g] h h h h
+		a a a a a a a a
+		d,4 r r2 %20
+		\mvTr a'2~\f-\tasto a~\p
+		a1~
+		a2 r
+		d,8\fE fis a d cis h a g
+		fis e d cis h a' g fis %25
+		e d cis h a g' fis e
+		d4 r r2
+		d4 r r h'8. h16
+		a4 r r g8. g16
+		fis8.[ fis16 fis8. fis16] h8.[ h,16 h8. h16] %30
+		a4 r r2
+		gis4 r r cis8. cis16
+		h4 r r a8. a16
+		gis8.[ gis16 gis'8. gis16] e8.[ e16 fis8. fis16]
+		gis4 r r2 %35
+		R1*2
+		a,8 cis e a gis fis e d
+		cis h a gis fis e' d cis
+		h a' gis fis e d cis h %40
+		a4 r r2
+		R1
+		ais4 r r d8.[ d16]
+		cis4 r r h8. h16
+		ais4 r r d'8. d16 %45
+		cis8.[ cis16 h8. h16] cis8.[ cis16 ais8. ais16]
+		h4 r r2
+		fis4 r r2
+		R1
+		<g g,>4\arpeggio r r g8. g16 %50
+		<g g,>4\arpeggio r r g8. g16
+		fis4 r r2
+		r r8. fis16[ fis8. d16]
+		a'8 a a a a, a a a
+		d4 r r2 %55
+		d1~\p
+		d~
+		d~
+		d2~ d\mf
+		d1~-\tasto %60
+		d~\p
+		d
+		g,2~ g\mf
+		g'1~
+		g\p %65
+		\key f \major \grace s8 c,1~\pp
+		c~
+		c4 r r8. e16\f e4-\parenthesize-!
+		R1
+		f,8\ff a c f e d c b %70
+		a g' f e d c b a
+		g f' e d c b' a g
+		f4 r r2
+		R1
+		b,8 d f b a g f es %75
+		d4 r r2
+		d8 d' c b a g f es
+		d4 r r8. es16 es4
+		r2 r4 f-!
+		b,8 b'[\p b b] g g g g %80
+		f f f f es es es es
+		d d d d es es es es
+		d d d d c c c c
+		b b'[\f b g] c c c c
+		b b b b b, b b b %85
+		es g[\p c b] as g f es
+		d8. c16 b4 r es
+		as8. g16 as4 r f
+		g8. f16 g4 a8. g16 a4
+		b, r b2 %90
+		b1~
+		b2. r4
+		es8\mf d es g b as g f
+		e8. d16 c4 r f
+		b,2 g %95
+		a h
+		c1
+		r8. e16\f e4 r2
+		r f4 r
+		g, r8. g16 g4 g %100
+		r8 g h d g e f d \bar "|" %101 finis
+	}
+}
+
+OAufBassFigures = \figuremode {
+	r2 <6>
+	q <5>
+	r r8 \bo <[4 3]> <6> \bc <[6 \l]>
+	r2. <6>4
+	<6 4>1 %5
+	<6>2. <5>4
+	<6>2. <5>4
+	r2. <6>4
+	<6 4>1
+	<6>2. <5>4 %10
+	<6>2 q4 q
+	r2. <5>4
+	<6>2 <6 _!>4 <6 [5!]>
+	r2 <6>
+	<6 4> <7> %15
+	r2. <5>4
+	<6>2 <6 _!>4 <6 [5!]>
+	r2 <6>
+	<6 4> <7 5>
+	r1 %20
+	r
+	r
+	r
+	r2 <6>
+	q1 %25
+	<5>2 <7>8 \bo <[4 3]> <6> \bc <[6 \l]>
+	r1
+	r2. <6>4
+	<6 4>1
+	<6>2 <5> %30
+	r1
+	<6>2. q4
+	<6+ 4>1
+	<6>2 <_+>4 <7>
+	<6>1 %35
+	r
+	<6 5>
+	r2 <6>
+	q <5>
+	r <_+>8 \bo <[4+ 3]> <6> \bc <[6\\ \l]> %40
+	r1
+	r2 <7!>
+	<6>2. q4
+	<6+ 4>1
+	<6>2. q4 %45
+	<6\\>2 q4 <6 5>
+	r1
+	<6 _!>
+	<[6 5!]>
+	r1 %50
+	<4+ 2>2. <\t \t>4
+	<6>1
+	r2 r8. <6>16 r4
+	<6 4>2 <7 5>
+	r1 %55
+	r
+	r
+	r
+	r
+	r %60
+	r
+	r
+	r
+	r
+	r %65
+	r
+	r
+	r2 r8. <6 5->16 r4
+	r1
+	r2 <6> %70
+	q <5>
+	r4 <5> <7>8 <6 4 3> <6> <6 4>
+	r1
+	r2 <7->
+	r2 <6> %75
+	q1
+	q2 q
+	q1
+	r2 <6 4>4 <7->
+	r2 <6-> %80
+	<6 4> <4 2>
+	<6> q
+	<6 4> <4+ 2>
+	<6> <6- [_-]>
+	<6 [4-]> <5 3>4 <7-> %85
+	r1
+	<6>
+	<[5-]>2. <6 [_-]>4
+	<6->2 <6>
+	r1 %90
+	r
+	r
+	r
+	<6>2. <_!>4
+	r2 <5>4 <6!> %95
+	<6>2 <6 [5]>
+	<4>4 <3>2.
+	r8. <6>16 r2.
+	r1
+	<_!> %100
+	r8 <[_!]>4. r4 <4! 2> %101 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

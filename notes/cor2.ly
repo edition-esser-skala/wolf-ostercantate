@@ -248,3 +248,65 @@ SieheDasCornoII = {
 		c4 r r2\fermata \bar "|." %191 finis
 	}
 }
+
+OAufCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoOAuf
+		c'2\fE g
+		c1
+		r2 g4 g
+		c r r c,8. c16
+		c4 r r c8. c16 %5
+		c4 r r c8. c16
+		c4 c c c'
+		g r r g8. g16
+		g4 r r g8. g16
+		g4 r r g8. g16 %10
+		g4 g r g
+		c r r c,8. c16
+		c1~
+		c4 r r2
+		c'\p g %15
+		c,4\f r r c8. c16
+		c1~
+		c4 r r2
+		c'\p g
+		c,4 r r2 %20
+		g~\f g~\p
+		g4 r r2
+		R1
+		c'2\f g
+		c1 %25
+		r2 g4 g
+		c, r r2
+		c'4 r r c,8. c16
+		c4 r r c8. c16
+		c4 c c c' %30
+		g r r2
+		d'4 r r d8. d16
+		d4 r r d8. d16
+		d4 d d d
+		d r r2 %35
+		R1*2
+		g,2 d'
+		g, r
+		c4 r d r %40
+		g, r r2
+		R1
+		e4 r r e8. e16
+		e4 r r e8. e16
+		e4 r r e8. e16 %45
+		e4 e e e
+		e r r2
+		c4 r r2
+		R1
+		c4 r r c8. c'16 %50
+		g4 r r g8. g16
+		c4 r r2
+		r r4 c
+		c2 g
+		c,4 r r2 %55
+		R1*46 \bar "|" %101 finis
+	}
+}

@@ -1311,6 +1311,136 @@ NahIstSopranoALyrics = \lyricmode {
 	ſchaun. %36 finis
 }
 
+OAufSopranoANotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 2/2 \autoBeamOff \tempoOAuf
+		R1*21 %21
+		r2 r8 \mvTr e'\pE^\soloE e e
+		\appoggiatura d16 cis cis cis8 r e e8. g,16 g8 a16 e
+		fis4 r r2
+		R1*2 %26
+		r16 a a a a8 fis d'4 d8 a
+		fis'8. fis16 fis4 r2
+		R1*2 %30
+		r4 r8 a, cis cis h a
+		e'4 r r2
+		R1*2
+		r4 r8 gis, gis e r4 %35
+		h'8 gis r4 e'8. e16 e8 fis
+		\appoggiatura e d d r d d8.([ cis32 d] e8) e
+		\appoggiatura d cis4 r r2
+		R1*2 %40
+		r4 r8 a cis cis d e
+		e8. e16 e8 r16 cis \appoggiatura a8 g! g g8. a16
+		\appoggiatura g8 fis fis r4 r2
+		R1*3 %46
+		r2 r8 d' d d
+		d8. a!16 a a r a a8 a a h
+		c4 r8 c c8.([ d32 e] d8) d
+		\appoggiatura c8 h8. h16 h8 r r2 %50
+		R1
+		r2 r4 r8 d
+		d4. a8 a4 r
+		R1*2 %55
+		r8 a a a a4. d8
+		d8. fis,16 fis8 r16 fis fis8 fis g a
+		a d, r d fis fis e d
+		a'8. a16 a4 r2
+		R1 %60
+		r2 r8 a a h
+		c8. c16 c8 r16 c c4. d8
+		\appoggiatura c16 h h h8 r4 r2
+		R1
+		r4 r8 d d8. d16 e8 f %65
+		\key f \major \appoggiatura f e e r4 r2
+		R1
+		r4 r8 g, c4 r16 g g a
+		b8 g e'8. c16 g'8 b, b16([\trill a)] b8
+		a4 r r2 %70
+		R1*2
+		r8 f f f f g a f
+		f' c a f es es es'8. d16
+		d4 r r2 %75
+		r r8 d f d
+		\appoggiatura c b4 r r2
+		r4 f'8 d g4 r8 g,
+		es'4( a,8) b f4 r
+		R1*11 %90
+		r2 r4 r8 f
+		f f f f b f f es16 d
+		g8 g g4 r2
+		R1*3 %96
+		r4 r8 g g g g g
+		c g r4 r8 g c e
+		g8. g16 e8 c a' a, a d
+		\appoggiatura c h4 r r2 %100
+		R1 \bar "|" %101 finis
+	}
+}
+
+OAufSopranoALyrics = \lyricmode {
+	O Auf -- er -- %22
+	ſtan -- de -- ner, wo ſchwe -- beſt du, un -- ge --
+	ſehn?
+
+	In wel -- chem Rei -- che le -- beſt, ein %27
+	Kö -- nig, Du?
+
+	Der Ret -- ter der Na -- %31
+	tur!
+
+	Die erſ -- te %35
+	ſchö -- ne, neu -- er -- wach -- te
+	Blu -- me, auf Got -- tes
+	Flur!
+
+	Und trankſt der Auf -- er -- %41
+	ſte -- hung Kraft für dei -- nen Kelch der
+	Lei -- den,
+
+	ein -- ath -- mend %47
+	Him -- mels -- freu -- den, ver -- brei -- tend ü -- ber --
+	all des ew -- gen
+	Le -- bens Saft; %50
+
+	ich %52
+	ſe -- he Dich.
+
+	Dein ſchö -- nes Kleid iſt %56
+	Mor -- gen -- roth in al -- ler Men -- ſchen
+	Bli -- cken, die Hof -- nung der Un --
+	ſterb -- lich -- keit;
+
+	dein Leid die %61
+	hei -- li -- ge, ver -- borg -- ne
+	Chriſ -- ten -- heit;
+
+	dein An -- ge -- ſicht Ent -- %65
+	zü -- cken.
+
+	Ich ſeh! Auf dei -- nem %68
+	Gra -- be blüht des Le -- bens ho -- her
+	Baum!
+
+	an dem in wei -- tem Raum die %73
+	Schöp -- fung ſich aus Nacht und Mo -- der
+	zieht, %75
+	und e -- wig
+	wächſt,
+	e -- wig wächſt und
+	e -- wig blüht.
+
+	Was %91
+	tö -- net aus den Grüf -- ten dort für Ge --
+	ſang her -- vor?
+
+	Er ſtei -- get zu den %97
+	Lüf -- ten; das Feld der
+	Tod -- ten wird der Auf -- er -- ſte -- hung
+	Chor. %100 finis
+}
+
 % SopranoANotes = {
 % 	\relative c' {
 % 		\clef treble
