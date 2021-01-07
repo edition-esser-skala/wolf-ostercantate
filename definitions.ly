@@ -742,6 +742,17 @@ tinyGroupDistance = {
   			 (stretchability . 0))
  }
 
+ largeGroupDistance = {
+ 	\override StaffGrouper.staffgroup-staff-spacing =
+ 		#'((basic-distance . 20)
+ 			 (minimum-distance . 20)
+ 			 (padding . -100)
+ 			 (stretchability . 0))
+ 	\override StaffGrouper.staff-staff-spacing =
+ 		#'((basic-distance . 13)
+        (minimum-distance . 13)
+        (padding . -100)
+ 			 (stretchability . 0)) }
 
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"

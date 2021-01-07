@@ -375,6 +375,34 @@ ThutAufViola = {
 	}
 }
 
+JesusChristusViolaNotes = {
+	\relative c' {
+		\clef alto
+		\key h \minor \time 2/2 \autoBeamOff \tempoJesusChristus
+			\set Staff.timeSignatureFraction = 2/2
+		d2 d
+		cis d
+		cis d
+		cis2. h4~
+		h4 a8[ gis] a2\fermata %5
+		cis d
+		e d(
+		cis2.) e8.([ d16)]
+		d2\fermata cis4( e)
+		e2 fis %10
+		e( d)
+		ais\fermata h
+		h a4( cis)
+		cis2 cis
+		cis2.( h4) %15
+		a1\fermata
+		a4.( d8) d2
+		cis d
+		cis2. e4
+		\time 2/1 e2( d4 cis d1)\fermata \bar "|." %20 finis
+	}
+}
+
 WieDieViola = {
 	\relative c' {
 		\clef alto
@@ -834,6 +862,49 @@ DerHerrViola = {
 	}
 }
 
+NahIstViolaNotes = {
+	\relative c' {
+		\clef alto
+		\key d \minor \time 2/2 \autoBeamOff \tempoNahIst
+		a2 d
+		d e
+		e e
+		e2.( d4)
+		cis1\fermata %5
+		a2 a
+		b d
+		b( a4.) g8
+		f1\fermata
+		a2 a %10
+		a h
+		a a
+		a( gis4 d')
+		cis1\fermata
+		d2 c %15
+		b a
+		a2. a8([ g)]
+		f1\fermata
+		a2 c!
+		c es %20
+		d4( e) c2
+		c2.( b4)
+		a1\fermata
+		c2 c
+		c c4.( d8) %25
+		e2 f
+		d( c4 b)
+		a1\fermata
+		c2 f
+		e c %30
+		b d
+		a1\fermata
+		a2 a
+		a b
+		a a %35
+		a1\fermata \bar "|." %36 finis
+	}
+}
+
 OAufViola = {
 	\relative c' {
 		\clef alto
@@ -939,6 +1010,38 @@ OAufViola = {
 		r f4 r
 		g, r8. g16 g4 g %100
 		r8 g h d g e f d \bar "|" %101 finis
+	}
+}
+
+JesusMeinViolaNotes = {
+	\relative c' {
+		\clef alto
+		\key f \major \time 2/2 \autoBeamOff \tempoJesusMein
+		c2 c
+		b b
+		c d
+		c1\fermata
+		b!2 a %5
+		g4( c) c2
+		d4( c) c2
+		c2.( b4)
+		a1\fermata
+		e'2 c %10
+		b4( d) g2
+		f f
+		cis1\fermata
+		d2 c
+		c c %15
+		d c
+		c2.( b4)
+		a1\fermata
+		c2 d
+		a a %20
+		b a
+		a1\fermata
+		c2 c
+		c c
+		c c \bar "|" %25 finis
 	}
 }
 
