@@ -143,5 +143,55 @@ HallelujahFugaTimpani = {
 		\clef bass
 		\key c \major \time 2/2 \tempoHallelujahFuga
 			\set Score.currentBarNumber = #72
+		R1*13 %84
+		g4\fE r g r %85
+		g r r c
+		c r g8 g g g
+		c4 r r2
+		R1*9 %97
+		g4 r r2
+		r g4 g8 g
+		c4 r r2 %100
+		R1*9 %109
+		g4 r c r %110
+		R1*25 %135
+		r2 r4 c\fE
+		g g8 g g4 g
+		c4 r r2
+		R1
+		g4 r r2 %140
+		R1
+		g4 r r2
+		R1
+		g4 r r2
+		R1 %145
+		g4 r c r
+		R1
+		g4 r c r
+		c r r2
+		g4 g8 g g4 g %150
+		c r r c
+		c2-! c-!
+		c-! r4 c
+		c2 c
+		c r4 g8 g %155
+		g4 r c r
+		g r c r
+		g r c r
+		g r c r
+		R1*4 %163
+		g4 r g g
+		g r g g %165
+		g r g r
+		g r g g
+		c r r2
+		R1*3 %171
+		g1~\ffE\startTrillSpan
+		g4\stopTrillSpan g8 g g4 g
+		c8 c c c c c c c
+		c c c c c c c c
+		c4 r r2
+		R1*6 %182
+		R1\fermataMarkup \bar "|." %183 FINIS
 	}
 }

@@ -159,5 +159,70 @@ HallelujahFugaClarinoI = {
 		\clef treble
 		\key c \major \time 2/2 \tempoHallelujahFuga
 			\set Score.currentBarNumber = #72
+		R1*13 %84
+		d'4\fE r e d %85
+		d r r c
+		d4 r d8 d d d
+		e4 r r2
+		e,4 e8 e e e e e
+		e4 r r2 %90
+		R1*7 %97
+		d'4 r r2
+		r d4 d
+		c r r2 %100
+		R1*4
+		e2 e %105
+		e r
+		r e,4 e8 e
+		e4 r r2
+		R1
+		d'4 r e r %110
+		c r d r
+		e r e, r
+		r2 e4 e8 e
+		e4 e r2
+		R1*7 %121
+		e4\fE e8 e e4 e
+		e8 e e e e e e e
+		e4 r r2
+		R1*12 %136
+		d'4\fE r d d
+		c r r c
+		d4. d8 d4 d
+		d r r2 %140
+		R1
+		d4 r r2
+		R1
+		d4 r r2
+		R1 %145
+		d4. d8 e4 r
+		R1
+		d4 r e r
+		c r c c
+		e e8 e d4 d8 d %150
+		e4 r r e
+		e2 e
+		e r4 g
+		e2 e
+		e r4 g %155
+		d r e r
+		d r e r
+		d r e r
+		d r e r
+		c r r2 %160
+		R1*3
+		e4 r e e
+		e r e e %165
+		d r d d
+		d r d d
+		e r r2
+		R1*3 %171
+		d4\ffE d8 d d4 d
+		d d8 d d d d d
+		e4 e e e
+		c c8 c c4 c8 c %175
+		c4 r r2
+		R1*6 %182
+		R1\fermataMarkup \bar "|." %183 FINIS
 	}
 }

@@ -1021,8 +1021,119 @@ HallelujahViola = {
 
 HallelujahFugaViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key d \major \time 2/2 \tempoHallelujahFuga
 			\set Score.currentBarNumber = #72
+		R1*2 %73
+		r2 r4 a\fE
+		d2 d %75
+		d r4 fis
+		h,4. h8 e4 d
+		cis h cis d
+		a d \appoggiatura fis8 e4 d8 cis
+		d4 a d2~ %80
+		d cis\trill
+		d4. cis8 d4 e
+		fis d8 e fis4 e8 d
+		e4 e2 e4
+		e e fis gis %85
+		a2 r
+		R1
+		r4 fis h,2~
+		h ais\trill
+		h a %90
+		g4 e8 fis g4 a
+		h1~
+		h4 h e d8 cis
+		h4 d \appoggiatura d8 cis4 h8 a
+		d4 fis8 d h4 h %95
+		e cis8. h16 a4 r
+		r e' e2~
+		e4 e d d
+		e e2 e4
+		d2 r4 e %100
+		a,4. a8 d4 c
+		c h d2~
+		d4 cis8 d e4 d
+		\appoggiatura e8 d4 cis e2~
+		e4 d8 e fis4 e~ %105
+		e d8 cis d4 h8 d
+		e2 r4 cis8. ais16
+		fis'2 g4 fis
+		e2 e
+		e d~ %110
+		d4 d e h
+		cis fis, fis'4. fis8
+		e4. e8 fis2~
+		fis4 fis fis fis
+		fis8-! cis-! cis-! fis-! fis cis cis fis %115
+		fis cis cis fis fis cis cis fis
+		fis fis fis fis g g g g
+		e e e e fis fis fis fis
+		fis fis[\p fis fis] fis fis fis fis
+		g g g g g g g g %120
+		fis fis fis fis fis fis fis fis
+		fis\f fis fis fis fis fis fis fis
+		fis fis fis fis fis fis fis fis
+		fis2 r
+		R1 %125
+		r4 e(\p fis gis)
+		a2 cis,4 d
+		e2. e4
+		fis2 e
+		d h4 g! %130
+		a2. a4
+		d2 d
+		d2. e4
+		a,4. a8 d4 d
+		d d\f d d %135
+		e, e' e h
+		e4. d8 e4 cis
+		d cis a' d,
+		h'4. a8 h4 gis
+		e a,( h cis) %140
+		d8( fis) d( fis) d( fis) h( gis)
+		e4 a,( h cis)
+		d8( fis) d( fis) d( fis) h( gis)
+		a,2 r4 fis'
+		<fis h>4. q8 <e h'>4. q8 %145
+		<e a>4. q8 <d a'>4. d8
+		d'4. d8 e,4. e8
+		e'4. e8 d4. d8
+		h4. h8 b4. b8
+		a4. a8 a,4. a'8 %150
+		a-! fis-! fis-! a-! a-! d-! d-! a-!
+		a d d a a d d a
+		a fis fis a a d d a
+		a d d a a d d a
+		a fis fis a a d d a %155
+		a cis cis a a d d a
+		e e' e e d d d a
+		a cis cis a a d d a
+		e e' e e d d d fis,
+		h h, h h' a a, a a' %160
+		g g, g g' fis fis, fis fis'
+		g g, g g' fis fis, fis fis'
+		g g, g h' h e e e,
+		a a, a a' a d d a
+		a d d a a fis fis d %165
+		cis  e e g g cis cis e
+		e cis cis g g e e cis
+		a r a'4\p a a
+		h h h h
+		a a a a %170
+		a8 d d d d d d d
+		d\ff d d d d d d d
+		cis cis cis cis cis cis cis cis
+		d d, d d d d d d
+		d d d d d d d d %175
+		d4 r h'\p h
+		g( g gis gis)
+		a a fis d
+		a' a a a
+		d, d d d %180
+		d d d d
+		d r d^\smorz r
+		d1\fermata \bar "|." %183 FINIS
 	}
 }

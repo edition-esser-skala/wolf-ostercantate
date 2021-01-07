@@ -440,5 +440,88 @@ HallelujahFugaOboeI = {
 		\clef treble
 		\key d \major \time 2/2 \tempoHallelujahFuga
 			\set Score.currentBarNumber = #72
+		R1*12 %83
+		r2 r4 h'\fE
+		\pa cis2 d %85
+		cis4 a d2~
+		d cis\trill
+		d r4 g
+		cis,4. cis8 fis4 fis,
+		fis \pd r r2 %90
+		R1
+		r2 d'~
+		d cis
+		\pa h r
+		R1 %95
+		r4 cis8. d16 d4 fis
+		h,4. h8 e4 d
+		\appoggiatura d8 cis4 h8 a d2~
+		d c~
+		c \appoggiatura c8 h4 a8 g %100
+		a4 r r2 \pd
+		R1*2
+		\pa r2 r4 cis
+		fis2 fis %105
+		fis2. g4
+		cis,4. cis8 fis4 e
+		\appoggiatura e8 d4 cis8 h e4 fis
+		g1~
+		g2 fis~ %110
+		fis e~
+		e d
+		g fis4 h \pd
+		d,\trill cis r cis
+		cis1~ %115
+		cis
+		d
+		g2 e
+		d8 r r4 r2
+		R1*2 %121
+		d4\fE d2 d4
+		cis cis2 cis4
+		h r r2
+		R1*10 %134
+		\pa r2 r4 h\fE %135
+		g'2 g
+		g2. g4~
+		g fis8 e d4 \pd h'
+		e, e2 e4
+		e cis( d e) %140
+		fis2. gis4
+		a cis,( d e)
+		fis2. gis4
+		\pa a r r a
+		d1 %145
+		cis2 d
+		h1
+		a
+		g2 gis \pd
+		a g %150
+		fis4 r r a,
+		fis'2 fis
+		fis r4 a,
+		fis'2 fis
+		fis r4 d %155
+		e2 fis
+		g fis
+		e fis
+		g fis
+		g4 g, fis fis' %160
+		e e, dis' dis,
+		e e' dis dis,
+		e g'2 h4
+		fis fis2 fis4~
+		fis fis2 fis4 %165
+		e e2 e4~
+		e e2 e4
+		fis r r2
+		R1*3 %171
+		e4\ffE e e e
+		e1\trill
+		\pao d4 a' a2
+		h cis %175
+		d4 r r2
+		R1*6 %182
+		R1\fermataMarkup \bar "|." %183 FINIS
 	}
 }

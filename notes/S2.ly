@@ -1252,9 +1252,216 @@ HallelujahFugaSopranoBNotes = {
 		\clef treble
 		\key d \major \time 2/2 \autoBeamOff \tempoHallelujahFuga
 			\set Score.currentBarNumber = #72
+		R1*6 %77
+		r2 r4 d\fE
+		a'2 a
+		a r4 h %80
+		e,4. e8 a4 g
+		fis4.( e8) fis4 g
+		a fis8([ g)] a2~
+		a4 a \appoggiatura a gis2\trill
+		a4 e fis gis %85
+		a4.( g8 fis4) e8([ d)]
+		g4 h8([ g]) e4 e
+		a4.( fis8) d4 r
+		r2 r4 fis
+		fis2 h %90
+		h r4 c
+		fis,4. fis8 h4 a
+		gis2( a)
+		gis4 e a2~
+		a gis %95
+		a4 a a2~
+		a g!~
+		g4 g fis fis
+		g h a a
+		a4.( fis8) d4 r %100
+		r2 r4 d
+		d4. d8 h'4 h
+		h2 e,4 e
+		e4. e8 cis'!4 cis
+		cis h8[ cis] d4 cis~ %105
+		cis h8[^\critnote ais] h8[ cis d h]
+		g4 g r fis
+		h2 h
+		h r4 d
+		cis2 c4.( d16[ c]) %110
+		h2 h4.( cis16[ h)]
+		ais4 cis h2~
+		h fis
+		fis4 fis r2
+		r r4 fis %115
+		fis2 fis
+		fis g
+		g fis
+		fis fis\pE
+		g1( %120
+		fis2) fis
+		fis1\fE
+		fis
+		fis2 r
+		R1*3 %127
+		r2 r4 e\pE
+		a2 a
+		a r4 h %130
+		e,4. e8 a4 g
+		fis d e fis
+		g fis8[ g] a4 g
+		a( g2 fis4)\trill
+		g2 r4 g\fE %135
+		h2 r4 e,
+		a2 a
+		a r4 d
+		h4. h8 h4 h
+		a1~ %140
+		a4 d fis, gis
+		a1~
+		a4 d fis, gis
+		a2 r4 cis
+		h2 h %145
+		a a
+		h h4 h
+		a2 a
+		d d
+		d4 a2 a4 %150
+		a2 r4 fis
+		a2 a
+		a r4 fis
+		a2 a
+		a r4 a %155
+		a2 a
+		a a
+		a1
+		a2 a
+		g a %160
+		e fis
+		e fis
+		g h
+		fis2. fis4
+		fis2 fis %165
+		e e
+		e2. cis'4
+		d2 r
+		fis,1\pE
+		a %170
+		a
+		a\ffE
+		a
+		a
+		R %175
+		r2 \mvTr d\pE^\solo
+		d2. d4
+		cis2 d
+		d( cis4) cis
+		d2 a %180
+		h1
+		a2 r
+		R1\fermataMarkup \bar "|." %183 FINIS
 	}
 }
 
 HallelujahFugaSopranoBLyrics = \lyricmode {
+	Ge -- %78
+	lobt ſey
+	Gott, der %80
+	uns den Sieg ge --
+	ge -- ben, der
+	uns den Sieg __
+	ge -- ge --
+	ben, ge -- lobt ſey %85
+	Gott, __ der
+	uns den Sieg ge --
+	ge -- ben,
+	ge --
+	lobt ſey %90
+	Gott, der
+	uns den Sieg ge --
+	ge --
+	ben, ge -- ge --
+	_ %95
+	ben, ge -- lobt __
+	_
+	ſey Gott, der
+	uns den Sieg ge --
+	ge -- ben, %100
+	der
+	uns den Sieg ge --
+	ge -- ben, der
+	uns den Sieg ge --
+	ge -- _ _ _ %105
+	_ _
+	_ ben, ge --
+	lobt ſey
+	Gott, der
+	uns, der __ %110
+	uns den __
+	Sieg, den Sieg __
+	ge --
+	ge -- ben,
+	durch %115
+	Chri -- ſtum,
+	Chri -- ſtum
+	un -- ſern
+	Herrn, durch
+	Chri -- %120
+	ſtum
+	un --
+	ſern
+	Herrn.
 
+	Ge -- %128
+	lobt ſey
+	Gott, der %130
+	uns den Sieg ge --
+	ge -- _ _ _
+	_ _ ben, ge --
+	ge --
+	ben, ge -- %135
+	lobt, ge --
+	lobt ſey
+	Gott, der
+	uns den Sieg ge --
+	ge -- %140
+	_ _ _
+	_
+	_ _ _
+	ben, der
+	uns den %145
+	Sieg ge --
+	ge -- ben, durch
+	Chri -- ſtum
+	un -- ſern
+	Herrn, un -- ſern %150
+	Herrn. Ge --
+	lobt ſey
+	Gott, ge --
+	lobt ſey
+	Gott, der %155
+	uns den
+	Sieg ge --
+	ge --
+	ben, durch
+	Chri -- ſtum %160
+	un -- ſern
+	Herrn, durch
+	Chri -- ſtum
+	un -- ſern
+	Herrn, durch %165
+	Chri -- ſtum
+	un -- ſern
+	Herrn,
+	durch
+	Chri -- %170
+	ſtum
+	un --
+	ſern
+	Herrn.
+	%175
+	Hal --
+	le -- lu --
+	jah, Hal --
+	le -- lu --
+	jah! __ _ %180
+	_
+	_ %182 FINIS
 }

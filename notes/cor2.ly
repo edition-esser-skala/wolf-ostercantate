@@ -366,5 +366,60 @@ HallelujahFugaCornoII = {
 		\clef treble
 		\key c \major \time 2/2 \tempoHallelujahFuga
 			\set Score.currentBarNumber = #72
+		R1*13 %84
+		g1~\fE %85
+		g2 r
+		c2 g'
+		c4 c, r2
+		e1~
+		e4 r r2 %90
+		R1*2
+		d'2 d
+		d r
+		r d4 d %95
+		g, r r2
+		d'1
+		g,2 r
+		r g
+		c4 r r2 %100
+		R1*9 %109
+		g2 c %110
+		c,4 r r2
+		e2. r4
+		R1
+		e1~
+		e~ %115
+		e~
+		e4 r r2
+		r e4 e
+		e r r2
+		R1*20 %139
+		g,1~\fE %140
+		g~
+		g~
+		g~
+		g2 r
+		r d'' %145
+		g, r
+		r d'
+		g,4 r c2
+		c,4 r r2
+		c' g %150
+		c,4 r r2
+		R1*4 %155
+		g1~
+		g~
+		g~
+		g
+		R1*10 %169
+		c1~\p %170
+		c
+		r4 g'\ffE g g
+		r g g g
+		c,1~
+		c~ %175
+		c4 r r2
+		R1*6 %182
+		R1\fermataMarkup \bar "|." %183 FINIS
 	}
 }

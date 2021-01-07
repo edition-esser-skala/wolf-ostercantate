@@ -2085,118 +2085,118 @@ HallelujahFugaOrgano = {
 		\clef bass
 		\key d \major \time 2/2 \tempoHallelujahFuga
 			\set Score.currentBarNumber = #72
-		a'2 a \noBreak %72
+		a'2 a %72
 		a2. h4
 		e,4. e8 a4 << {
 			a
-			d2 d
+			d2 d %75
 			d2. fis4
 			h,4. h8 e4 d
 			cis h cis d
 		} \\ {
 			g,
-			fis e \appoggiatura g8 fis4 e8 d
+			fis e \appoggiatura g8 fis4 e8 d %75
 			h'2 a4 a
 			a2 gis\trill
 			a r4 h
 		} >>
 		fis4. fis8 \appoggiatura a g4 fis8 e
-		fis2 r4 g
+		fis2 r4 g %80
 		a2. a4
 		h h a g
 		d'2 \clef "treble_8" fis4^\vlc^\senzaPed e8 d
 		e2 \clef bass r4 e,^\bassi^\ped
-		a2 a
+		a2 a %85
 		a2 r4 h
 		e,4. e8 a4 g
 		\appoggiatura g8 fis4 e8 d g4 fis8 e
 		fis2 fis,
-		h \clef "treble_8" a'^\vlc^\senzaPed
+		h \clef "treble_8" a'!^\vlc^\senzaPed %90
 		g4 e8 fis g4 a
 		h2 \clef bass r4 h,^\bassi^\ped
 		e2 e
 		e2 r4 fis
-		h,4. h8 e4 d
+		h,4. h8 e4 d %95
 		cis a8. h16 cis4 d
 		e2 e,
 		a r4 h'
 		e,4. e8 a4 g
-		\appoggiatura g8 fis4 e8 d g2~
+		\appoggiatura g8 fis4 e8 d g2~ %100
 		g fis\trill
 		g1
 		gis
 		a
-		ais2 r4 fis
+		ais2 r4 fis %105
 		h2 h
 		h r4 ais
 		h h, g' dis
 		e d cis h
-		a!1
+		a!1 %110
 		g
 		fis4 ais' h d,
 		e d8 cis d4 h
 		fis' fis, fis' fis
-		fis fis fis fis
+		fis fis fis fis %115
 		e e e e
 		d d g g
 		e e fis fis
 		h,8 h'[\p h h] h h h h
-		g g g g g g g g
+		g g g g g g g g %120
 		d d d d h h h h
 		fis'\f fis fis fis fis fis fis fis
 		fis fis fis fis fis fis fis fis
 		h,2 r
-		R1
+		R1 %125
 		\clef "treble_8" r4 e'(\p^\vlc^\senzaPed fis gis)
 		a2 cis,4 d
 		e2. e4
 		fis2 e
-		d h4 g!
+		d h4 g! %130
 		a2 r4 a
 		d2 d
 		d2. e4
 		a,4. a8 d4 \clef bass d,\f^\bassi^\ped
-		g2 g
+		g2 g %135
 		e4 e, e' d
 		cis4. h8 cis4 a
 		d e fis g
 		gis4. fis8 gis4 e
-		a,1~-\tasto
+		a,1~-\tasto %140
 		a~
 		a~
 		a~
 		a2 r4 fis'
-		h,4. h8 e4. e8
+		h,4. h8 e4. e8 %145
 		a,4. a8 d4. d8
 		g,4. g8 e'4. e8
 		cis4. cis8 d4. d8
 		h'4. h8 b4. b8
-		a a a a a, a a a
+		a a a a a, a a a %150
 		d2 r4 d
 		d2-! d-!
 		d-! r4 d
 		d2 d
-		d r4 d
+		d r4 d %155
 		g2 fis
 		cis d
 		g4 g fis fis
 		cis cis d d
-		h'8 h, h h' a a, a a'
+		h'8 h, h h' a a, a a' %160
 		g g, g g' fis fis, fis fis'
 		g g, g g' a a, a a'
 		g g, g g' e e, e e'
 		a a a a a a a a
-		a a a a a a a a
+		a a a a a a a a %165
 		a, a a a a a a a
 		a a a a a a a a
 		d4 d'\p d d
 		h h h h
-		fis fis fis fis
+		fis fis fis fis %170
 		d d fis fis
 		a8\ff a a a a a a a
 		a, a a a a a a a
 		d, d' d d d d d d
-		d d d d d d d d
+		d d d d d d d d %175
 		d4 r r2
 		R1*6 %182
 		R1\fermataMarkup \bar "|." %183 FINIS
@@ -2207,107 +2207,107 @@ HallelujahFugaBassFigures = \figuremode {
 	r %72
 	r
 	r
-	r
+	r %75
 	r
 	r
 	r
 	<6>2 <4 2>
-	<6>1
+	<6>1 %80
 	<5 4>2 <8 3>4 <7 \t>
 	r2 <6 4>4 <8 6>
 	<5 3>2 <6>
 	<5 4> <\t _+>4 <7 \t>
-	r2 <6 4>4 <7+ 2>
+	r2 <6 4>4 <7+ 2> %85
 	<8 3>2. <7>4
 	q2. <4 2>4
 	<6>2. <\t>8 <5>
 	<5 4>2 <\t _+>
-	r <4+ 2>
+	<[_+]> <4+ 2> %90
 	<6>2. <_!>4
 	<5 4>2 <\t _!>
 	<7 _+> <6\\ 4>
 	<5 _+>1
-	<7>2 <_+>
+	<7>2 <_+> %95
 	<6>1
 	<5 4>2 <\t _!>
 	<7 5> <6 4>4 <5>
 	<7>2 <_!>
-	<6 5!> <5>4 <6>
+	<6 5!> <5>4 <6> %100
 	<4! 2>2 <6 5!>
 	<5 4!>4 <\t 3>2.
 	<6 5>1
-	<5 4>2 <\t _+>
-	<6 5>2. <7 _+>4
+	<5 4>4 <\t _+>2.
+	<6 5> <7 _+>4 %105
 	<9 4> <8 3> <\t \t> <6>
 	<4 2>2. <6 5>4
 	r2 <6>4 q
 	r <4 2> <5 3> <6 4 3>
-	<7 _+>2 <6 _!>
+	<7 _+>2 <6 _!> %110
 	<7> <6>
 	<7 _+>4 <6>2 q4
 	r <\t>8 <7> <6>2
 	<6 4>4 <5 _+>2.
-	<_+>1
+	<_+>1 %115
 	<4+ 2>
 	<6>2 <5>
-	r <_+>
+	r \bo <[6] _+>4 \bc <[5] \t>
 	r1
-	r
+	r %120
 	<6>
 	<6 4>
 	<5 _+>
 	r
-	r
+	r %125
 	r4 <_+> <7> <6>
 	r2 <6>
 	<\l 5 4> <\l \t _+>4 <7 \t \t>
 	<5>2 <6 4 _!>
-	r1
+	r1 %130
 	<\l 5 4>2 <\l \t 3>4 <7 \t \t>
 	r2 <4 2>4 <5 3>
 	<6 4>2 <7! 5>
-	<_!> <8 6>4 <7! 5>
-	<9 4!> <8 3>2.
+	\bo <[8] _!>4 <7 \t>8 \bc <[\t] \t> <8 6>4 <7! 5>
+	<9 4!> <8 3>2. %135
 	r <4 2>4
+	<6 5>2. <[7]>4
+	<[4]> <6> q2
 	<6 5>1
-	r4 <6> q2
-	<6 5>1
+	r %140
 	r
 	r
 	r
 	r
-	r
-	<7>2 q
+	<7>2 q %145
 	q1
 	r
 	<6 5>
-	<6>2 <6\\ 5!>
-	<6+ 4> <5 3>
+	<6 [4 3]>2 <6\\ 5!>
+	<6+ 4> <5 3> %150
 	r1
 	r
 	r
 	r
-	r
+	r %155
 	<4 2>2 <6>
 	<6 5>1
 	<4 2>2 <6>
 	<6 5>1
-	<6>2 <6 _!>
+	<6>2 <6 _!> %160
 	<6> <6\\>
 	<6> <6 4+ _!>
 	<6>1
 	<6 4>1
-	<\t \t>
+	<\t \t> %165
 	<5 3>
 	<\t \t>
 	r
 	<5>
-	<6>
+	<6> %170
 	r2 <6>
-	<5 4>1
-	<\t 3>
+	\bo <[7] 5 4>1
+	\bc <[\t] \t 3>
 	r
-	<6 4>2 <7 2>
+	<6 4>2 <7 2> %175
 	<8 3>1
-	r1*7
+	r1*7 %183 FINIS
 }
