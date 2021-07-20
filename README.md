@@ -1,6 +1,6 @@
 # Ernst Wilhelm Wolf: Ostercantate
 
-Engraving files for LilyPond 2.18.0
+Engraving files for LilyPond 2.22.0
 
 
 ## Requirements
@@ -25,7 +25,7 @@ Change the included scores file in this script to generate files *master.pdf* an
 
 * *definitions.ly* – contains general definitions
 * *Makefile* – configuration file for `make`
-* *master.ly* – allows building scores without using `make`
+* *main.ly* – allows building scores without using `make`
 * *README.md* – this file
 * *front_matter/* – LuaLaTeX files and images for typesetting front matter
 * *notes/* – LY files containing individual voices
