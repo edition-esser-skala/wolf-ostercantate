@@ -1,54 +1,13 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-
-\paper {
-  indent = 1\cm
-  top-margin = 1.5\cm
-  system-separator-markup = ##f
-  system-system-spacing =
-    #'((basic-distance . 18)
-       (minimum-distance . 18)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-markup-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . -100)
-       (stretchability . 0))
-
-  markup-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-  systems-per-page = #9
-}
-
-#(set-global-staff-size 17.82)
-
-\layout {
-  \context {
-    \Staff
-    instrumentName = "ob 2"
-  }
-}
+#(define option-instrument-name "ob 2")
+\include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \header {
-      genre = "R E C I T A T I V O"
-      number = "2"
-      title = "Allmächtger Schauer dringt durch alle Weſen"
-    }
+    \section "2" "Recitativo" "Allmächtger Schauer dringt durch alle Weſen"
+    \addTocLabel "allmaechtger"
     \paper { indent = 2\cm }
     \score {
       <<
@@ -60,11 +19,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "3"
-      title = "Thut auf die Pforten"
-    }
+    \section "3" "Coro" "Thut auf die Pforten"
+    \addTocLabel "thutauf"
     \score {
       <<
         \new Staff { \ThutAufOboeII }
@@ -72,11 +28,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C H O R A L"
-      number = "4"
-      title = "Jeſus Chriſtus, unser Heiland"
-    }
+    \section "4" "Choral" "Jeſus Chriſtus, unser Heiland"
+    \addTocLabel "jesuschristus"
     \paper { systems-per-page = #3 }
     \score {
       <<
@@ -85,11 +38,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "A R I A"
-      number = "6"
-      title = "Siehe, das ſchöne Morgenroth in dunkler Nacht"
-    }
+    \section "6" "Aria" "Siehe, das ſchöne Morgenroth in dunkler Nacht"
+    \addTocLabel "siehedas"
     \score {
       <<
         \new Staff { \SieheDasOboeII }
@@ -97,11 +47,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C H O R A L"
-      number = "8"
-      title = "Nah iſt meines Helfers Rechte"
-    }
+    \section "8" "Choral" "Nah iſt meines Helfers Rechte"
+    \addTocLabel "nahist"
     \paper { systems-per-page = #5 }
     \score {
       <<
@@ -110,11 +57,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "R E C I T A T I V O"
-      number = "9"
-      title = "O Auferſtandener, wo ſchwebeſt du"
-    }
+    \section "9" "Recitativo" "O Auferſtandener, wo ſchwebeſt du"
+    \addTocLabel "oauf"
     \score {
       <<
         \new Staff { \OAufOboeII }
@@ -122,11 +66,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C H O R A L"
-      number = "10"
-      title = "Jeſus mein Erlöſer lebt"
-    }
+    \section "10" "Choral" "Jeſus mein Erlöſer lebt"
+    \addTocLabel "jesusmein"
     \paper { systems-per-page = #3 }
     \score {
       <<
@@ -135,11 +76,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "11"
-      title = "Hallelujah!"
-    }
+    \section "11" "Coro" "Hallelujah!"
+    \addTocLabel "hallelujah"
     \score {
       <<
         \new Staff { \HallelujahOboeII }

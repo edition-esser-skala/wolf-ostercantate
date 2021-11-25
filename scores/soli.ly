@@ -1,71 +1,12 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-
-\paper {
-  indent = 1\cm
-  top-margin = 1\cm
-  system-separator-markup = ##f
-  system-system-spacing =
-    #'((basic-distance . 17)
-       (minimum-distance . 17)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-system-spacing =
-    #'((basic-distance . 10)
-       (minimum-distance . 10)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-markup-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . -100)
-       (stretchability . 0))
-
-  markup-system-spacing =
-    #'((basic-distance . 10)
-       (minimum-distance . 10)
-       (padding . -100)
-       (stretchability . 0))
-
-  systems-per-page = #3
-}
-
-\layout {
-  \context {
-    \Lyrics
-    \override LyricText.font-size = #-.5
-  }
-  \context {
-    \ChoirStaff
-    \override StaffGrouper.staff-staff-spacing =
-      #'((basic-distance . 12)
-         (minimum-distance . 12)
-         (padding . -100)
-         (stretchability . 0))
-    \override StaffGrouper.staffgroup-staff-spacing =
-      #'((basic-distance . 13)
-         (minimum-distance . 13)
-         (padding . -100)
-         (stretchability . 0))
-  }
-  \context {
-    \Staff
-    instrumentName = "org"
-  }
-}
-
-#(set-global-staff-size 15.87)
+\include "score_settings/coro.ly"
 
 \book {
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "1"
-      title = "Des Lebens Fürſten haben ſie getödtet"
-    }
+    \section "1" "Coro" "Des Lebens Fürſten haben ſie getödtet"
+    \addTocLabel "deslebens"
     \paper { indent = 2\cm }
     \score {
       <<
@@ -105,11 +46,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "R E C I T A T I V O"
-      number = "2"
-      title = "Allmächtger Schauer dringt durch alle Weſen"
-    }
+    \section "2" "Recitativo" "Allmächtger Schauer dringt durch alle Weſen"
+    \addTocLabel "allmaechtger"
     \paper {
       system-system-spacing.basic-distance = #20
       system-system-spacing.minimum-distance = #20
@@ -130,11 +68,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "3"
-      title = "Thut auf die Pforten"
-    }
+    \section "3" "Coro" "Thut auf die Pforten"
+    \addTocLabel "thutauf"
     \score {
       <<
         \new ChoirStaff <<
@@ -168,11 +103,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C H O R A L"
-      number = "4"
-      title = "Jeſus Chriſtus, unser Heiland"
-    }
+    \section "4" "Choral" "Jeſus Chriſtus, unser Heiland"
+    \addTocLabel "jesuschristus"
     \paper {
       system-system-spacing.basic-distance = #25
       system-system-spacing.minimum-distance = #25
@@ -215,11 +147,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "R E C I T A T I V O"
-      number = "5"
-      title = "Wie die fern abgeſchiedne geliebte Sonne"
-    }
+    \section "5" "Recitativo" "Wie die fern abgeſchiedne geliebte Sonne"
+    \addTocLabel "wiedie"
     \paper {
       system-system-spacing.basic-distance = #20
       system-system-spacing.minimum-distance = #20
@@ -246,11 +175,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "A R I A"
-      number = "6"
-      title = "Siehe, das ſchöne Morgenroth in dunkler Nacht"
-    }
+    \section "6" "Aria" "Siehe, das ſchöne Morgenroth in dunkler Nacht"
+    \addTocLabel "siehedas"
     \paper {
       system-system-spacing.basic-distance = #20
       system-system-spacing.minimum-distance = #20
@@ -271,11 +197,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "7"
-      title = "Der Herr tödtet und machet lebendig"
-    }
+    \section "7" "Coro" "Der Herr tödtet und machet lebendig"
+    \addTocLabel "derherr"
     \score {
       <<
         \new ChoirStaff <<
@@ -309,11 +232,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C H O R A L"
-      number = "8"
-      title = "Nah iſt meines Helfers Rechte"
-    }
+    \section "8" "Choral" "Nah iſt meines Helfers Rechte"
+    \addTocLabel "nahist"
     \score {
       <<
         \new ChoirStaff <<
@@ -347,11 +267,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "R E C I T A T I V O"
-      number = "9"
-      title = "O Auferſtandener, wo ſchwebeſt du"
-    }
+    \section "9" "Recitativo" "O Auferſtandener, wo ſchwebeſt du"
+    \addTocLabel "oauf"
     \paper {
       system-system-spacing.basic-distance = #20
       system-system-spacing.minimum-distance = #20
@@ -372,11 +289,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C H O R A L"
-      number = "10"
-      title = "Jeſus mein Erlöſer lebt"
-    }
+    \section "10" "Choral" "Jeſus mein Erlöſer lebt"
+    \addTocLabel "jesusmein"
     \score {
       <<
         \new ChoirStaff <<
@@ -410,11 +324,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "11"
-      title = "Hallelujah!"
-    }
+    \section "11" "Coro" "Hallelujah!"
+    \addTocLabel "hallelujah"
     \paper {
       indent = 2\cm
       top-system-spacing.basic-distance = #25

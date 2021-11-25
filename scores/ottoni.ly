@@ -1,71 +1,14 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-
-\paper {
-  indent = 1\cm
-  top-margin = 1.5\cm
-  system-separator-markup = ##f
-  system-system-spacing =
-    #'((basic-distance . 17)
-       (minimum-distance . 17)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-markup-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . -100)
-       (stretchability . 0))
-
-  markup-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-  last-bottom-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . 0)
-       (stretchability . 1.0e7))
-
-  systems-per-page = #3
-}
-
-#(set-global-staff-size 17.82)
-
-\layout {
-  \context {
-    \GrandStaff
-    \override StaffGrouper.staffgroup-staff-spacing =
-      #'((basic-distance . 12)
-        (minimum-distance . 12)
-        (padding . -100)
-        (stretchability . 0))
-    \override StaffGrouper.staff-staff-spacing =
-      #'((basic-distance . 12)
-        (minimum-distance . 12)
-        (padding . -100)
-        (stretchability . 0))
-
-  }
-}
-
+#(define option-instrument-name-upper "")
+#(define option-instrument-name-lower "timp")
+\include "score_settings/four-staves.ly"
 
 \book {
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "3"
-      title = "Thut auf die Pforten"
-    }
+    \section "3" "Coro" "Thut auf die Pforten"
+    \addTocLabel "thutauf"
     \paper { indent = 2\cm }
     \score {
       <<
@@ -86,18 +29,15 @@
           >>
         >>
         \new Staff {
-          \set Staff.instrumentName = \markup \center-column { "Timpani" "in D–A" }
+          \set Staff.instrumentName = \transposedTimp "D" "" "A" ""
           \ThutAufTimpani
         }
       >>
     }
   }
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "11"
-      title = "Hallelujah!"
-    }
+    \section "11" "Coro" "Hallelujah!"
+    \addTocLabel "hallelujah"
     \score {
       <<
         \new StaffGroup <<
@@ -116,10 +56,7 @@
             }
           >>
         >>
-        \new Staff {
-          \set Staff.instrumentName = "timp"
-          \HallelujahTimpani
-        }
+        \new Staff { \HallelujahTimpani }
       >>
     }
   }
@@ -130,17 +67,23 @@
         \new StaffGroup <<
           \new GrandStaff <<
             \new Staff {
+              \set Staff.instrumentName =""
               \HallelujahFugaClarinoI
             }
             \new Staff {
+              \set Staff.instrumentName =""
               \HallelujahFugaClarinoII
             }
             \new Staff {
+              \set Staff.instrumentName =""
               \HallelujahFugaClarinoIII
             }
           >>
         >>
-        \new Staff { \HallelujahFugaTimpani }
+        \new Staff {
+          \set Staff.instrumentName =""
+          \HallelujahFugaTimpani
+        }
       >>
     }
   }

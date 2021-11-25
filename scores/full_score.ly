@@ -1,21 +1,12 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-
-\paper {
-  indent = 1\cm
-  #(define (page-post-process layout pages) (ly:create-ref-file layout pages))
-}
-
-#(set-global-staff-size 15.87)
+\include "score_settings/full-score.ly"
 
 \book {
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "1"
-      title = "Des Lebens Fürſten haben ſie getödtet"
-    }
+    \section "1" "Coro" "Des Lebens Fürſten haben ſie getödtet"
+    \addTocLabel "deslebens"
     \paper {
       indent = 3\cm
       top-system-spacing.basic-distance = #10
@@ -26,7 +17,6 @@
       markup-system-spacing.minimum-distance = #10
       systems-per-page = #2
     }
-    \tocLabelLong "deslebens" "1" "Coro" "Des Lebens Fürſten haben ſie getödtet"
     \score {
       <<
         \new StaffGroup <<
@@ -44,25 +34,19 @@
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \SopranoAIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
+            \incipit "Soprano 1" "soprano" #-19.9 #-1.8
             \new Voice = "SopranoA" { \dynamicUp \DesLebensSopranoANotes }
           }
           \new Lyrics \lyricsto SopranoA \DesLebensSopranoALyrics
 
           \new Staff {
-            \set Staff.instrumentName = \SopranoBIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
+            \incipit "Soprano 2" "soprano" #-19.9 #-1.8
             \new Voice = "SopranoB" { \dynamicUp \DesLebensSopranoBNotes }
           }
           \new Lyrics \lyricsto SopranoB \DesLebensSopranoBLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \TenoreIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
+            \incipitTenore
             \new Voice = "Tenore" { \dynamicUp \DesLebensTenoreNotes }
           }
           \new Lyrics \lyricsto Tenore \DesLebensTenoreLyrics
@@ -87,11 +71,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "R E C I T A T I V O"
-      number = "2"
-      title = "Allmächtger Schauer dringt durch alle Weſen"
-    }
+    \section "2" "Recitativo" "Allmächtger Schauer dringt durch alle Weſen"
+    \addTocLabel "allmaechtger"
     \paper {
       top-system-spacing.basic-distance = #10
       top-system-spacing.minimum-distance = #10
@@ -101,7 +82,6 @@
       markup-system-spacing.minimum-distance = #10
       systems-per-page = #2
     }
-    \tocLabelLong "allmaechtger" "2" "Recitativo" "Allmächtger Schauer dringt durch alle Weſen"
     \score {
       <<
         \new StaffGroup \with { \smallGroupDistance } <<
@@ -112,8 +92,8 @@
         >>
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "cor (Es)" "1, 2" }
-            \transpose c es
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "E" "flat" "1, 2" }
+            % \transpose c es
             \partCombine \AllmaechtgerCornoI \AllmaechtgerCornoII
           >>
         >>
@@ -155,18 +135,14 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "3"
-      title = "Thut auf die Pforten"
-    }
+    \section "3" "Coro" "Thut auf die Pforten"
+    \addTocLabel "thutauf"
     \paper {
       top-system-spacing.basic-distance = #15
       top-system-spacing.minimum-distance = #15
       markup-system-spacing.basic-distance = #10
       markup-system-spacing.minimum-distance = #10
     }
-    \tocLabelLong "thutauf" "3" "Coro" "Thut auf die Pforten"
     \score {
       <<
         \new StaffGroup <<
@@ -177,13 +153,13 @@
         >>
         \new StaffGroup <<
         \new Staff \with { \smallStaffDistance } <<
-            \set Staff.instrumentName = \markup \center-column { "cor (D)" "1, 2" }
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "D" "sharp" "1, 2" }
             % \transpose c d
             \partCombine \ThutAufCornoI \ThutAufCornoII
           >>
           \new GrandStaff <<
             \new Staff {
-              \set Staff.instrumentName = \markup \center-column { "clno (D)" "1" }
+              \set Staff.instrumentName = \markup \center-column { \transposedNameShort "clno" "D" "" "1" }
               % \transpose c d
               \ThutAufClarinoI
             }
@@ -200,7 +176,7 @@
           >>
         >>
         \new Staff {
-          \set Staff.instrumentName = \markup \center-column { "timp" "(D–A)" }
+          \set Staff.instrumentName = \transposedTimpShort "D" "" "A" ""
           % \transpose c d
           \ThutAufTimpani
         }
@@ -260,17 +236,13 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C H O R A L"
-      number = "4"
-      title = "Jeſus Chriſtus, unser Heiland"
-    }
+    \section "4" "Choral" "Jeſus Chriſtus, unser Heiland"
+    \addTocLabel "jesuschristus"
     \paper {
       system-system-spacing.basic-distance = #35
       system-system-spacing.minimum-distance = #35
       systems-per-page = #2
     }
-    \tocLabelLong "jesuschristus" "4" "Choral" "Jeſus Chriſtus, unser Heiland"
     \score {
       <<
         \new ChoirStaff \with { \twoStanzaDistance } <<
@@ -316,15 +288,9 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "R E C I T A T I V O"
-      number = "5"
-      title = "Wie die fern abgeſchiedne geliebte Sonne"
-    }
-    \paper {
-      systems-per-page = #2
-    }
-    \tocLabelLong "wiedie" "5" "Recitativo" "Wie die fern abgeſchiedne geliebte Sonne"
+    \paper { systems-per-page = #2 }
+    \section "5" "Recitativo" "Wie die fern abgeſchiedne geliebte Sonne"
+    \addTocLabel "wiedie"
     \score {
       <<
         \new StaffGroup <<
@@ -371,11 +337,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "A R I A"
-      number = "6"
-      title = "Siehe, das ſchöne Morgenroth in dunkler Nacht"
-    }
+    \section "6" "Aria" "Siehe, das ſchöne Morgenroth in dunkler Nacht"
+    \addTocLabel "siehedas"
     \paper {
       top-system-spacing.basic-distance = #10
       top-system-spacing.minimum-distance = #10
@@ -385,7 +348,6 @@
       markup-system-spacing.minimum-distance = #10
       systems-per-page = #2
     }
-    \tocLabelLong "siehedas" "6" "Aria" "Siehe, das ſchöne Morgenroth in dunkler Nacht"
     \score {
       <<
         \new StaffGroup \with { \smallGroupDistance } <<
@@ -396,7 +358,7 @@
         >>
         \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "cor (F)" "1, 2" }
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "F" "" "1, 2" }
             % \transpose c f,
             \partCombine \SieheDasCornoI \SieheDasCornoII
           >>
@@ -439,11 +401,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "7"
-      title = "Der Herr tödtet und machet lebendig"
-    }
+    \section "7" "Coro" "Der Herr tödtet und machet lebendig"
+    \addTocLabel "derherr"
     \paper {
       top-system-spacing.basic-distance = #10
       top-system-spacing.minimum-distance = #10
@@ -455,7 +414,6 @@
       system-system-spacing.minimum-distance = #17
       systems-per-page = #2
     }
-    \tocLabelLong "derherr" "7" "Coro" "Der Herr tödtet und machet lebendig"
     \score {
       <<
         \new StaffGroup \with { \smallGroupDistance } <<
@@ -514,17 +472,13 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C H O R A L"
-      number = "8"
-      title = "Nah iſt meines Helfers Rechte"
-    }
+    \section "8" "Choral" "Nah iſt meines Helfers Rechte"
+    \addTocLabel "nahist"
     \paper {
       system-system-spacing.basic-distance = #35
       system-system-spacing.minimum-distance = #35
       systems-per-page = #2
     }
-    \tocLabelLong "nahist" "8" "Choral" "Nah iſt meines Helfers Rechte"
     \score {
       <<
         \new ChoirStaff <<
@@ -566,15 +520,9 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "R E C I T A T I V O"
-      number = "9"
-      title = "O Auferſtandener, wo ſchwebeſt du"
-    }
-    \paper {
-      systems-per-page = #2
-    }
-    \tocLabelLong "oauf" "9" "Recitativo" "O Auferſtandener, wo ſchwebeſt du"
+    \section "9" "Recitativo" "O Auferſtandener, wo ſchwebeſt du"
+    \addTocLabel "oauf"
+    \paper { systems-per-page = #2 }
     \score {
       <<
         \new StaffGroup \with { \smallGroupDistance } <<
@@ -585,7 +533,7 @@
         >>
         \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "cor (D)" "1, 2" }
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "D" "" "1, 2" }
             % \transpose c d
             \partCombine \OAufCornoI \OAufCornoII
           >>
@@ -628,17 +576,13 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C H O R A L"
-      number = "10"
-      title = "Jeſus mein Erlöſer lebt"
-    }
+    \section "10" "Choral" "Jeſus mein Erlöſer lebt"
+    \addTocLabel "jesusmein"
     \paper {
       system-system-spacing.basic-distance = #35
       system-system-spacing.minimum-distance = #35
       systems-per-page = #2
     }
-    \tocLabelLong "jesusmein" "10" "Choral" "Jeſus mein Erlöſer lebt"
     \score {
       <<
         \new ChoirStaff <<
@@ -680,11 +624,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "11"
-      title = "Hallelujah!"
-    }
+    \section "11" "Coro" "Hallelujah!"
+    \addTocLabel "hallelujah"
     \paper {
       top-system-spacing.basic-distance = #7
       top-system-spacing.minimum-distance = #7
@@ -693,7 +634,6 @@
       markup-system-spacing.basic-distance = #7
       markup-system-spacing.minimum-distance = #7
     }
-    \tocLabelLong "hallelujah" "11" "Coro" "Hallelujah!"
     \score {
       <<
         \new StaffGroup \with { \tinyGroupDistance } <<
@@ -704,12 +644,12 @@
         >>
         \new StaffGroup \with { \tinyGroupDistance } <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "cor (D)" "1, 2" }
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "D" "" "1, 2" }
             % \transpose c d
             \partCombine \HallelujahCornoI \HallelujahCornoII
           >>
           \new GrandStaff \with { \tinyGroupDistance } <<
-            \set GrandStaff.instrumentName = \markup \center-column { "clno" "(D)" }
+            \set GrandStaff.instrumentName = \transposedNameShort "clno" "D" ""
             \new Staff <<
               \set Staff.instrumentName = "1, 2"
               % \transpose c d
@@ -723,7 +663,7 @@
           >>
         >>
         \new Staff \with { \tinyStaffDistance } {
-          \set Staff.instrumentName = \markup \center-column { "timp" "(D–A)" }
+          \set Staff.instrumentName = "timp"
           % \transpose c d
           \HallelujahTimpani
         }
@@ -826,13 +766,13 @@
         >>
         \new StaffGroup <<
           \new Staff \with { \smallStaffDistance } <<
-            \set Staff.instrumentName = \markup \center-column { "cor (D)" "1, 2" }
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "D" "" "1, 2" }
             % \transpose c d
             \partCombine \HallelujahFugaCornoI \HallelujahFugaCornoII
           >>
           \new GrandStaff <<
             \new Staff {
-              \set Staff.instrumentName = \markup \center-column { "clno (D)" "1" }
+              \set Staff.instrumentName = \markup \center-column { \transposedNameShort "clno" "D" "" "1" }
               % \transpose c d
               \HallelujahFugaClarinoI
             }
@@ -849,7 +789,7 @@
           >>
         >>
         \new Staff {
-          \set Staff.instrumentName = \markup \center-column { "timp" "(D–A)" }
+          \set Staff.instrumentName = "timp"
           % \transpose c d
           \HallelujahFugaTimpani
         }

@@ -1,288 +1,22 @@
-\documentclass[parskip=full]{scrreprt}
+\documentclass[tocstyle=ref-genre]{ees}
 
-\RedeclareSectionCommand[pagestyle=plain,afterskip=10pt plus 1pt]{chapter}
-\setkomafont{chapter}{\mdseries\headingfont\fontsize{40}{40}\selectfont\color{black!80}}
-\setkomafont{pageheadfoot}{\normalsize}
-
-\def\pnumbox#1{#1\hspace*{8cm}}
-\def\gobble#1{}
-\DeclareTOCStyleEntry[
-  indent=0pt,
-  beforeskip=0pt,
-  entryformat=\itshape,
-  entrynumberformat=\textcolor{oldred},
-  numwidth=2em,
-  linefill=\hfill,
-  pagenumberbox=\pnumbox,
-  pagenumberformat=\itshape
-]{tocline}{part}
-
-\DeclareTOCStyleEntry[
-  indent=0pt,
-  beforeskip=0pt,
-  entrynumberformat=\textcolor{oldred},
-  numwidth=2em,
-  linefill=\hfill,
-  pagenumberbox=\pnumbox
-]{tocline}{section}
-
-\DeclareTOCStyleEntry[
-  indent=0pt,
-  beforeskip=-\parskip,
-  entrynumberformat=\gobble,
-  entryformat=\ltseries,
-  numwidth=2em,
-  linefill=\hfill,
-  pagenumberbox=\pnumbox,
-  pagenumberformat=\ltseries
-]{tocline}{subsection}
-
-\usepackage{polyglossia}
-\setdefaultlanguage{english}
-
-\usepackage{fontspec}
-
-\setmainfont{Source Sans Pro}[
-  ItalicFont = Source Sans Pro Italic,
-  BoldFont = Source Sans Pro Bold,
-  BoldItalicFont = Source Sans Pro Bold Italic,
-  FontFace = {lt}{n}{Source Sans Pro Light},
-  FontFace = {lt}{it}{Source Sans Pro Light Italic},
-  FontFace = {sb}{n}{Source Sans Pro Semibold},
-  FontFace = {sb}{it}{Source Sans Pro Semibold Italic},
-  Numbers = Proportional,
-  Ligatures = Common
-]
-\DeclareRobustCommand{\ltseries}{\fontseries{lt}\selectfont}
-\DeclareRobustCommand{\sbseries}{\fontseries{sb}\selectfont}
-\DeclareTextFontCommand{\textlt}{\ltseries}
-\DeclareTextFontCommand{\textsb}{\sbseries}
-
-\newfontfamily\headingfont{Fredericka the Great}
-
-\usepackage[pass]{geometry}
-\newgeometry{twoside,inner=20mm,outer=40mm,top=20mm,bottom=40mm}
-
-\usepackage{url}
-\urlstyle{same}
-
-\usepackage{microtype}
-\microtypesetup{verbose=silent}
-
-\usepackage{booktabs,array,longtable}
-\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
-
-\usepackage{graphicx}
-
-\usepackage{xcolor}
-\definecolor{oldred}{rgb}{.8313,0,0}
-
-\usepackage{pdfpages}
-
-\usepackage{scrlayer-scrpage}
-\pagestyle{scrheadings}
-\clearscrheadfoot
-\cfoot[\thepage]{\thepage}
-\pagenumbering{roman}
-
-\usepackage{enumitem}
-\setlist[description]{%
-  labelindent=2em,%
-  labelwidth=6.5em,%
-  leftmargin=8.5em,%
-  labelsep=0pt,
-  first=\ltseries,%
-  font=\normalfont\itshape\ltseries%
-}
-
-
-\makeatletter
-
-\def\@firstofthree#1#2#3{#1}
-\def\@secondofthree#1#2#3{#2}
-\def\@thirdofthree#1#2#3{#3}
-\def\@firstoffour#1#2#3#4{#1}
-\def\@secondoffour#1#2#3#4{#2}
-\def\@thirdoffour#1#2#3#4{#3}
-\def\@fourthoffour#1#2#3#4{#4}
-\def\Dotfill{\leavevmode\cleaders\hb@xt@ .75em{\hss .\hss }\hfill \kern \z@}
-
-\def\lyrefnumber#1{\expandafter\@setref\csname r@#1\endcsname\@firstofthree{#1}}
-\def\lyreftitle#1{\expandafter\@setref\csname r@#1\endcsname\@secondofthree{#1}}
-\def\lyrefpage#1{\expandafter\@setref\csname r@#1\endcsname\@thirdofthree{#1}}
-
-\def\lyrefgenrenumber#1{\expandafter\@setref\csname r@#1\endcsname\@firstoffour{#1}}
-\def\lyrefgenregenre#1{\expandafter\@setref\csname r@#1\endcsname\@secondoffour{#1}}
-\def\lyrefgenretitle#1{\expandafter\@setref\csname r@#1\endcsname\@thirdoffour{#1}}
-\def\lyrefgenrepage#1{\expandafter\@setref\csname r@#1\endcsname\@fourthoffour{#1}}
-
-\def\lyref#1{%
-  \begingroup%
-  \makebox[0pt][l]{\color{oldred}\lyrefnumber{#1}}\hspace*{2em}%
-  \lyreftitle{#1}\Dotfill\lyrefpage{#1}%
-  \endgroup%
-}
-\def\lyrefpart#1{%
-  \begingroup%
-  \makebox[0pt][l]{\sbseries\color{oldred}\lyrefnumber{#1}}\hspace*{2em}%
-  \makebox[0pt][l]{\sbseries\lyreftitle{#1}}\hspace*{6.5em}%
-  \hfill\sbseries\lyrefpage{#1}%
-  \endgroup%
-}
-\def\lyrefsection#1{%
-  \begingroup%
-  \makebox[0pt][l]{\color{oldred}\lyrefgenrenumber{#1}}\hspace*{2em}%
-  \makebox[0pt][l]{\ltseries\lyrefgenregenre{#1}}\hspace*{6.5em}%
-  \lyrefgenretitle{#1}\Dotfill\lyrefgenrepage{#1}%
-  \endgroup%
-}
-\InputIfFileExists{../tmp/lilypond.ref}{}{\InputIfFileExists{../lilypond.ref}{}{}}
-
-
-\newcommand\fancytitlehead{
-  \headingfont%
-  \fontsize{80}{80}\selectfont\textcolor{black!80}{\@ifundefined{@shortname}{\@lastname}{\@shortname}.}\\[15pt]%
-  \fontsize{60}{60}\selectfont\@ifundefined{@shorttitle}{\@title}{\@shorttitle}.%
-}
-
-
-\def\firstname#1{\def\@firstname{#1}}
-\def\lastname#1{\def\@lastname{#1}}
-\def\shortname#1{\def\@shortname{#1}}
-\def\shorttitle#1{\def\@shorttitle{#1}}
-\def\namesuffix#1{\def\@namesuffix{#1}}
-\def\instrumentation#1{\def\@instrumentation{#1}}
-\def\parts#1{\def\@parts{#1}}
-
-\firstname{\relax}
-\lastname{\relax}
-\namesuffix{\relax}
-\instrumentation{\relax}
-\parts{\relax}
-
-
-\def\maketitle{%
-\begin{titlepage}%
-  \Large%
-  {\@titlehead}%
-  \vfill%
-  {\strut\@firstname}\\%
-  {\sbseries\color{oldred}\strut\@lastname}\\%
-  {\strut\@namesuffix}%
-  \vfill%
-  {\sbseries\@title}\\%
-  {\@subtitle}\\[\baselineskip]%
-  {\itshape\@instrumentation}%
-  \vfill%
-  {\itshape\@parts}\hspace*{\fill}\raisebox{0pt}[0pt][0pt]{\includegraphics{ees_logo}}%
-\end{titlepage}%
-}
-
-
-\newif\iftemplate\templatetrue
-\newif\ifprintreport\printreportfalse
-\directlua{
-scores = {
-  ob1 = "Oboe I",
-  ob2 = "Oboe II",
-  cor12 = "Corno I, II in D/Es/F",
-  ottoni = "Clarino I, II, III in D\string\\newline Timpani in D–A",
-  vl1 = "Violino I",
-  vl2 = "Violino II",
-  vla = "Viola I, II",
-  soli = "Soli",
-  coro = "Coro",
-  org = "Organo",
-  b = "Bassi",
-  full_score = "Full Score"
-}
-
-last_arg = arg[\string#arg]
-texio.write("Last argument: " .. last_arg)
-if not (scores[last_arg] == nil) then
-  tex.print("\string\\def\string\\lypdfname{" .. last_arg .. "}")
-  tex.print("\string\\parts{" .. scores[last_arg] .. "}")
-  if (last_arg == "full_score") then
-    tex.print("\string\\printreporttrue")
-  end
-end
-}
-
-\@ifundefined{lypdfname}{%
-  \templatefalse
-  \printreporttrue
-  \parts{Draft}
-}{\templatetrue}
-
-\makeatother
-
-
-
-
-
+\shorttitle{Ostercantate}
+\let\oldeesCommentaryIntro\eesCommentaryIntro
+\def\eesCommentaryIntro{\oldeesCommentaryIntro\clearpage}
 
 \begin{document}
-\frenchspacing
 
-\titlehead{\fancytitlehead}
-\firstname{Ernst Wilhelm}
-\lastname{Wolf}
-\title{Ostercantate}
-\subtitle{Des Lebens Fürſten haben ſie getödtet\\(D-Dl Mus.3388.E.501)}
-\instrumentation{3 S, 2 T, B (solo), 4 S, 2 T, 2 B (coro),\\2 ob, 2 cor (D/Es/F), 3 clno (D), timp (D–A), 2 vl, 2 vla, b, org}
-\maketitle
+\eesTitlePage
 
+\eesCriticalReport{
+  1  & 31  & vla 1 & 3rd \eighthNote\ in \C1: \flat e′8 \\
+  7  & 80  & vla   & last \sixteenthNote\ in \C1: \flat e′8 \\
+  11 & 106 & A     & 2nd \quarterNote\ in \C1: b′8.–\sharp a′16 \\
+}
 
-\thispagestyle{empty}
-
-\vspace*{\fill}
-
-\raisebox{-4mm}{\includegraphics{byncsaeu}}\hspace*{1em}Wolfgang Esser-Skala, 2021
-
-© 2021 by Wolfgang Esser-Skala. This edition is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit \url{http://creativecommons.org/licenses/by-nc-sa/4.0/}.
-
-Music engraving by LilyPond 2.22.0 (\url{http://www.lilypond.org}).\\
-Front matter typeset with Source Sans Pro and Fredericka the Great.
-
-\textit{Second version, July 2021}
-
-\vspace*{2cm}
-
-\ifprintreport
-\chapter*{Critical Report}
-
-This edition bases upon a printed score in the Saxon State Library – State and University Library Dresden. The digital version of the manuscript is available at \url{http://digital.slub-dresden.de/id47959385X} (siglum Mus.3388.E.501; see also RISM ID 990069190).
-
-In general, this edition closely follows the printed score. Any changes that were introduced by the editor are indicated by italic type (lyrics, dynamics and directions), parentheses (expressive marks and bass figures) or dashes (slurs and ties). Accidentals are used according to modern conventions. Asterisks denote changes that are clarified in the detailed remarks below.\footnote{Abbreviations: B, bass; b, basses; clno, clarion; cor, horn; Ms, manuscript; ob, oboe; org, organ; r, rest; S, soprano; T,~tenor; timp, timpani; vl, violin; vla, viola.}
-
-\bigskip
-
-\begin{longtable}{lll L{10cm}}
-  \toprule
-  \itshape Mov. & \itshape Bar & \itshape Staff & \itshape Note \\
-  \midrule \endhead
-  1  & 31  & vla 1 & 3rd eighth in Ms: es′8 \\
-  7  & 80  & vla   & last sixteenth in Ms: es′8 \\
-  11 & 106 & A     & 2nd quarter in Ms: b′8.–ais′16 \\
-  \bottomrule
-\end{longtable}
-
-
-This edition has been compiled and checked with utmost diligence. Nevertheless, errors and mistakes cannot be totally excluded. Please report any errors and mistakes to \url{wolfgang@esser-skala.at} or create an issue or pull request on the edition’s GitHub page \url{https://github.com/skafdasschaf/wolf-ostercantate}. Your help will be greatly appreciated.
-
-\bigskip
-\textit{Koppl, July 2021\\
-Wolfgang Esser-Skala}
-
-\cleardoublepage
-\chapter*{Contents}
-
-
-
-\lyrefsection{deslebens}
-
-\begin{description}
-  \item[~]
+\eesToc{
+\begin{movement}{deslebens}
+  \voice[Coro]
   Des Lebens Fürſten haben ſie getödtet,\\
   den Heiland Iſraels!\\
   Sie nahmen ihn und würgten ihn.\\
@@ -295,12 +29,10 @@ Wolfgang Esser-Skala}
   Erwacht, und blüht, ihr Schlafenden\\
   unter der Erde,\\
   ſein Thau iſt Frühlingsthau.
-\end{description}
+\end{movement}
 
-\lyrefsection{allmaechtger}
-
-\begin{description}
-  \item[~]
+\begin{movement}{allmaechtger}
+  \voice[Soprano {[I]}]
   Allmächtger Schauer dringt durch alle Weſen.\\
   Ringt das Leben und der Tod um ſeinen Fürſten?\\
   Gott Jehova ruft den Sohn\\
@@ -315,12 +47,10 @@ Wolfgang Esser-Skala}
   wie Sterne nach dem Morgenſtern,\\
   ſie dringen nach dem Licht hervor,\\
   empor, empor!
-\end{description}
+\end{movement}
 
-\clearpage\lyrefsection{thutauf}
-
-\begin{description}
-  \item[~]
+\begin{movement}{thutauf}
+  \voice[Coro]
   Thut auf die Pforten, die Thore der Welt,\\
   es zeucht der König der Ehren einher!\\
   Wer iſt der König? Es iſt der Held;\\
@@ -332,12 +62,10 @@ Wolfgang Esser-Skala}
   Thut auf die Pforten, die Thore der Welt,\\
   es zeucht der König der Ehren einher,\\
   und glänzet Heil.
-\end{description}
+\end{movement}
 
-\lyrefsection{jesuschristus}
-
-\begin{description}
-  \item[~]
+\begin{movement}{jesuschristus}
+  \voice[Coro]
   Jeſus Chriſtus, unſer Heiland,\\
   der den Tod überwand,\\
   iſt auferſtanden,\\
@@ -349,12 +77,10 @@ Wolfgang Esser-Skala}
   er kann erretten\\
   alle, die zu ihm treten,\\
   Hallelujah!
-\end{description}
+\end{movement}
 
-\lyrefsection{wiedie}
-
-\begin{description}
-  \item[~]
+\begin{movement}{wiedie}
+  \voice[Tenore I]
   Wie die fern abgeſchiedne geliebte Sonne\\
   ſich nach ihres Frühlings Kindern ſehnet,\\
   und wenn in kalter Nacht noch matt ihr Auge thränet,\\
@@ -363,52 +89,50 @@ Wolfgang Esser-Skala}
   ſo ſehnet ſich, ſo ſtehet der betrübten Maria Jeſus nah,\\
   und nennt ſie, und iſt da.
 
+  \voice[Tenore II]
   Und eilt mit jenem Paar, die nach der Ruhe flehn,\\
   ein Wandrer, mit zu gehn.\\
   Er raubet ſanft ihr Herz, und athmet fremde Glut\\
   in ihren lechzenden, geſunknen, kalten Muth,\\
   enthüllt ſich, und verſchwindet.
 
+  \voice[Tenore I]
   Bis er die zehn Geliebten, verlohrenen zuſammen wieder findet,\\
   und Frieden ihnen giebt, und haucht ſie an mit Geiſt,\\
   der von der Balſamkraft des andern Lebens fleußt.
 
+  \voice[Tenore II]
   Er ſucht den Irrenden in ſeiner Zweifel Nacht,\\
   der, wie von ſchwerem Traum erwacht,\\
   die Hand ihm legt in ſeine Wunden:\\
   ich habe dich gefunden, mein Herr und Gott!\\
   Du lebeſt, ich bin todt!
 
+  \voice[Tenore I]
   Und wandelt in des Morgens Frühe mit ſeinen Kindern:\\
   liebt ihr mich? der mich nicht kannte, Simon, liebſt du mich?\\
   Allwiſſender, o ſiehe mein Herz! Ich liebe dich.
-\end{description}
+\end{movement}
 
-\lyrefsection{siehedas}
-
-\begin{description}
-  \item[~]
+\begin{movement}{siehedas}
+  \voice[Soprano {[I]}]
   Siehe, das ſchöne Morgenroth in dunkler Nacht!\\
   Alſo das Leben durch den Tod erwacht.\\
   Was zagſt du, meine Seele, der kleinen Noth?\\
   Im tiefſten Leiden,\\
   mit Himmelsfreuden\\
   erſcheint dir Gott!
-\end{description}
+\end{movement}
 
-\lyrefsection{derherr}
-
-\begin{description}
-  \item[~]
+\begin{movement}{derherr}
+  \voice[Coro]
   Der Herr tödtet und machet lebendig,\\
-  er führet in die Hölle und führet hinaus.\\\relax
-  [1 Samuel 2:6]
-\end{description}
+  er führet in die Hölle und führet hinaus.\\
+  (\bibleverse{ISam}(2:6))
+\end{movement}
 
-\lyrefsection{nahist}
-
-\begin{description}
-  \item[~]
+\begin{movement}{nahist}
+  \voice[Coro]
   Nah iſt meines Helfers Rechte,\\
   ſieht ſie gleich mein Auge nicht,\\
   weiter hin, im Thal der Nächte,\\
@@ -417,12 +141,10 @@ Wolfgang Esser-Skala}
   da wird mich ſein Antlitz ſegnen,\\
   in der trübſten Stunden Graun,\\
   will ich hoffend nach ihm ſchaun.
-\end{description}
+\end{movement}
 
-\lyrefsection{oauf}
-
-\begin{description}
-  \item[~]
+\begin{movement}{oauf}
+  \voice[Soprano {[I]}]
   O Auferſtandener, wo ſchwebeſt du, ungeſehn?\\
   In welchem Reiche lebeſt, ein König, Du?\\
   Der Retter der Natur!\\
@@ -446,24 +168,20 @@ Wolfgang Esser-Skala}
   dort für Geſang hervor?\\
   Er ſteiget zu den Lüften;\\
   das Feld der Todten wird der Auferſtehung Chor.
-\end{description}
+\end{movement}
 
-\lyrefsection{jesusmein}
-
-\begin{description}
-  \item[~]
+\begin{movement}{jesusmein}
+  \voice[Coro]
   Jeſus mein Erlöſer lebt,\\
   ich werd auch das Leben ſchauen;\\
   ſchweben, wo mein Heiland ſchwebt,\\
   auf des ſchönen Himmels Auen.\\
   Da wird Schwachheit und Verdruß\\
   liegen unter meinem Fuß.
-\end{description}
+\end{movement}
 
-\lyrefsection{hallelujah}
-
-\begin{description}
-  \item[~]
+\begin{movement}{hallelujah}
+  \voice[Coro I, II]
   Hallelujah!\\
   Der Tod iſt verſchlungen,\\
   verſchlungen in Siegsgeſang.\\
@@ -472,13 +190,9 @@ Wolfgang Esser-Skala}
   Gelobt ſey Gott,\\
   der uns den Sieg gegeben\\
   durch Chriſtum, unſern Herrn.
-\end{description}
+\end{movement}
+}
 
-\cleardoublepage
-\fi
-
-\iftemplate
-\includepdf[pages=-]{../tmp/\lypdfname.pdf}
-\fi
+\eesScore
 
 \end{document}

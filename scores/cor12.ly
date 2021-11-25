@@ -1,77 +1,20 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-
-\paper {
-  indent = 1\cm
-  top-margin = 1.5\cm
-  system-separator-markup = ##f
-  system-system-spacing =
-    #'((basic-distance . 17)
-       (minimum-distance . 17)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-markup-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . -100)
-       (stretchability . 0))
-
-  markup-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-  last-bottom-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . 0)
-       (stretchability . 1.0e7))
-
-  systems-per-page = #6
-}
-
-#(set-global-staff-size 17.82)
-
-\layout {
-  \context {
-    \GrandStaff
-    \override StaffGrouper.staffgroup-staff-spacing =
-      #'((basic-distance . 12)
-        (minimum-distance . 12)
-        (padding . -100)
-        (stretchability . 0))
-    \override StaffGrouper.staff-staff-spacing =
-      #'((basic-distance . 12)
-        (minimum-distance . 12)
-        (padding . -100)
-        (stretchability . 0))
-
-  }
-}
-
+#(define option-instrument-name "cor")
+\include "score_settings/two-staves.ly"
 
 \book {
+  \paper { indent = 1.5\cm }
   \bookpart {
-    \header {
-      genre = "R E C I T A T I V O"
-      number = "2"
-      title = "Allmächtger Schauer dringt durch alle Weſen"
-    }
+    \section "2" "Recitativo" "Allmächtger Schauer dringt durch alle Weſen"
+    \addTocLabel "allmaechtger"
     \paper { indent = 2\cm page-count = #2 }
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \markup \center-column { "Corno" "in Es" }
+            \set GrandStaff.instrumentName = \transposedName "Corno" "E" "flat"
             \new Staff {
               \set Staff.instrumentName = "I"
               \AllmaechtgerCornoI
@@ -86,16 +29,13 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "3"
-      title = "Thut auf die Pforten"
-    }
+    \section "3" "Coro" "Thut auf die Pforten"
+    \addTocLabel "thutauf"
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \markup \center-column { "cor" "(D)" }
+            \set GrandStaff.instrumentName = \transposedNameShort "cor" "D" ""
             \new Staff {
               \set Staff.instrumentName = "1"
               \ThutAufCornoI
@@ -110,17 +50,14 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "A R I A"
-      number = "6"
-      title = "Siehe, das ſchöne Morgenroth in dunkler Nacht"
-    }
+    \section "6" "Aria" "Siehe, das ſchöne Morgenroth in dunkler Nacht"
+    \addTocLabel "siehedas"
     \paper { page-count = #4 }
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \markup \center-column { "cor" "(F)" }
+            \set GrandStaff.instrumentName = \transposedNameShort "cor" "F" ""
             \new Staff {
               \set Staff.instrumentName = "1"
               \SieheDasCornoI
@@ -135,16 +72,13 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "R E C I T A T I V O"
-      number = "9"
-      title = "O Auferſtandener, wo ſchwebeſt du"
-    }
+    \section "9" "Recitativo" "O Auferſtandener, wo ſchwebeſt du"
+    \addTocLabel "oauf"
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \markup \center-column { "cor" "(D)" }
+            \set GrandStaff.instrumentName = \transposedNameShort "cor" "D" ""
             \new Staff {
               \set Staff.instrumentName = "1"
               \OAufCornoI
@@ -159,16 +93,13 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "11"
-      title = "Hallelujah!"
-    }
+    \section "11" "Coro" "Hallelujah!"
+    \addTocLabel "hallelujah"
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \markup \center-column { "cor" "(D)" }
+            \set GrandStaff.instrumentName = \transposedNameShort "cor" "D" ""
             \new Staff {
               \set Staff.instrumentName = "1"
               \HallelujahCornoI
@@ -188,6 +119,7 @@
       <<
         \new StaffGroup <<
           \new GrandStaff <<
+            \set GrandStaff.instrumentName = ""
             \new Staff {
               \HallelujahFugaCornoI
             }
