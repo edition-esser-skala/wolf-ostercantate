@@ -1,10 +1,11 @@
-composer: Wolf, Ernst Wilhelm
+composer:
+  last: Wolf
+  first: Ernst Wilhelm
 title: Des Lebens Fürſten haben ſie getödtet
 subtitle: Ostercantate
 genre: cantata
-scoring:
-  - 3 S, 2 T, B (solo), 4 S, 2 T, 2 B (coro),
-  - 2 ob, 2 cor (D/\flat E/F), 3 clno (D), timp (D–A), 2 vl, 2 vla, b, org
+scoring: 3 S, 2 T, B (solo), 4 S, 2 T, 2 B (coro),\\2 ob, 2 cor (D/\flat E/F), 3 clno (D), timp (D–A), 2 vl, 2 vla, b, org
+license: cc-by-sa-4.0
 sources:
   C1:
     siglum: D-Dl
@@ -12,6 +13,7 @@ sources:
     date: 1782
     rism: 990069190
     url: https://digital.slub-dresden.de/id47959385X
+    license: public domain
     principal: true
     notes: Breitkopf, Leipzig
 imslp: Osterkantate_(Wolf,_Ernst_Wilhelm)
